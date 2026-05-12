@@ -1,0 +1,377 @@
+Promptsref
+Prompt Library
+Ranking
+Guides
+Pricing
+50% OFF
+🇬🇧 EN
+Log in
+PROMPT LIBRARY
+Midjourney
+Nano Banana
+Seedance 2.0
+ChatGPT
+CREATION
+Generate AI Image
+Generate Video
+Upscale
+Motion Control
+Image to Prompt
+AI Tool
+Guides
+«
+🌟 Hand-picked 351 GPT Image 2 prompts to spark your creativity!
+Find the best GPT Image 2 Prompts. Including ad design, portrait photography, and more. Updated daily.
+🎬 Seedance 2.0 Prompts
+🍌 Nano Banana Pro Prompts
+GPT Image 2
+Auto
+1K
+✨ Generate
+
+Sign in to generate with GPT Image 2
+
+Hot Prompts
+Viral prompts from across the web — click to generate instantly
+Bad Redraw (MS Paint style)
+Redraw the image in an extremely clumsy, scribbly MS Paint style on a white background, with a low-quality mouse-drawn look that feels awkward, funny, and intentionally terrible.
+Try it
+Insta-Story Style White Sketch & Text Overlay
+Add minimalist, white handwritten decorations and Japanese text over the original photo without changing its colors.
+Try it
+AI Hair & Head Shape Analysis Report
+Precisely analyzes head contours and various dimension features based on the reference photo.
+Try it
+Generate an advanced poster
+Generate promotional posters for your favorite players, stars, and bands.
+Try it
+Create Your Own Gacha Summon Page
+Turn any game title and featured character into a premium mobile gacha screen with cinematic ARPG aesthetics, stylish UI, and collectible banner-style presentation.
+Try it
+Latest Prompts
+Newest
+Oldest
+Most Likes
+Least Likes
+Most Views
+Least Views
+
+Epic anime character poster design inspired by classic manga cover layouts, featuring a powerful pirate warrior in dyna…
+
+1
+9
+
+use the game "Ib" style to draw a Portrait of rin kagami
+
+0
+6
+
+Use the uploaded image as the facial identity, hairstyle, and vibe reference. Keep the facial features highly consisten…
+
+5
+146
+
+Portrait gothique dark fantasy ultra détaillé d’une femme humanoïde biomécanique avec une tête de crâne de cheval cyber…
+
+1
+20
+
+Generate an image of an analysis report. First, analyze the head shape in the reference photo, and then visualize the r…
+
+1
+65
+
+モダンなソシャゲUIのガチャ画面を作成。横長レイアウト、SSR確定ガチャ、限定感を演出して。周囲に「SSR」「NEW」「ピックアップ」などのUIバッジ、ガチャボタンやスキップボタン、結果一覧のカードUIを配置。
+
+1
+68
+
+Ultra-detailed cinematic fantasy luxury fashion magazine cover for an Anime media library. The cover features a mysteri…
+
+2
+25
+
+Create a wide, horizontal character reference sheet featuring Trident (see reference photo 1). The background should be…
+
+2
+19
+
+Analog 35mm film photography, high-fashion editorial portrait with intense on-camera direct flash (CCD hard flash style…
+
+72
+1261
+
+Create a premium, highly believable Character Select Screen for an imaginary game called [GAME TITLE]. The goal is to m…
+
+0
+7
+
+Please generate an actual screenshot of a fictional, modern city 3D anime-style open-world role-playing game featuring …
+
+0
+15
+
+ベッドの上でエロゲーの選択肢がでてる場面
+
+0
+68
+
+Create a high-end modern advertising poster in portrait format for the attached brand (use the uploaded brand/logo refe…
+
+1
+47
+
+Generate an image of an analysis report. First, analyze the head shape in the reference photo, and then visualize the r…
+
+1
+15
+
+Analog 35mm film photography, soft Japanese film aesthetic with gentle diffused natural light and beautiful soft shadow…
+
+10
+276
+
+cozzy room
+
+1
+14
+
+Please generate a realistic screenshot of a operating room. Where there are six naked female Asian doctors wearing only…
+
+0
+34
+
+A night-shot photograph of a female model, American, with thick bangs. POV perspective in a random private space. She i…
+
+14
+252
+
+Create a creative commercial advertising poster for [PRODUCT NAME], a [PRODUCT TYPE], inspired by vibrant tropical prod…
+
+0
+6
+
+Design a high-end gacha summon page for a new mobile game titled [Game Title], inspired by the summon interfaces of pop…
+
+2
+11
+
+A front-facing medium close-up webcam/live-streaming shot of a gamer girl seated at a cozy bedroom desk, bathed in soft…
+
+5
+105
+
+"prompt": { "title": "Agency-Grade Brand Identity System Poster", "trigger": "Upload a logo. From it, construct a compl…
+
+2
+36
+
+Please generate an actual screenshot of a fictional, modern city 3D anime-style open-world role-playing game featuring …
+
+6
+179
+
+What if "Alden Voss" was a new playable character in 3A Unreal Engine 5 RPG The First Descendant games ? size 2:3
+
+1
+42
+
+Create a wide, horizontal character reference sheet featuring Dennis (see reference photo 1). The background should be …
+
+4
+68
+
+Ultra-premium commercial lifestyle and product photography campaign for the fictional Xiaomi 17 Pro smartphone. Cinemat…
+
+2
+62
+
+A screenshot from a real mobile card game about Chinese street food cooking. The game is currently running on a device.…
+
+0
+6
+
+Ultra realistic sports photography, young East Asian female archer standing in a crowded indoor arena during a live com…
+
+2
+78
+
+奢华电影般的社交媒体编辑肖像，一位时尚女孩坐在柔软光滑的白色地板上，超大号白色西装外套，简约美学短发，自信的表情，极简单色时尚造型，周围环绕着漂浮的3D黑色X标志，带有发光白色描边，漂浮的推文截图在白色毛玻璃风格卡片中，未来主义影响者美学…
+
+2
+90
+
+High-fashion Y2K-inspired editorial artwork featuring a stylish young East Asian woman standing confidently at the cent…
+
+7
+170
+
+```json { "subject": { "description": "Multiple figures paddleboarding on a river, foreground person kneeling with back…
+
+0
+18
+
+Create a wide, horizontal character reference sheet featuring Aldin (see reference photo 1). The background should be w…
+
+3
+53
+
+Create a wide, horizontal character reference sheet featuring Amity (see reference photo 1). The background should be w…
+
+7
+94
+
+{ "prompt": "Ultra realistic commercial beverage photography of a sleek purple aluminum can labeled ‘POPPING BOBA GRAPE…
+
+2
+51
+
+Create a wide, horizontal character reference sheet featuring Naruto Uzumaki from Naruto with Red straight short Hair. …
+
+0
+2
+
+生成日本微黑暗电视剧的一幕真人宣传照，照片具有动态感，可以看到每个人的全身穿搭，标题是「スライム」 剧情是两个赏花女性游客正在远处的树下聊天，而一只史莱姆在公园的角落同时变成她们的样子；史莱姆变成的女孩们和远处聊天的女孩们有着一模一样的外…
+
+2
+62
+
+masterpiece, chinese ancient style girl, holding bamboo flute, front-facing portrait, delicate eyes, elegant hanfu, sof…
+
+0
+25
+
+Create a high-resolution vertical 3D character illustration in a stylized Pixar-meets-designer-toy aesthetic. Main char…
+
+0
+15
+
+Create a stylish “[PRODUCT NAME]” social media post collection featuring the uploaded product image or a realistic high…
+
+3
+67
+
+进击的巨人
+
+3
+81
+
+Create a wide, horizontal character reference sheet featuring Hunter (see reference photo 1). The background should be …
+
+3
+27
+
+Epic live-action movie poster for Solo Leveling, featuring Sung Jin-Woo, a stoic Korean man with dark, messy hair, crou…
+
+0
+53
+What is a ChatGPT Image 2 prompt?
+What is ChatGPT Image 2 / GPT Image 2?
+Best ChatGPT Image 2 prompt template (copy-paste)
+How to write better ChatGPT Image 2 prompts (quick rules)
+GPT Image 2.0 vs GPT Image 1.5 — what's the difference?
+How can I try GPT Image 2.0 right now?
+Why does my GPT Image prompt look messy or drift?
+
+PROMPT CATEGORY
+
+Anime
+Photography
+Surrealistic
+Coloring book
+Comic book
+Illustration
+Cartoon
+Manga art
+3D
+2D
+Oil painting
+Ink and watercolor
+Sticker
+Pixel
+Studio Ghibli
+Disney
+Cute
+Dark fantasy
+Flat vector
+Golden
+Pink
+Green
+Purple
+Orange
+Red
+Blue
+Black
+Vector
+Cyberpunk
+Vintage
+Christmas
+Halloween
+Yellow
+Fashion
+Film
+Line art
+Minimalism
+Children's book
+Eastern aesthetics
+Sci-fi
+Poster design
+Gradient
+Jewelry design
+Ukiyo-e
+Pop
+Neon
+
+LATEST ARTICLES
+
+How to Convert Anime to Live-Action Videos Using AI: A Simple, Cost-Effective Workflow
+How to Create an Engaging Short Film with AI
+Midjourney Video Camera Prompts: 40+ Free Motion Prompts to Copy
+10 Best midjourney prompt for blade runner style: Free Copy-Paste Prompts and templates
+Midjourney Style Creator Complete Usage Guide (From 0 to Owning Your Exclusive Style Code)
+30+ Best Nano Banana Pro Prompts to Master Image Generation and Editing
+25+ Midjourney Prompts for Product Photography and Free Guide
+30+ Gemini Prompts for Lifestyle Photos and Human-Friendly Guide
+Midjourney Prompts for Valentine’s Day Illustrations: A Gentle Guide (with Copy-Paste Prompts)
+Best Midjourney Prompt for LinkedIn Profile Picture (Beginner-Friendly Guide)
+Midjourney Prompts for Architecture – 24 Free Copy-Paste prompts for Realistic Buildings & Concept Cities
+Gemini trend Nano Banana Prompts for Baby Boy — 20 Free Copy-Paste prompt for Adorable AI Photos
+Gemini Trend: Nano Banana Prompts for Baby Girl — 20 Free Copy‑Paste prompt
+Midjourney Prompts for Pixel Art — 14 Free prompts Copy‑Paste
+Midjourney Prompts for Interior Design (V7) — 23 Free Copy-Paste Prompts + No-Jargon Starter
+
+AI TOOLS
+
+Video Motion Control
+AI Image Generator
+Multiple Angle Images AI Generator
+Split Image Into Grid
+Crop & Remove Background
+Free Video Frame Extractor
+Free Turn Grid to Video
+Multi-Model AI Video Generator
+Image to Prompt Generator
+Midjourney Prompt Helper
+seedance 2.0 coming soon
+
+MORE LINKS
+
+Add Stunning Real-Time Effects to Your Images
+AI Beauty Test
+Backlink List
+Ani Colors
+HappyHorse: AI Video Generator
+P Code
+
+LANGUAGES
+
+🇬🇧 English
+🇨🇳 简体中文
+🇯🇵 日本語
+🇰🇷 한국어
+🇪🇸 Español
+🇫🇷 Français
+🇩🇪 Deutsch
+🇷🇺 Русский
+
+Hello, I'm Underwood, Welcome to the Midjourney Style Reference Code Gallery and Prompt Library.

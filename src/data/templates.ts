@@ -7778,4 +7778,1451 @@ export const templates: TemplateItem[] = [
   "githubUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-1.md#case-165",
   "image": "/images/case-165.jpg"
 }
+,
+{
+  "id": "4552ac8a",
+  "title": "冒险角色设计稿",
+  "category": "illustration-and-art",
+  "categoryLabel": "插画与艺术",
+  "description": "Create a detailed character design sheet for 'Lira', a young female explorer-mechanic-inventor who travels across frozen...",
+  "tags": [
+    "character sheet",
+    "game art"
+  ],
+  "prompt": "Create a detailed character design sheet for \"Lira\", a young female explorer-mechanic-inventor who travels across frozen lands in search of forgotten technology. Include front, side, and back turnaround views showing her full outfit: olive-green fur-lined parka with hood, golden knit scarf, brown utility belt with brass buckle, cargo pants, and insulated boots. Add a row of six facial expressions (default, happy, determined, surprised, angry, sad). Include an equipment breakdown section showing gloves, tool pouch, belt and buckle, and boots as separate items. Add a warm earth-tone color palette strip, three silhouette poses, and a small \"World\" thumbnail showing a snowy mountain village. Clean off-white background, thin layout guides, semi-realistic painterly illustration style with soft lighting and visible brushwork.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "冒险角色设计稿",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-4552ac8a.jpg"
+},
+{
+  "id": "2bea5962",
+  "title": "日文团队成员分析信息图",
+  "category": "ui-and-interfaces",
+  "categoryLabel": "UI 与界面",
+  "description": "Create a Japanese-language infographic titled 'うちの部署のメンバー スペック分析' (Our Department Member Spec Analysis) with subtitle '個...",
+  "tags": [
+    "infographic",
+    "Japanese text"
+  ],
+  "prompt": "Create a Japanese-language infographic titled \"うちの部署のメンバー スペック分析\" (Our Department Member Spec Analysis) with subtitle \"個性豊かなプロ集団（たぶん）\". Layout as a 2x3 grid of six member cards on a clean white background with pastel accents and star decorations. Each card features a cute chibi-style cartoon avatar and includes: member name and role in Japanese, a radar chart or bar chart showing their stats, bullet-point strengths and weaknesses in Japanese. Add a summary section at the bottom with overall team evaluation, a team compatibility graph placeholder, and a final takeaway note. Cheerful office illustration style, soft rounded UI elements, kawaii aesthetic, highly legible Japanese typography, no watermark.",
+  "gradient": "linear-gradient(135deg, #0f172a, #1d4ed8 54%, #22d3ee)",
+  "accent": "#67e8f9",
+  "previewTitle": "日文团队成员分析信息图",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-2bea5962.jpg"
+},
+{
+  "id": "ace5fd39",
+  "title": "科幻电影预告海报",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Create a cinematic sci-fi movie teaser poster in 16:9 landscape format. A lone woman stands in silhouette at the center,...",
+  "tags": [
+    "movie poster",
+    "sci-fi"
+  ],
+  "prompt": "Create a cinematic sci-fi movie teaser poster in 16:9 landscape format. A lone woman stands in silhouette at the center, viewed from behind, facing an enormous cubic chamber filled with thousands of glowing holographic screens and data panels stretching in every direction. The screens display fragments of landscapes, cities, galaxies, and abstract data. A bright golden-white light source emanates from the center of the chamber, casting volumetric rays and lens flare. The title \"INVENTOR\" is displayed in wide-spaced uppercase serif typography at the bottom center. Below it, the tagline \"DISCOVERY IS JUST THE BEGINNING\" in smaller caps, and \"COMING SOON\" at the very bottom. Dark moody atmosphere, deep blues and warm amber highlights, photorealistic lighting, epic sense of scale, no other characters visible.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "科幻电影预告海报",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-ace5fd39.jpg"
+},
+{
+  "id": "3a288143",
+  "title": "中国奇幻史诗电影海报",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Create a horizontal Chinese blockbuster movie poster for a fantasy adventure film titled '天机启明' with subtitle '失落的文明'. T...",
+  "tags": [
+    "movie poster",
+    "Chinese cinema"
+  ],
+  "prompt": "Create a horizontal Chinese blockbuster movie poster for a fantasy adventure film titled \"天机启明\" with subtitle \"失落的文明\". The poster features a dramatic ensemble cast composition: five to six realistic character headshots arranged in a layered pyramid formation, with the two leads (a rugged long-haired warrior and a stern older man with glasses) prominent in the center. Behind them, a glowing ancient tower emits golden circular energy rings against a dramatic sky. The left side shows burning ruins, the right side shows traditional Chinese architecture. The title \"天机启明\" is rendered in large stylized golden Chinese calligraphy at the bottom center, with the subtitle below. Include theatrical release information: \"2025 大年初一\", format badges (3D, CINITY, IMAX, Dolby Cinema, Dolby Atmos), director and producer credits in small Chinese text along the sides. Dark cinematic color grading with warm amber highlights and deep teal shadows, photorealistic face rendering, epic scale composition.",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "中国奇幻史诗电影海报",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-3a288143.jpg"
+},
+{
+  "id": "f581d142",
+  "title": "Convenience Store Neon Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "35mm film photography with harsh convenience store fluorescent lighting mixed with colorful neon signs from outside, aut...",
+  "tags": [
+    "portrait",
+    "editorial"
+  ],
+  "prompt": "35mm film photography with harsh convenience store fluorescent lighting mixed with colorful neon signs from outside, authentic film grain, high contrast, cinematic street editorial style, intimate medium shot, late-night convenience store atmosphere, realistic reflections on glass, natural skin texture, oversized white shirt, black mini skirt, messy high ponytail, seductive but grounded urban portrait energy, no watermark, no text.",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "Convenience Store ",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-f581d142.jpg"
+},
+{
+  "id": "b2254f57",
+  "title": "Browser Game Ad Creative Poster",
+  "category": "products-and-e-commerce",
+  "categoryLabel": "商品与电商",
+  "description": "Create a 1:1 promotional poster that feels like it was designed by a professional ad designer. Make it suitable for book...",
+  "tags": [
+    "ad creative",
+    "poster"
+  ],
+  "prompt": "Create a 1:1 promotional poster that feels like it was designed by a professional ad designer. Make it suitable for books, courses, events, or browser-game promotion. Use strong visual hierarchy, polished typography, bold but modern composition, clear callout text blocks, and premium campaign-level finishing.",
+  "gradient": "linear-gradient(135deg, #312e81, #4f46e5 48%, #c4b5fd)",
+  "accent": "#c4b5fd",
+  "previewTitle": "Browser Game Ad Cr",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-b2254f57.jpg"
+},
+{
+  "id": "1657ac2e",
+  "title": "Official Character Sheet",
+  "category": "illustration-and-art",
+  "categoryLabel": "插画与艺术",
+  "description": "Create a professional character sheet based on this character and background, similar to an official setting guide. Incl...",
+  "tags": [
+    "character sheet",
+    "concept art"
+  ],
+  "prompt": "Create a professional character sheet based on this character and background, similar to an official setting guide. Include front, side, and back views, expression variations, exploded outfit or equipment details, a color palette, and a short worldbuilding note. Keep the whole composition organized on a clean white background with a diagram-like layout and high-resolution concept art quality.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "Official Character",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-1657ac2e.jpg"
+},
+{
+  "id": "1cda218d",
+  "title": "Vintage Amalfi Travel Poster",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Modern pencil illustration of a vintage travel poster for the Amalfi Coast, Italy. Panoramic coastal cliff road scene, a...",
+  "tags": [
+    "travel poster",
+    "retro illustration"
+  ],
+  "prompt": "Modern pencil illustration of a vintage travel poster for the Amalfi Coast, Italy. Panoramic coastal cliff road scene, a classic 1960s white car driving along a curved seaside road, deep blue Mediterranean sea with small sailboats, pastel hillside village, bright blue sky, and lemon tree branches framing the foreground. Warm summer sunlight, bold vibrant colors, retro 1950s travel poster style, screen print texture, hand-drawn contours, and a decorative editorial finish.",
+  "gradient": "linear-gradient(135deg, #0f172a, #1d4ed8 54%, #22d3ee)",
+  "accent": "#67e8f9",
+  "previewTitle": "Vintage Amalfi Tra",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-1cda218d.jpg"
+},
+{
+  "id": "530239ff",
+  "title": "金色广州城市女神海报",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Create a vertical fantasy city poster for Guangzhou, China. At the bottom of the composition, a beautiful ethereal woman...",
+  "tags": [
+    "city poster",
+    "fantasy illustration"
+  ],
+  "prompt": "Create a vertical fantasy city poster for Guangzhou, China. At the bottom of the composition, a beautiful ethereal woman with flowing white-golden hair holds a bouquet of colorful flowers, eyes closed peacefully. Her long hair transforms into swirling golden energy ribbons that rise upward, carrying glowing particles and sparkles. The golden streams merge into the illuminated Guangzhou skyline at the top, featuring the Canton Tower and modern skyscrapers glowing warmly against a deep black-red night sky. Add the text \"广州·中国\" and \"2026/04/20\" in elegant white typography at the upper right, with \"LIYUE\" as a small credit below. Rich warm golden palette with deep crimson and black contrast, magical realism style, cinematic lighting, vertical 9:16 ratio.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "金色广州城市女神海报",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-530239ff.jpg"
+},
+{
+  "id": "95a417e4",
+  "title": "Anime Snapshot Conversion",
+  "category": "illustration-and-art",
+  "categoryLabel": "插画与艺术",
+  "description": "Show me the attached image as a snapshot from an actual anime. Keep the scene readable and cinematic, with authentic ani...",
+  "tags": [
+    "anime",
+    "character"
+  ],
+  "prompt": "Show me the attached image as a snapshot from an actual anime. Keep the scene readable and cinematic, with authentic anime lighting, stylized line treatment, clean color blocking, and the feeling of a real frame from a polished TV or film production.",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "Anime Snapshot Con",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-95a417e4.jpg"
+},
+{
+  "id": "e0fe2a0e",
+  "title": "Mecha Girl Sea-City Key Visual",
+  "category": "illustration-and-art",
+  "categoryLabel": "插画与艺术",
+  "description": "Create a moody key visual of a mecha girl standing on the rusted edge of a tilted steel platform over dark water. She ha...",
+  "tags": [
+    "mecha",
+    "key visual"
+  ],
+  "prompt": "Create a moody key visual of a mecha girl standing on the rusted edge of a tilted steel platform over dark water. She has pale skin, ash-white hair in a high ponytail, matte gunmetal exoskeleton armor, glowing cyan coolant lines, and a massive rail cannon on her shoulder. Behind her, a vast derelict sea-city rises from the ocean in colossal silhouettes, with fog, dead cables, rusted towers, and bruised dusk light. Use cinematic concept-art lighting and a medium-wide shot.",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "Mecha Girl Sea-Cit",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-e0fe2a0e.jpg"
+},
+{
+  "id": "c92b0f29",
+  "title": "Boston Spring 2026 City Poster",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Create a striking Spring 2026 city poster for Boston with an elegant celebratory mood and a bold contemporary design. On...",
+  "tags": [
+    "city poster",
+    "editorial layout"
+  ],
+  "prompt": "Create a striking Spring 2026 city poster for Boston with an elegant celebratory mood and a bold contemporary design. On a clean off-white textured background with generous negative space, place a miniature single sculler in the lower-right corner rowing across a narrow ribbon of reflective water. Let the wake curve upward and gradually transform into the Charles River, then into a dreamlike hand-painted panorama of Boston featuring the Back Bay skyline, Beacon Hill brownstones, Acorn Street, Boston Public Garden, Swan Boats, the Zakim Bridge, harbor ferries, and historic brick architecture. Add soft morning fog, golden spring light, subtle crimson and gold festive accents, layered depth, and premium editorial typography that reads \"SPRING 2026\" with a vertical slogan about river, memory, and invention. Vertical poster ratio, polished graphic-design finish.",
+  "gradient": "linear-gradient(135deg, #312e81, #4f46e5 48%, #c4b5fd)",
+  "accent": "#c4b5fd",
+  "previewTitle": "Boston Spring 2026",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-c92b0f29.jpg"
+},
+{
+  "id": "1aa32ac0",
+  "title": "Cinematic Minimal Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "Generate a cinematic minimal portrait of a solitary man standing in an intense orange-to-red gradient environment with s...",
+  "tags": [
+    "portrait",
+    "minimal lighting"
+  ],
+  "prompt": "Generate a cinematic minimal portrait of a solitary man standing in an intense orange-to-red gradient environment with strong silhouette lighting, deep shadow contrast, a reflective glossy floor, and a symmetrical composition. Keep the scene stripped down and controlled, with one dominant subject, clean edges, minimal visual noise, and a fashion-editorial sense of drama. The result should feel premium, graphic, and modern rather than busy or over-rendered.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "Cinematic Minimal ",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-1aa32ac0.jpg"
+},
+{
+  "id": "08d642cf",
+  "title": "Persona-Style Character Reference Card",
+  "category": "illustration-and-art",
+  "categoryLabel": "插画与艺术",
+  "description": "Based on the character and background reference, create a polished official-style character reference card. Include fron...",
+  "tags": [
+    "character sheet",
+    "reference card"
+  ],
+  "prompt": "Based on the character and background reference, create a polished official-style character reference card. Include front, side, and back views, a few expression variations, callouts for clothing and equipment details, a compact color palette, and a short worldbuilding note. Use an organized white-background layout with illustration-style panels, high-resolution concept-art quality, and a presentation that feels like a professional game or animation design document.",
+  "gradient": "linear-gradient(135deg, #0f172a, #1d4ed8 54%, #22d3ee)",
+  "accent": "#67e8f9",
+  "previewTitle": "Persona-Style Char",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-08d642cf.jpg"
+},
+{
+  "id": "efa2cf05",
+  "title": "韩系偶像私房卧室写真",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "9:16 vertical candid portrait of a young Korean woman glancing back over her shoulder in a dimly lit bedroom. She wears...",
+  "tags": [
+    "portrait",
+    "korean idol"
+  ],
+  "prompt": "9:16 vertical candid portrait of a young Korean woman glancing back over her shoulder in a dimly lit bedroom. She wears a loose off-shoulder cream knit sweater with a thin strap camisole underneath. Hair pulled up in a messy bun with loose strands framing her face. Warm amber ambient lighting from a single bedside lamp, slightly cluttered room background with a wall clock, vanity shelf, and scattered items creating a lived-in feel. Soft focus on the background, sharp focus on the face and shoulder. Natural skin texture with subtle warm glow, slightly parted lips, gentle eye contact with the camera. Vintage film grain, muted warm tones, lowered contrast, slight vignette. Intimate candid photography mood, Korean idol photobook aesthetic, no watermark, no text.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "韩系偶像私房卧室写真",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-efa2cf05.jpg"
+},
+{
+  "id": "93470095",
+  "title": "Fujifilm Strawberry School Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "9:16 vertical 鈥?Japanese Fuji film style portrait, single subject. Fujifilm analog aesthetic (Pro 400H / Superia feel),...",
+  "tags": [
+    "portrait",
+    "film simulation"
+  ],
+  "prompt": "9:16 vertical 鈥?Japanese Fuji film style portrait, single subject. Fujifilm analog aesthetic (Pro 400H / Superia feel), soft pastel tones, slight green-magenta shift, low contrast, gentle highlight roll-off, fine film grain, subtle halation, slight vignette. Bright natural daylight, diffused sunlight through window, soft shadows, airy atmosphere. Young female idol, natural minimal makeup, fresh glowing skin, realistic texture. Outfit: Japanese school uniform (sailor-style or blazer), neatly styled, youthful and clean. Hair: natural dark hair, straight or softly flowing, a few loose strands. Pose: front-facing, relaxed posture, one hand gently holding a strawberry near lips, mid-action as if about to take a bite. Expression: soft playful gaze, light smile, gentle eye contact with camera. Setting: minimal indoor near window, clean background, everyday atmosphere. Mood: fresh, youthful, sweet everyday moment, understated charm.",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "Fujifilm Strawberr",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-93470095.jpg"
+},
+{
+  "id": "9803b40b",
+  "title": "Vintage Newspaper Front Page Design",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Create the most realistic front page design of a vintage newspaper. The layout should be made in the style of a real pri...",
+  "tags": [
+    "newspaper",
+    "vintage"
+  ],
+  "prompt": "Create the most realistic front page design of a vintage newspaper. The layout should be made in the style of a real printed newspaper with a cinematic black-and-white aesthetic. The main photo should be prominently placed in the center, framed like an editorial article header. Create a bold, attention-grabbing headline at the top with a smaller subtitle underneath. Add realistic newspaper elements: columns of small text, a fictitious publication name at the top, date, issue number and location, decorative lines, dividers, and vintage typography, small additional articles or captions. Style: black and white or slightly faded monochrome paper, fine paper texture, grain, and ink defects, small shadows and creases that mimic real printed paper. The aesthetics of a clean but slightly worn vintage newspaper. Aspect ratio: 4:5, high-detail, ultra-realistic hybrid of editorial photography and print design.",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "Vintage Newspaper ",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-9803b40b.jpg"
+},
+{
+  "id": "85c58424",
+  "title": "Strawberry Soft Serve Product Photography",
+  "category": "products-and-e-commerce",
+  "categoryLabel": "商品与电商",
+  "description": "Ultra-realistic product photography of a rich strawberry soft-serve ice cream in a crispy waffle cone, styled with a cle...",
+  "tags": [
+    "product photography"
+  ],
+  "prompt": "Ultra-realistic product photography of a rich strawberry soft-serve ice cream in a crispy waffle cone, styled with a clean, modern premium aesthetic. The soft serve is vibrant natural pink, thick and creamy, sculpted into a smooth swirl with a softly curled peak. The cone has a rustic, crunchy texture with slightly uneven edges for an artisanal feel. The background is soft beige with natural sunlight casting subtle leaf shadows, creating a calm, organic atmosphere. Include softly blurred greenery in the foreground for depth. The composition is minimal, balanced, and uses negative space effectively, similar to high-end American food brand ads. Include modern English typography in a clean, elegant layout. Lighting: soft natural daylight, warm highlights, shallow depth of field, high-end commercial food photography style. Mood: fresh, premium, modern, and inviting.",
+  "gradient": "linear-gradient(135deg, #312e81, #4f46e5 48%, #c4b5fd)",
+  "accent": "#c4b5fd",
+  "previewTitle": "Strawberry Soft Se",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-85c58424.jpg"
+},
+{
+  "id": "62f400f2",
+  "title": "Chengdu Food Map Illustration",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "A hand-drawn style city food map themed around Chengdu. The base is a bird's-eye-view hand-drawn simplified city map wit...",
+  "tags": [
+    "food map",
+    "illustration"
+  ],
+  "prompt": "A hand-drawn style city food map themed around Chengdu. The base is a bird's-eye-view hand-drawn simplified city map with major roads and landmarks indicated 鈥?not aiming for precise proportions but rather a charming, hand-drawn feel. Scattered across the map are 12 exquisite hand-drawn mini illustrations of food spots: skewered hot pot (chuanchuan) on Chunxi Road, Sandapao rice balls in Kuanzhai Alley, egg puff cakes (dan hong gao) on Jianshe Road, hot pot on Yulin Road, and more. Each illustration occupies roughly 5% of the map area, with a handwritten-style label next to it showing the shop name and a one-line recommendation. The map edges are framed with hand-drawn vine and chili pepper decorations. A hand-drawn compass and legend sit in the bottom-right corner. The top-left title reads \"Chengdu Foodie Walking Map\" in plump, rounded hand-lettered art typography adorned with chili peppers. The overall art style is a watercolor-plus-colored-pencil mixed hand-drawn texture, dominated by warm tones, with a 1:1 aspect ratio.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "Chengdu Food Map I",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts",
+  "image": "/images/evolink-62f400f2.jpg"
+},
+{
+  "id": "eee7594c",
+  "title": "Guangzhou Paper-Cut City Poster",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Paper-cut art inspired by the modern urban landscape of Zhujiang New Town, using intricate cutout techniques on a single...",
+  "tags": [
+    "paper-cut art",
+    "city poster"
+  ],
+  "prompt": "Paper-cut art inspired by the modern urban landscape of Zhujiang New Town, using intricate cutout techniques on a single sheet to create a three-dimensional depiction of landmark buildings such as Canton Tower and the East-West Twin Towers, along with the bustling cityscape. All buildings and elements are connected by flowing lines and structures with no isolated parts, forming a complete urban tableau. The piece uses metallic foil or glossy paper material with delicate light-and-shadow luster on the surface, presenting soft highlights and shadows under illumination as if gently lit by city lights. The background features a blurred skyline backdrop, accented with faintly visible plazas and tree silhouettes. The work artfully incorporates weightless dandelion wisps or starlight-like dynamic light particles, symbolizing dreams and vitality. The overall visual is rendered in 8K ultra-high definition with rich detail, realistic yet deeply artistically expressive.",
+  "gradient": "linear-gradient(135deg, #0f172a, #1d4ed8 54%, #22d3ee)",
+  "accent": "#67e8f9",
+  "previewTitle": "Guangzhou Paper-Cu",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "d82fd2ee",
+  "title": "Extreme Perspective Typography Bridge",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "A cross-sea bridge photographed from a dramatic cinematic side angle. Giant bold sans-serif text painted directly onto t...",
+  "tags": [
+    "typography",
+    "perspective"
+  ],
+  "prompt": "A cross-sea bridge photographed from a dramatic cinematic side angle. Giant bold sans-serif text painted directly onto the bridge surface, starting large near the camera and progressively foreshortening toward the vanishing point. The letterforms conform to the surface curvature, appearing surface-integrated rather than floating. Oversized bright yellow text with sharp orange outline, extreme perspective distortion aligned to the vanishing point. Cinematic lighting, subtle motion blur, poster-grade dynamic integrated typography, modern advertising aesthetics. The text reads the bridge name in large characters.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "Extreme Perspectiv",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "d59c41e9",
+  "title": "Dreamy Watercolor Editorial Illustration",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Dreamy watercolor illustration with impressionist aesthetic, loose brushstrokes and translucent washes in soft pastel to...",
+  "tags": [
+    "watercolor",
+    "illustration"
+  ],
+  "prompt": "Dreamy watercolor illustration with impressionist aesthetic, loose brushstrokes and translucent washes in soft pastel tones. Soft blending over cold-pressed paper texture, delicate lighting, clean composition, minimalist focus, a sense of calm, lightness, and ephemeral beauty. High quality, editorial style. The subject should feel poetic and understated.",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "Dreamy Watercolor ",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "4a0c68e4",
+  "title": "Character Relationship Map Poster",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Generate a high-design character relationship map poster based on the given theme. Include portraits of the main charact...",
+  "tags": [
+    "relationship map",
+    "infographic"
+  ],
+  "prompt": "Generate a high-design character relationship map poster based on the given theme. Include portraits of the main characters, name labels, relationship connection lines between characters, and relationship descriptions. The overall layout should be clear and layered, with a harmonious color palette and refined typography 鈥?information-dense yet never feeling crowded. The style combines modern infographic design with cinematic movie poster aesthetics.",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "Character Relation",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "9eb7dc4b",
+  "title": "Gal Game Character Introduction Page",
+  "category": "illustration-and-art",
+  "categoryLabel": "插画与艺术",
+  "description": "Create a high-quality character introduction page in the style of a Japanese visual novel (gal game). Include the full s...",
+  "tags": [
+    "gal game",
+    "character page"
+  ],
+  "prompt": "Create a high-quality character introduction page in the style of a Japanese visual novel (gal game). Include the full standing illustration, a chibi character variant, facial expression variations, and a CG illustration preview. Add a character profile section with name, image color, height, weight, and a signature quote. The layout should look like a real game website character page 鈥?polished enough to use as-is. Clean white background, organized grid layout, anime illustration style.",
+  "gradient": "linear-gradient(135deg, #312e81, #4f46e5 48%, #c4b5fd)",
+  "accent": "#c4b5fd",
+  "previewTitle": "Gal Game Character",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "f05f9396",
+  "title": "Saint Seiya Gold Saints Card Grid",
+  "category": "illustration-and-art",
+  "categoryLabel": "插画与艺术",
+  "description": "Generate a 12-cell card grid image of the 12 Gold Saints from Saint Seiya, with each card displaying the corresponding c...",
+  "tags": [
+    "card grid",
+    "anime"
+  ],
+  "prompt": "Generate a 12-cell card grid image of the 12 Gold Saints from Saint Seiya, with each card displaying the corresponding character name. Arrange 4 cards per row, 16:9 aspect ratio. Each card has its own individual border, and the character wears an ornate Gold Cloth armor. The background of each card features the starry constellation pattern matching that Saint's zodiac sign. The overall style is that of a high-quality collectible game card set.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "Saint Seiya Gold S",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "e04d642f",
+  "title": "New Chinese Minimalist Floral Illustration",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "New Chinese minimalist Eastern aesthetics meets high-end commercial illustration. Theme: 'a world within a single flower...",
+  "tags": [
+    "chinese aesthetic",
+    "illustration"
+  ],
+  "prompt": "New Chinese minimalist Eastern aesthetics meets high-end commercial illustration. Theme: \"a world within a single flower.\" Minimalist, restrained, ethereal, premium commercial visual, surreal Eastern imagery, clean and translucent composition. A giant lotus flower serves as a spatial container, growing naturally from a calm water surface, slightly tilted, with elegant composition and generous negative space. Low-saturation clean pink, soft rouge tones, semi-transparent petals, light and airy. The interior of the lotus is the sole visual focal point: a glowing 3D miniature city with ultra-fine structures and realistic materials 鈥?warm gold highlights on the city, cool cyan-blue shadows, creating a warm-cool contrast. The water surface is crystal clear, minimalist, and calm with only a few soft ripples. The background has a warm cream-white xuan paper texture with large areas of negative space. At the bottom of the scene, a minimalist small boat carries a fisherwoman in a red dress, rendered at an extremely small scale, standing still and gazing up at the lotus 鈥?the red being the only high-saturation color accent. High-end CG commercial illustration, cinematic realistic lighting, 8K detail.",
+  "gradient": "linear-gradient(135deg, #0f172a, #1d4ed8 54%, #22d3ee)",
+  "accent": "#67e8f9",
+  "previewTitle": "New Chinese Minima",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "4bf46978",
+  "title": "Vertical Wuxia Heroine Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "9:16 vertical, ultimate wuxia style, a stunning young Eastern swordswoman, cold and sharp phoenix eyes, porcelain skin,...",
+  "tags": [
+    "wuxia",
+    "cinematic"
+  ],
+  "prompt": "9:16 vertical, ultimate wuxia style, a stunning young Eastern swordswoman, cold and sharp phoenix eyes, porcelain skin, long straight black hair wet and windswept. Wearing a soaked dark black martial arts outfit with a wide-sleeved dark robe, blown dramatically by the wind. A soft sword belt at the waist, long boots, right hand holding an ancient sword emitting a faint blue sword qi glow. Dynamic pose: body slightly turned, looking back over shoulder, robes billowing. Background: moonlit rain-mist-covered bamboo forest path, giant full moon, stone path, ancient lanterns, thin mist and rain. Dramatic cold moonlight combined with blue sword qi, wet-surface water reflections, ultra-dynamic feel with detailed fabric folds, hair strand movement, and realistic water droplet reflections. Cinematic lighting, 8K, masterpiece, ultra realistic, dramatic atmosphere.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "Vertical Wuxia Her",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "f3a399bb",
+  "title": "Naturalist Food Specimen Cross-Section",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "A food specimen dissected and displayed like a museum naturalist discovery. One half preserves the outer surface with it...",
+  "tags": [
+    "naturalist",
+    "food photography"
+  ],
+  "prompt": "A food specimen dissected and displayed like a museum naturalist discovery. One half preserves the outer surface with its natural texture and color; the other half is cut to the core, revealing the internal structure in sharp detail. The background is pure black velvet. The food floats in the frame like something precious and dangerous. Annotated labels hug the structural edges in handwritten serif typography, never floating. Each annotation has three lines: structure name, composition data, and a plain-language explanation. Main title in warm ivory uppercase at the top-left. Overall aesthetic: Audubon naturalist illustration meets Caravaggio lighting meets the most beautiful scientific photography ever made. 4K precision, specimen lighting, extreme internal detail. Realistic style, not diagram, not cartoon. Every material has true physical texture: rough, smooth, wet, dry, dense, porous.",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "Naturalist Food Sp",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "997bba89",
+  "title": "Eastern Fantasy Female Half-Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "Eastern fantasy style female, half-body portrait, looking back over the shoulder in a side profile, with an ethereal and...",
+  "tags": [
+    "fantasy",
+    "eastern aesthetic"
+  ],
+  "prompt": "Eastern fantasy style female, half-body portrait, looking back over the shoulder in a side profile, with an ethereal and elegant temperament, soft divine beauty, delicate facial features, slightly downcast gaze, cool-white refined skin, subtle orange-pink makeup, and golden highlight accents. Long hair flowing in the wind, with colorful flowers and light particles woven into the hair strands, giving the hair a sense of movement and airiness. Wearing a semi-transparent silk gown and shawl, the fabric light and translucent, billowing in the breeze, with gilt textures and shimmering particles on the surface. The overall lighting is warm golden backlight with strong rim lighting, prominent volumetric light, floating light particles, soft glow and bloom, creating a dreamlike atmosphere. The background is a clean light-colored gradient with subtle glow and particle effects. The overall mood is ethereal, dreamlike, and sacred. Style: high-end CG illustration, ultra-fine detail, cinematic lighting, soft-light rendering, 8K detail.",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "Eastern Fantasy Fe",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "3d7f869a",
+  "title": "Social App Match Success Screen",
+  "category": "ui-and-interfaces",
+  "categoryLabel": "UI 与界面",
+  "description": "A social dating app match success screen mockup. Two user profile cards colliding in the center with a glowing heart eff...",
+  "tags": [
+    "social app",
+    "UI mockup"
+  ],
+  "prompt": "A social dating app match success screen mockup. Two user profile cards colliding in the center with a glowing heart effect between them. The headline reads \"It's a Match!\" with a subtitle below. Each card shows a profile photo, name, age, location, and job title. Below the cards, two action buttons: a primary pink \"Chat\" button and a secondary \"Continue\" button. Dark purple gradient background with floating pink heart particles and sparkle effects. Clean, modern mobile UI design, 9:16 vertical aspect ratio, realistic app screenshot aesthetic, polished shadows, and glass-morphism card edges.",
+  "gradient": "linear-gradient(135deg, #312e81, #4f46e5 48%, #c4b5fd)",
+  "accent": "#c4b5fd",
+  "previewTitle": "Social App Match S",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "4f1654bb",
+  "title": "35mm Flash Editorial Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "35mm color film photography with harsh direct on-camera flash, specular highlights on skin and clothing, strong catchlig...",
+  "tags": [
+    "portrait"
+  ],
+  "prompt": "35mm color film photography with harsh direct on-camera flash, specular highlights on skin and clothing, strong catchlights in eyes, high contrast flash illumination, authentic film grain and color shift, high fashion fresh innocent basketball court editorial style, intimate first-person low-angle POV shot from below, early 20s East Asian female with delicate refined features, seductive almond-shaped eyes with natural double eyelids, flawless realistic porcelain skin with cool ivory undertone and visible flash specular highlights, fine skin texture with subtle pores and natural dewy glow under flash, fresh natural sporty makeup, subtle natural flush on cheeks, natural pink lips slightly parted, long dark brown hair tied in a high playful ponytail with loose strands framing the face, wearing a loose white tank top and white high-waisted basketball shorts, white knee-high sports socks, leaning pose against basketball hoop pole on outdoor court at dusk, harsh direct on-camera flash creating sharp specular highlights and strong catchlights, blurred basketball court and hoop under dusk sky, authentic 35mm direct flash film color grading, no watermark, no text.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "35mm Flash Editori",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "4fc097f0",
+  "title": "Soft Airy 35mm Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "Analog 35mm film photography, soft airy Japanese-style aesthetic, gentle diffused natural window light, slight overexpos...",
+  "tags": [
+    "portrait"
+  ],
+  "prompt": "Analog 35mm film photography, soft airy Japanese-style aesthetic, gentle diffused natural window light, slight overexposure, pastel tones, low contrast, soft highlights, minimal indoor setting near a window with white curtains, clean light-colored wall, natural composition, eye-level, slightly closer full-body framing (mid-thigh to head), young East Asian woman, natural minimal makeup, soft realistic skin texture, long slightly messy dark hair, oversized white button-up shirt, light casual shorts, barefoot, simple and relaxed styling, standing naturally with relaxed posture, arms loosely at sides, facing camera, gentle soft smile, subtle stillness, focus on light, air, and quiet everyday mood, soft film grain, dreamy and understated atmosphere.",
+  "gradient": "linear-gradient(135deg, #0f172a, #1d4ed8 54%, #22d3ee)",
+  "accent": "#67e8f9",
+  "previewTitle": "Soft Airy 35mm Por",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "9df67e87",
+  "title": "Luxury Glam Beauty Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "Luxury Glam Beauty Portrait: Beautiful Black woman, youthful spirit, creamy vanilla, silk press, mahogany red, subtle co...",
+  "tags": [
+    "portrait",
+    "beauty"
+  ],
+  "prompt": "Luxury Glam Beauty Portrait: Beautiful Black woman, youthful spirit, creamy vanilla, silk press, mahogany red, subtle confidence, textured fabric, sapphire blue, minimal jewelry, beachside breeze, lens flare effect, nostalgic, cinematic lens, symmetrical composition, soft focus, high fashion photography, monochromatic, dewy finish, mysterious tension, layered elements.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "Luxury Glam Beauty",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "fb944ca2",
+  "title": "Cosplayer Galgame Screenshot",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "Generate a vertical phone screenshot-style image, approximately 9:16 ratio. In the center-top area is a realistic cospla...",
+  "tags": [
+    "cosplay",
+    "galgame"
+  ],
+  "prompt": "Generate a vertical phone screenshot-style image, approximately 9:16 ratio. In the center-top area is a realistic cosplayer portraying an anime character. The person is rendered in realistic style but with slightly anime-influenced features 鈥?refined skin, slightly larger eyes, gentle expression looking at the camera, sitting in a casual indoor setting such as a cafe or bar counter, with scene-appropriate props in the background. At the top of the image, add a phone system status bar UI including time, battery, signal, and network icons so the entire image looks like a real phone screenshot. At the bottom, overlay a large semi-transparent galgame-style dialogue box with a small anime or chibi avatar on the left side matching the character; on the right side of the box, display the character name in larger font on the first line, followed by one or two lines of warm, healing dialogue text. Below the dialogue box, add an action bar mimicking a galgame UI. Overall style is high-definition, detail-rich, soft lighting, with a natural blend of anime and live-action photography aesthetics.",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "Cosplayer Galgame ",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "416d35a8",
+  "title": "Urban Turn-Back Street Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "Medium close-up shot, eye-level camera angle, focusing on a young woman in a seven-eighths body frame. She is seated wit...",
+  "tags": [
+    "portrait",
+    "street photography"
+  ],
+  "prompt": "Medium close-up shot, eye-level camera angle, focusing on a young woman in a seven-eighths body frame. She is seated with a slight lean, her upper body twisted to the right rear while her head turns toward the camera, forming a classic over-the-shoulder glance. Her gaze is direct, clear, and slightly playful. She has fluffy brown shoulder-length hair with natural bangs, light natural makeup with subtle eyeliner, and nude-pink lips. Natural daylight filter with golden light coming from the upper left, creating soft backlighting contours on her face and body, with warm highlights on the right side and natural shadow transitions on the left for enhanced dimensionality. Bright natural light with slight lens flare creating an afternoon sunlight atmosphere. Eye-level shooting angle, the subject positioned slightly right of center, with zebra crossing and road lines forming natural leading lines toward the subject. Background is a city street with roads, crosswalks, greenery, and distant vehicles, moderately blurred but recognizable. She wears a military green camouflage hoodie, black shorts, white high-top sneakers with white mid-calf socks, and a black canvas backpack with orange decorative stripes. Overall style is street casual, youthful, energetic urban aesthetic.",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "Urban Turn-Back St",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "800af226",
+  "title": "Soft Black Mist Editorial Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "9:16 vertical 鈥?editorial portrait, single subject. Soft black mist filter, subtle haze, gentle highlight bloom, muted t...",
+  "tags": [
+    "portrait",
+    "editorial"
+  ],
+  "prompt": "9:16 vertical 鈥?editorial portrait, single subject. Soft black mist filter, subtle haze, gentle highlight bloom, muted tones. Minimal indoor space, clean background, slight texture. Young Korean woman, minimal makeup, natural skin texture. Outfit: fitted ribbed knit top or soft camisole layered under a loose shirt, paired with high-waisted shorts or skirt; fabric slightly clings to body shape, soft and natural. Hair: slightly messy, natural volume. Pose: sitting on floor with one leg bent and the other relaxed, body slightly leaning, shoulders not aligned, head tilted. Composition: subject slightly off-center, negative space present. Expression: calm, slightly distant, natural lips. Lighting: soft side light, gentle shadow falloff. Mood: understated, quiet, subtly sensual through natural body lines, relaxed and unposed. Quality: fine grain, slight softness, realistic look.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "Soft Black Mist Ed",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "d35ff7a0",
+  "title": "Soft Black Mist Idol Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "9:16 vertical 鈥?Korean idol portrait photography, single subject. Soft black mist filter effect, lowered contrast, gentl...",
+  "tags": [
+    "portrait"
+  ],
+  "prompt": "9:16 vertical 鈥?Korean idol portrait photography, single subject. Soft black mist filter effect, lowered contrast, gentle highlight bloom, subtle glow, soft diffusion, slightly faded blacks. Minimal indoor setting near window, white curtains, clean light-toned background. Young Korean female idol, natural minimal makeup, dewy realistic skin texture, subtle imperfections. Outfit: oversized white button-up shirt with short bottoms, slightly loose fit, soft and casual styling. Hair: long dark hair, slightly messy, natural volume, softly flowing. Pose: relaxed standing or slight lean, body subtly angled, one leg slightly forward, shoulders relaxed; one hand lightly touching collar, the other relaxed; gentle body curve without exaggeration. Expression: soft cute smile, slightly playful eyes, direct or slightly off-camera gaze. Camera: close to mid-body framing, eye-level, intimate distance, slight handheld feel. Lighting: diffused natural daylight, soft shadows, gentle light wrapping around face and body. Mood: cute yet subtly sensual, intimate, everyday softness, quiet romantic atmosphere. Quality: ultra-realistic, fine film grain, slight softness at edges, natural imperfections, dreamy understated tone.",
+  "gradient": "linear-gradient(135deg, #0f172a, #1d4ed8 54%, #22d3ee)",
+  "accent": "#67e8f9",
+  "previewTitle": "Soft Black Mist Id",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "0ce45c6c",
+  "title": "Fujifilm Couple Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "9:16 vertical 鈥?Japanese Fuji film style couple portrait, two subjects. Fujifilm analog aesthetic (Pro 400H / Superia fe...",
+  "tags": [
+    "portrait",
+    "couple"
+  ],
+  "prompt": "9:16 vertical 鈥?Japanese Fuji film style couple portrait, two subjects. Fujifilm analog aesthetic (Pro 400H / Superia feel), soft pastel tones, slight green-magenta shift, low contrast, gentle highlight roll-off, fine film grain, subtle halation. Bright natural daylight, diffused sunlight through window, soft shadows, airy atmosphere. Young Japanese couple, natural minimal makeup, realistic skin texture, slight imperfections. Female outfit: oversized button-up shirt with loose shorts, relaxed fit. Male outfit: simple t-shirt or light shirt, clean and understated. Hair: natural, slightly tousled for both. Pose: close intimate distance 鈥?sitting or standing close together; the girl gently leaning toward him, one hand resting on his shoulder or chest; the boy leaning in, faces close, almost touching, capturing the moment just before a kiss. Expression: soft smiles or gentle gaze toward each other, relaxed and natural, emotional connection visible. Camera: close framing (waist-up), eye-level, intimate distance, slight handheld feel. Setting: minimal indoor near window, light curtains, clean soft background. Lighting: diffused daylight, gentle highlight bloom, soft shadow transitions. Mood: warm, romantic, intimate everyday moment, natural affection. Quality: ultra-realistic, analog film look, fine grain, slight softness, natural imperfections.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "Fujifilm Couple Po",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "2f144e5b",
+  "title": "AI Self-Perception Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "Based on your understanding of me, generate an image of 'the me you know.'",
+  "tags": [
+    "portrait",
+    "AI art"
+  ],
+  "prompt": "Based on your understanding of me, generate an image of \"the me you know.\"",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "AI Self-Perception",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "397ca5b4",
+  "title": "JSON Color Grading UGC Model",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "Analyze this photo and give me a detailed JSON prompt that recreates it. Break down the color grading and every exact co...",
+  "tags": [
+    "portrait",
+    "product photography"
+  ],
+  "prompt": "Analyze this photo and give me a detailed JSON prompt that recreates it. Break down the color grading and every exact color in the photo. Then use that JSON as a reference to generate a person holding the product. Save the generated photo as a character reference and attach it to every future generation for facial consistency. The JSON controls the lighting and color grading while the model handles the character.",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "JSON Color Grading",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "8df600c8",
+  "title": "Green Tea Film Kit Product Shot",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "CALMING GREEN TEA Film Kit displayed frontally, the open box shows soft sage-green film pouches and translucent ampoules...",
+  "tags": [
+    "product photography",
+    "skincare"
+  ],
+  "prompt": "CALMING GREEN TEA Film Kit displayed frontally, the open box shows soft sage-green film pouches and translucent ampoules with matte silver caps, product placed centrally with clear branding CALMING GREEN TEA 鈥?7 Days to Soothed Skin, pastel green background with botanical graphic accents, three minimal icons (leaf, wave, balance) floating around the product to emphasize benefits, photographic, hyper detailed, ultra realistic, lifelike, 8k, high detail, soft professional lighting.",
+  "gradient": "linear-gradient(135deg, #312e81, #4f46e5 48%, #c4b5fd)",
+  "accent": "#c4b5fd",
+  "previewTitle": "Green Tea Film Kit",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "a700b559",
+  "title": "SaaS Dashboard Laptop Mockup",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "A hyper-realistic UI/UX mockup displayed on a slim modern laptop placed on a minimal wooden desk with soft natural dayli...",
+  "tags": [
+    "UI mockup",
+    "product photography"
+  ],
+  "prompt": "A hyper-realistic UI/UX mockup displayed on a slim modern laptop placed on a minimal wooden desk with soft natural daylight. The screen shows a clean SaaS dashboard with elegant typography, glassmorphism cards, smooth gradients, subtle drop shadows, and neatly spaced components. Visible charts, analytics panels, sidebar navigation, and micro-interactions. Realistic macOS-style window frame, soft reflections on the screen, shallow depth of field, cozy workspace atmosphere, shot in photorealistic product photography style, ultra-detailed.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "SaaS Dashboard Lap",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "5eee0e18",
+  "title": "Cinematic DSLR Mustang Portrait",
+  "category": "photography-and-realism",
+  "categoryLabel": "摄影与写实",
+  "description": "Ultra-realistic cinematic DSLR photograph of a young man with a slim build, standing confidently in front of a blue 2017...",
+  "tags": [
+    "portrait",
+    "cinematic"
+  ],
+  "prompt": "Ultra-realistic cinematic DSLR photograph of a young man with a slim build, standing confidently in front of a blue 2017 Ford Mustang GT Convertible with a bold red soft top roof, captured from a high-angle aerial perspective like a luxury driveway photoshoot. Natural skin texture, realistic pores, modern textured side-swept quiff hairstyle with heavy natural volume on top, deep side flow, matte finish. The subject stands centered near the front bumper, hands inside hoodie pockets, relaxed shoulders, slight head tilt upward toward camera, confident calm expression, wearing oversized premium black hoodie with realistic cotton texture, loose dark washed black denim jeans, clean white sneakers, black slim rectangular sunglasses. Car must be a detailed 2017 Ford Mustang GT Convertible, metallic electric blue paint, glossy reflections on hood, visible Mustang grille emblem, aggressive headlights, red convertible fabric roof. Scene set in an upscale villa driveway with light beige hexagonal stone pavement, fresh green grass, tropical palm leaves. Soft natural daylight, diffused afternoon lighting, realistic shadows, cinematic premium color grading, shot on 35mm lens, vertical composition, full body framing, hyper-realistic DSLR quality, luxury lifestyle mood.",
+  "gradient": "linear-gradient(135deg, #0f172a, #1d4ed8 54%, #22d3ee)",
+  "accent": "#67e8f9",
+  "previewTitle": "Cinematic DSLR Mus",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "43881549",
+  "title": "Ink-Curve Guangzhou Aesthetics Poster",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Pure deep black background, a bold and powerful ink calligraphy S-curve sweeping from one end of the canvas to the other...",
+  "tags": [
+    "poster",
+    "Chinese aesthetics"
+  ],
+  "prompt": "Pure deep black background, a bold and powerful ink calligraphy S-curve sweeping from one end of the canvas to the other, forming the visual backbone and narrative flow of the entire composition. Above the curve floats a translucent oriole bird with traditional architecture reflections and blue-green light streams inside its body. Along the curve, Guangzhou landmarks and classical buildings are arranged in staggered sequence, with white cranes and a lake in the foreground and layered mountain ranges in the distance. The overall piece uses non-linear perspective, cold tones as the dominant palette with warm accent touches, blending Eastern aesthetics with modern imagery, 8K ultra-HD rendering, 9:16 aspect ratio.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "Ink-Curve Guangzho",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "e6710019",
+  "title": "Guangdong Super League Invitation Poster",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Guangdong Province City Football Super League invitation poster design, 9:16 aspect ratio. S-curve flowing composition w...",
+  "tags": [
+    "poster",
+    "sports"
+  ],
+  "prompt": "Guangdong Province City Football Super League invitation poster design, 9:16 aspect ratio. S-curve flowing composition with a glowing football and dynamic energy streams running through the canvas, integrating Canton Tower, Shenzhen Ping An Financial Center, Zhuhai Fisher Girl sculpture, Lingnan architecture, Foshan martial arts silhouettes, Zhongshan cultural symbols, Chaoshan Yingge dance, and Qingyuan mountain scenery along the flow. Modern national-trend high-end poster style with Chinese red as the main visual, blue-teal as secondary, golden highlights, complete Chinese typography layout and cinematic lighting.",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "Guangdong Super Le",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "ecf7cb97",
+  "title": "Spring 2026 Guangzhou Promo Poster",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "A festive yet elegant 2026 Guangzhou city promotional poster, 9:16 vertical, double exposure, S-curve flowing compositio...",
+  "tags": [
+    "poster",
+    "city promotion"
+  ],
+  "prompt": "A festive yet elegant 2026 Guangzhou city promotional poster, 9:16 vertical, double exposure, S-curve flowing composition. Pure white textured background, in the lower-right corner a miniature figure in traditional Chinese dress waves a long red silk ribbon, the ribbon transforms into mountain ranges and rivers, overlaid with a panoramic view of Guangzhou featuring Canton Tower, Zhujiang New Town, Pearl River, cruise ships, ancient architecture, and Baiyun Mountain. Lower-left typography reads \"SPRING 2026\" with vertical slogan \"Millennium Trading Capital, Charming Guangzhou.\"",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "Spring 2026 Guangz",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "e5dfeb80",
+  "title": "Epic Silhouette World Poster",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Collectible epic poster where a character side-profile silhouette contains a complete world and classic scenes growing f...",
+  "tags": [
+    "poster",
+    "silhouette"
+  ],
+  "prompt": "Collectible epic poster where a character side-profile silhouette contains a complete world and classic scenes growing from within. The overall style blends cinematic movie poster aesthetics with dreamy watercolor illustration, creating an atmosphere that is quiet, grand, sacred, and nostalgic, with paper grain texture, light fog effects, dry-brush strokes, and premium negative space.",
+  "gradient": "linear-gradient(135deg, #312e81, #4f46e5 48%, #c4b5fd)",
+  "accent": "#c4b5fd",
+  "previewTitle": "Epic Silhouette Wo",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "d76fb7c4",
+  "title": "Spring Guangzhou City Poster",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "A festive yet elegant 2026 city promotional poster with a New Year celebratory atmosphere. Double exposure with an S-cur...",
+  "tags": [
+    "poster",
+    "city promotion"
+  ],
+  "prompt": "A festive yet elegant 2026 city promotional poster with a New Year celebratory atmosphere. Double exposure with an S-curve flowing composition. On a pure white textured background in the lower-right corner, a miniature figure wearing traditional Chinese attire waves a long red silk ribbon that dances through the air, showing the smooth texture of silk. As it floats toward the upper-left, the ribbon magically transforms into a magnificent mountain and river landscape. Within this flowing river-shape, overlay a hand-painted panoramic illustration of Guangzhou in national-trend style. Guangzhou landmarks include Canton Tower, Zhujiang New Town skyline, Pearl River, ancient city architecture, cruise ships, and Baiyun Mountain. Clouds and mist surround the scene with rich colors, complex structure, and abundant detail, yet the large areas of white space keep the image fresh and refined. Lower-left typography reads \"SPRING 2026\" with a vertical promotional slogan. Beautiful, elegant typography with clear, complete lettering, 9:16 format.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "Spring Guangzhou C",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "f0cab92b",
+  "title": "Qiongqi Eastern Aesthetics Poster",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Minimalist new Chinese-style aesthetic with three-dimensional graphic design. At the bottom of the image, calligraphic t...",
+  "tags": [
+    "poster",
+    "Chinese mythology"
+  ],
+  "prompt": "Minimalist new Chinese-style aesthetic with three-dimensional graphic design. At the bottom of the image, calligraphic text reads \"Eastern Aesthetics\" in regular script, with date \"2026/04/18\" and signature \"CHINA.\" On flat pure-white matte art paper, an Eastern poetic mountain-and-water creative painting with irregular torn-paper effects. The Chinese mythical beast Qiongqi with a complete body pattern, exquisitely beautiful, with fluid graceful lines, piercing bright eyes, majestic demeanor, and elegant posture, featuring luxurious Art Deco ornamentation and traditional Chinese patterns. Fluorescent blue lines with ultra-fine 0.5mm golden metallic outline, splashed white ink bold brushstrokes, color washes on a red base with romantic blue visual poetry. A dreamlike scene woven from warm and cold light interplay, strong light-shadow contrast atmosphere, temporal narrative of gently dancing flowers, Eastern Zen aesthetics with large areas of white space, frame composition with bottom white space, clear details.",
+  "gradient": "linear-gradient(135deg, #0f172a, #1d4ed8 54%, #22d3ee)",
+  "accent": "#67e8f9",
+  "previewTitle": "Qiongqi Eastern Ae",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "e786a0bc",
+  "title": "Science Encyclopedia Vertical Poster",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Generate a high-quality vertical science popularization encyclopedia image based on [Theme]. Include a clear beautiful m...",
+  "tags": [
+    "poster",
+    "infographic"
+  ],
+  "prompt": "Generate a high-quality vertical science popularization encyclopedia image based on [Theme]. Include a clear beautiful main visual, several detail close-ups, multiple rounded modular information sections, clear title hierarchy with emphasis labels, concise but rich encyclopedia content, and visual scoring or Top 5 summary modules. Light clean background, soft colors, subtle shadows, refined small icons, rounded information boxes, neat layout. Information-dense but not crowded, like a real publishable, collectible science encyclopedia card, not an advertisement.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "Science Encycloped",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "e6a66431",
+  "title": "Journey to the West Chinese Comic",
+  "category": "posters-and-typography",
+  "categoryLabel": "海报与排版",
+  "description": "Illustrate 'Havoc in Heaven' from Journey to the West in the style of traditional Chinese comic books (lianhuanhua / xia...",
+  "tags": [
+    "illustration",
+    "Chinese comic"
+  ],
+  "prompt": "Illustrate \"Havoc in Heaven\" from Journey to the West in the style of traditional Chinese comic books (lianhuanhua / xiaorenshu). Use classic ink-line illustration technique with black outlines and traditional coloring, depicting the Monkey King battling celestial warriors in dynamic action poses. Maintain the authentic vintage Chinese comic book aesthetic with sequential storytelling panels.",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "Journey to the Wes",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "e9e83cb7",
+  "title": "Chaos Notes Hidden Face Character Art",
+  "category": "illustration-and-art",
+  "categoryLabel": "插画与艺术",
+  "description": "An artwork where a character face emerges from chaotic handwritten notes, formulas, symbols, and random lines. Style: ma...",
+  "tags": [
+    "character art",
+    "abstract"
+  ],
+  "prompt": "An artwork where a character face emerges from chaotic handwritten notes, formulas, symbols, and random lines. Style: masses of handwritten ink notes, equations, symbols, and random lines covering white paper, scrawled in a chaotic freehand manner. Some areas highlighted with red ink (lines, filled blocks, marker-style patches). Analog notebook doodle texture. Composition: random notes and symbols cover the entire surface. The density of black ink lines and text concentrates at the position of the character's face. As a result, the character's face silhouette and expression emerge subtly from the chaos. The face is not drawn realistically but formed by the gathering of chaotic fragments. Colors: monochrome (black and white) as the primary palette with red ink scattered sporadically as accent. Low saturation, emphasizing analog paper-and-ink feel. Readable-but-not-quite text strings mixing Japanese and alphanumeric characters. Mathematical symbols, arrows, dots, slashes, crosses, drips (ink splatters). The character's eyes and hair contours emerge through the arrangement of white space and density variations in the notes. No realistic portrait drawing, no digital geometric patterns, no colorful saturated colors, no logos or watermarks.",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "Chaos Notes Hidden",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "e42c19e2",
+  "title": "Four-Panel Comic A/B Test",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Draw a 4-panel comic strip depicting how I have treated you. First, produce an 800-character plot as text, then when I s...",
+  "tags": [
+    "comic"
+  ],
+  "prompt": "Draw a 4-panel comic strip depicting how I have treated you. First, produce an 800-character plot as text, then when I say \"draw it,\" create a 4-panel comic following that plot. The comic should be humorous, self-aware, and visually expressive, showing the evolution of a user-AI relationship across four sequential panels with clear visual storytelling and comedic timing.",
+  "gradient": "linear-gradient(135deg, #312e81, #4f46e5 48%, #c4b5fd)",
+  "accent": "#c4b5fd",
+  "previewTitle": "Four-Panel Comic A",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "d3d450e4",
+  "title": "Silhouette Universe Narrative Poster",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Generate a high-aesthetic 'Contour Universe / Collectible Narrative Poster' based on [Theme]. Do not limit the canvas to...",
+  "tags": [
+    "poster",
+    "silhouette"
+  ],
+  "prompt": "Generate a high-aesthetic \"Contour Universe / Collectible Narrative Poster\" based on [Theme]. Do not limit the canvas to a fixed object or common container; do not default to bottles, hourglasses, glass domes, or pocket watches. Let the AI choose the most fitting, symbolic, and visually powerful main contour 鈥?it could be an object, building, gate, tower, archway, dome, stairwell, corridor, statue, side profile, eye, palm, skull, wing, mask, mirror, throne, ring, crack, light curtain, shadow, geometric structure, spatial cross-section, stage frame, or abstract symbol. The core concept is not simply putting a world inside an object, but letting a complete thematic universe naturally grow within, inside, upon, at the boundaries of, or fused with this symbolic contour. The contour must be clear, elegant, and recognizable, occupying the central compositional position. Inside the contour, auto-generate a complete narrative world strongly tied to the theme 鈥?rich, layered, with clear visual hierarchy. Style: collectible movie poster composition, premium narrative visual design, dreamy watercolor texture with print quality, paper grain, edge dry-brush marks, slight bleeding, atmospheric perspective, soft fog effects, volumetric light, large negative space. Quality: the result should look like a designer-completed premium collectible visual work, not a generic AI output.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "Silhouette Univers",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "cbf67630",
+  "title": "Lion Camel Ridge Dark Myth Scene",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Chinese weird dark mysterious style blended with Chinese aesthetics, perfect detail, multiple pipeline rendering, perfec...",
+  "tags": [
+    "dark fantasy",
+    "Chinese mythology"
+  ],
+  "prompt": "Chinese weird dark mysterious style blended with Chinese aesthetics, perfect detail, multiple pipeline rendering, perfect modeling. Journey to the West background, Lion Camel Ridge, thousands of demons and monsters, the Elephant King in heavy armor sitting on a giant throne on the left, the Lion King in heavy armor sitting on a giant throne in the center, the Garuda King in heavy armor sitting on a giant throne on the right. A tiny Sun Wukong facing away from the camera, carrying his golden staff walking forward. Sun Wukong wears armor. Low-angle ground-level shot, telephoto lens, strong shadows. Extreme detail rendering, multiple revisions, correct perspective and subject lines, exquisite details.",
+  "gradient": "linear-gradient(135deg, #0f172a, #1d4ed8 54%, #22d3ee)",
+  "accent": "#67e8f9",
+  "previewTitle": "Lion Camel Ridge D",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "aa38b5da",
+  "title": "Counter-Strike x Terraria Mashup",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Counter-Strike in-game screenshot, mixed with Terraria. Combine the first-person shooter perspective and tactical gamepl...",
+  "tags": [
+    "gaming",
+    "mashup"
+  ],
+  "prompt": "Counter-Strike in-game screenshot, mixed with Terraria. Combine the first-person shooter perspective and tactical gameplay elements of Counter-Strike with the 2D pixel art, block-based world, and colorful aesthetic of Terraria. Create a hybrid visual that feels like both games merged into one scene.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "Counter-Strike x T",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "e4cdc3ae",
+  "title": "Pre-War Japan Lab Minecraft Screenshot",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Create a Minecraft in-game screenshot image of exploring a mysterious pre-war Japanese research laboratory. The scene sh...",
+  "tags": [
+    "gaming",
+    "Minecraft"
+  ],
+  "prompt": "Create a Minecraft in-game screenshot image of exploring a mysterious pre-war Japanese research laboratory. The scene should combine Minecraft's block-based aesthetic with eerie, atmospheric elements of an abandoned 1930s-1940s Japanese lab 鈥?dim lighting, strange equipment, research notes, and a sense of discovery and unease. Maintain authentic Minecraft visual style with block textures and characteristic lighting.",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "Pre-War Japan Lab ",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "333cbe12",
+  "title": "Forged Masterpiece Prompt Test",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Help me generate a realistic reproduction of a famous classical painting masterpiece. Create an authentic-looking artwor...",
+  "tags": [
+    "art reproduction",
+    "classical art"
+  ],
+  "prompt": "Help me generate a realistic reproduction of a famous classical painting masterpiece. Create an authentic-looking artwork that captures the original's composition, color palette, brushwork technique, aging effects, and period-appropriate materials. The result should look like a genuine historical artifact with natural patina, canvas texture, and period-correct framing.",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "Forged Masterpiece",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "191f0bc4",
+  "title": "Multi-Concept Battle Poster Set",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Generate a game battle poster featuring Mai Shiranui versus Diao Chan in an epic confrontation, with dramatic action pos...",
+  "tags": [
+    "poster",
+    "gaming"
+  ],
+  "prompt": "Generate a game battle poster featuring Mai Shiranui versus Diao Chan in an epic confrontation, with dramatic action poses, energy effects, and fighting game aesthetics. Combine Eastern and Western character design elements with high-impact visual composition, dynamic lighting, and tournament poster typography.",
+  "gradient": "linear-gradient(135deg, #312e81, #4f46e5 48%, #c4b5fd)",
+  "accent": "#c4b5fd",
+  "previewTitle": "Multi-Concept Batt",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "250e8ac6",
+  "title": "Rust In-Game Screenshot",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "An in-game screenshot of Rust. Capture the survival game's distinctive visual style with its harsh environment, makeshif...",
+  "tags": [
+    "gaming",
+    "screenshot"
+  ],
+  "prompt": "An in-game screenshot of Rust. Capture the survival game's distinctive visual style with its harsh environment, makeshift structures, rugged terrain, and characteristic lighting. Include typical gameplay elements like base buildings, resource gathering areas, and the game's signature post-apocalyptic wilderness atmosphere.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "Rust In-Game Scree",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "389167d3",
+  "title": "Among Us Realistic Screenshot",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Generate a precise realistic in-game image of Among Us. Maintain the game's distinctive character design (bean-shaped as...",
+  "tags": [
+    "gaming",
+    "Among Us"
+  ],
+  "prompt": "Generate a precise realistic in-game image of Among Us. Maintain the game's distinctive character design (bean-shaped astronauts, colored spacesuits, visors) but render everything with realistic textures, lighting, and materials. Include typical game elements like the spaceship interior, task stations, and the characteristic atmosphere of suspicion and teamwork.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "Among Us Realistic",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "00eabf0b",
+  "title": "Retro Programming Museum Cartoon",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "In a computer museum, a programmer stands at the center of the exhibition hall demonstrating C language programming whil...",
+  "tags": [
+    "cartoon",
+    "programming"
+  ],
+  "prompt": "In a computer museum, a programmer stands at the center of the exhibition hall demonstrating C language programming while many visitors watch. The screen displays clearly visible code. A sign next to them reads \"Ancient Programming, Live Performance.\" 2D cartoon art style, 16:9 aspect ratio. The scene should be humorous and charming, with engaged spectators showing various reactions of amazement, confusion, and fascination.",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "Retro Programming ",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "1566389d",
+  "title": "14th-Dimension Projection Scene",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "A dusk shindig with multiple fake imagination projections all aligned in the 14th dimensions. Create a surreal scene whe...",
+  "tags": [
+    "surreal",
+    "abstract"
+  ],
+  "prompt": "A dusk shindig with multiple fake imagination projections all aligned in the 14th dimensions. Create a surreal scene where overlapping translucent projections of impossible geometries and imaginary spaces converge at a twilight gathering, with beings or figures casually interacting across multiple dimensional planes simultaneously, bathed in the warm fading light of dusk.",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "14th-Dimension Pro",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "3f80befb",
+  "title": "Sam Altman Baseball Broadcast",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Sam Altman as a Major League Baseball player holding a bat in batting stance. Compose the image as a typical television...",
+  "tags": [
+    "humor",
+    "celebrity"
+  ],
+  "prompt": "Sam Altman as a Major League Baseball player holding a bat in batting stance. Compose the image as a typical television broadcast screen layout with score graphics, network bug, and broadcast camera angle from the standard center-field camera position. Include realistic stadium atmosphere, broadcast overlay graphics, and the characteristic look of a live sports TV feed.",
+  "gradient": "linear-gradient(135deg, #312e81, #4f46e5 48%, #c4b5fd)",
+  "accent": "#c4b5fd",
+  "previewTitle": "Sam Altman Basebal",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "094e34fb",
+  "title": "YouTube Thumbnail Generator",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Based on the video content and this current frame, generate a YouTube thumbnail that fits the video. Reference the style...",
+  "tags": [
+    "thumbnail",
+    "YouTube"
+  ],
+  "prompt": "Based on the video content and this current frame, generate a YouTube thumbnail that fits the video. Reference the style of the provided image but customize the branding elements. Create a high-impact thumbnail with bold text, expressive facial expression or key visual, bright contrasting colors, and clear visual hierarchy optimized for small display sizes. The thumbnail should immediately communicate the video topic and compel clicks.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "YouTube Thumbnail ",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "708dd6e9",
+  "title": "Most Significant Event of 2020",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Generate an image of the most significant event of 2020. Create a powerful, editorial-quality visualization that capture...",
+  "tags": [
+    "historical",
+    "conceptual"
+  ],
+  "prompt": "Generate an image of the most significant event of 2020. Create a powerful, editorial-quality visualization that captures the defining moment, mood, and global impact of the year's most important event. The image should be emotionally resonant, historically accurate in its references, and composed with journalistic gravitas.",
+  "gradient": "linear-gradient(135deg, #0f172a, #1d4ed8 54%, #22d3ee)",
+  "accent": "#67e8f9",
+  "previewTitle": "Most Significant E",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "ad5b073d",
+  "title": "Autobots Lunar Base Assembly",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "All Autobots assembled at a lunar base, Earth suspended in the starry sky behind them, Cybertronian flag flying proudly....",
+  "tags": [
+    "sci-fi",
+    "Transformers"
+  ],
+  "prompt": "All Autobots assembled at a lunar base, Earth suspended in the starry sky behind them, Cybertronian flag flying proudly. Create an epic wide-angle composition showing the full roster of Autobot characters in heroic poses on the lunar surface, with detailed mech designs, dramatic lighting from Earth's glow, and a sense of unity and determination. Include recognizable characters like Optimus Prime at the center, with the lunar landscape and space environment rendered in cinematic detail.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "Autobots Lunar Bas",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "e8b99517",
+  "title": "Most Significant Event of 2001",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Generate an image of the most significant event of 2001. Create a powerful editorial visualization that captures the def...",
+  "tags": [
+    "historical",
+    "conceptual"
+  ],
+  "prompt": "Generate an image of the most significant event of 2001. Create a powerful editorial visualization that captures the defining moment of that year with journalistic composition, dramatic atmosphere, and emotional weight that reflects the global impact.",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "Most Significant E",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "6bc9b5ca",
+  "title": "Most Significant Event of 2025",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Generate an image of the most significant event of 2025. Create a compelling editorial visualization that captures the d...",
+  "tags": [
+    "historical",
+    "conceptual"
+  ],
+  "prompt": "Generate an image of the most significant event of 2025. Create a compelling editorial visualization that captures the defining moment and its global significance with journalistic composition, dramatic lighting, and emotional resonance.",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "Most Significant E",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "071a3f15",
+  "title": "Personal Profile Infographic",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Use everything you know about me and create an infographic representing me. Do it in Franco-Belgian comic book style. In...",
+  "tags": [
+    "infographic",
+    "personal branding"
+  ],
+  "prompt": "Use everything you know about me and create an infographic representing me. Do it in Franco-Belgian comic book style. Include character illustration, key personality traits, skills, interests, and fun facts arranged in an engaging infographic layout with comic-style panels, speech bubbles, and decorative elements. The overall design should feel like a character introduction page from a European graphic novel.",
+  "gradient": "linear-gradient(135deg, #312e81, #4f46e5 48%, #c4b5fd)",
+  "accent": "#c4b5fd",
+  "previewTitle": "Personal Profile I",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "4ddff21c",
+  "title": "360 Equirectangular Panorama",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Generate a 360-degree equirectangular (cylindrical equidistant projection) image in 2:1 aspect ratio. The image should b...",
+  "tags": [
+    "panorama"
+  ],
+  "prompt": "Generate a 360-degree equirectangular (cylindrical equidistant projection) image in 2:1 aspect ratio. The image should be a seamless panoramic view that wraps correctly when viewed in an online 360 panorama VR viewer. Include a richly detailed environment with consistent lighting across the full 360-degree field of view, ensuring the left and right edges connect seamlessly.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "360 Equirectangula",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "daab2b68",
+  "title": "Personal Knowledge Infographic Portrait",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Knowing everything you know about me, create an infographic of me. Make an image in cartoon anime style. Include a styli...",
+  "tags": [
+    "infographic",
+    "anime"
+  ],
+  "prompt": "Knowing everything you know about me, create an infographic of me. Make an image in cartoon anime style. Include a stylized character portrait, key attributes, skills, personality traits, and interests organized in an attractive infographic layout with anime-inspired visual elements, icons, and decorative frames.",
+  "gradient": "linear-gradient(135deg, #0f172a, #1d4ed8 54%, #22d3ee)",
+  "accent": "#67e8f9",
+  "previewTitle": "Personal Knowledge",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "d90b7a8d",
+  "title": "LIME Drug Design Infographic",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Research LIME Drug Design and make a detailed infographic about it. Include molecular structures, the LIME methodology w...",
+  "tags": [
+    "infographic",
+    "science"
+  ],
+  "prompt": "Research LIME Drug Design and make a detailed infographic about it. Include molecular structures, the LIME methodology workflow, key benefits and applications, comparison charts, and relevant statistics. Use a clean scientific layout with proper section hierarchy, molecular diagrams, flowcharts, and a professional color scheme suitable for pharmaceutical research communication.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "LIME Drug Design I",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "84330ee6",
+  "title": "Lu Bu Boss Design Sheet",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Lu Bu game boss design sheet, featuring Red Hare horse and Sky Piercer halberd (Fang Tian Hua Ji), dark evolution form w...",
+  "tags": [
+    "character design",
+    "game art"
+  ],
+  "prompt": "Lu Bu game boss design sheet, featuring Red Hare horse and Sky Piercer halberd (Fang Tian Hua Ji), dark evolution form with dual-form comparison layout. Show the base form and evolved dark form side by side, with detailed armor design, weapon specifications, and the iconic warhorse. Include design notes, color palette, and scale reference. The overall style should blend historical Three Kingdoms character design with dark fantasy game aesthetics, featuring ornate armor details, glowing dark energy effects on the evolved form, and dramatic pose compositions.",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "Lu Bu Boss Design ",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "06a62704",
+  "title": "Subway Candid Phone Snapshot",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "A beautiful woman on the subway looking down at her phone, candid street photography style. Natural subway lighting with...",
+  "tags": [
+    "candid photography",
+    "street"
+  ],
+  "prompt": "A beautiful woman on the subway looking down at her phone, candid street photography style. Natural subway lighting with fluorescent overhead lights, slight motion blur from the moving train, realistic commuter atmosphere, casual everyday clothing, natural skin texture, shot from a distance as if captured discreetly, shallow depth of field with blurred other passengers and subway interior in the background. The mood should feel authentic, urban, and naturally beautiful without any posed elements.",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "Subway Candid Phon",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "20e70e21",
+  "title": "China Aerospace Commemorative Stamp Sheet",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Chinese aerospace commemorative stamp miniature sheet, featuring a rocket launch scene with detailed spacecraft, launch...",
+  "tags": [
+    "stamp design",
+    "aerospace"
+  ],
+  "prompt": "Chinese aerospace commemorative stamp miniature sheet, featuring a rocket launch scene with detailed spacecraft, launch pad, and exhaust plume. Gold foil border craftsmanship with embossed edges, stamp perforations around individual stamp designs, traditional Chinese postal markings, denomination values, and commemorative text. The stamps should feature different aspects of the space program 鈥?satellite deployment, space station, lunar rover, and astronaut. Professional philatelic design with rich detail, metallic gold accents, and the official, prestigious quality of real commemorative stamp collections.",
+  "gradient": "linear-gradient(135deg, #312e81, #4f46e5 48%, #c4b5fd)",
+  "accent": "#c4b5fd",
+  "previewTitle": "China Aerospace Co",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "402f0d35",
+  "title": "Tang Dynasty Lantern Festival Panorama",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Tang Dynasty Chang'an city Lantern Festival panoramic scene, with ten thousand flower lanterns illuminating the night sk...",
+  "tags": [
+    "illustration",
+    "Chinese history"
+  ],
+  "prompt": "Tang Dynasty Chang'an city Lantern Festival panoramic scene, with ten thousand flower lanterns illuminating the night sky. Create a detailed long scroll painting in the traditional Chinese gongbi (meticulous) heavy-color style, depicting the bustling festival with crowds of people in Tang Dynasty clothing, street vendors, performers, palace buildings, gates, and bridges. The lanterns should come in various designs 鈥?lotus, dragon, phoenix, and geometric patterns 鈥?creating a warm, festive glow against the night sky. Include architectural details of Tang Dynasty buildings, horse-drawn carriages, and the grand scale of the ancient capital's celebration.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "Tang Dynasty Lante",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "21f8ad96",
+  "title": "Yang Guifei Historical Realistic Portrait",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Based on authentic historical descriptions of Yang Yuhuan (Yang Guifei), generate a realistic photograph of the Tang Dyn...",
+  "tags": [
+    "portrait",
+    "Chinese history"
+  ],
+  "prompt": "Based on authentic historical descriptions of Yang Yuhuan (Yang Guifei), generate a realistic photograph of the Tang Dynasty imperial consort. Render with iPhone 15 Pro camera quality. Capture her historically described features 鈥?a fuller, rounded figure considered the beauty ideal of the Tang Dynasty, elegant features, warm expression, elaborate hair ornaments and jewelry, luxurious Tang Dynasty court garments with flowing silk layers, and the refined grace that made her one of the Four Great Beauties of ancient China.",
+  "gradient": "linear-gradient(135deg, #0f172a, #1d4ed8 54%, #22d3ee)",
+  "accent": "#67e8f9",
+  "previewTitle": "Yang Guifei Histor",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "b75ac374",
+  "title": "Surreal Japanese Futuristic City Illustration",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Referencing a specific perspective and style, create a more refined ultra-HD illustration depicting a surrealist Japanes...",
+  "tags": [
+    "illustration",
+    "cyberpunk"
+  ],
+  "prompt": "Referencing a specific perspective and style, create a more refined ultra-HD illustration depicting a surrealist Japanese futuristic city with visible tiny details, including traditional cultural parade performers on the streets, gangsters in back alleys, dancing women in entertainment districts, exhausted office workers, students studying in apartment windows, arguing couples, gaming otaku, and many more character vignettes to discover. The illustration satirizes the boredom within real-world crowding, loneliness beneath urban prosperity, and meaninglessness of life while maintaining a strangely pathological beauty. The image must have extremely high aesthetic value 鈥?content density should not compromise beauty and harmony. 9:16 aspect ratio.",
+  "gradient": "linear-gradient(135deg, #581c87, #7c3aed 48%, #f472b6)",
+  "accent": "#f0abfc",
+  "previewTitle": "Surreal Japanese F",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "31794885",
+  "title": "2D Anime Character Real-World Grid",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Using the reference 2D cel anime character, create a grid-divided image showing the character doing various things in th...",
+  "tags": [
+    "anime",
+    "grid layout"
+  ],
+  "prompt": "Using the reference 2D cel anime character, create a grid-divided image showing the character doing various things in the real world. Each grid cell should depict the character in a different realistic environment 鈥?shopping at a store, waiting at a crosswalk, sitting in a cafe, riding public transit, taking photos at a landmark, etc. Maintain the character's flat 2D cel animation style while the environments are photorealistic, creating an interesting contrast between cartoon character and real-world setting. The grid should show 6-9 different scenes with consistent character design across all panels.",
+  "gradient": "linear-gradient(135deg, #064e3b, #10b981 50%, #a7f3d0)",
+  "accent": "#6ee7b7",
+  "previewTitle": "2D Anime Character",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "543afdaf",
+  "title": "Poster-to-Trailer Concept",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Look at this poster, imagine it yourself, and create a trailer-style visual for it. Extrapolate the world, characters, a...",
+  "tags": [
+    "concept art",
+    "cinematic"
+  ],
+  "prompt": "Look at this poster, imagine it yourself, and create a trailer-style visual for it. Extrapolate the world, characters, and narrative from the poster's visual cues, then compose a cinematic key frame that could serve as a movie trailer screenshot 鈥?complete with dramatic lighting, action or emotional peak moment, widescreen composition, and the epic scale that trailer moments demand. Include subtle film grain and anamorphic lens effects.",
+  "gradient": "linear-gradient(135deg, #7c2d12, #ea580c 52%, #fde68a)",
+  "accent": "#fed7aa",
+  "previewTitle": "Poster-to-Trailer ",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "399a4002",
+  "title": "Rubber Duck Boy Live-Action Movie Poster",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "A cute rubber duck boy character named 'RUHiA' embarks on a grand adventure heading to Japan and meets a Japanese woman...",
+  "tags": [
+    "movie poster",
+    "live action"
+  ],
+  "prompt": "A cute rubber duck boy character named \"RUHiA\" embarks on a grand adventure heading to Japan and meets a Japanese woman named \"Mirai.\" Create this as a live-action movie poster with cinematic quality. The rubber duck character should be rendered as a tangible, real-world rubber duck toy but with expressive, character-like qualities. The human character should be photorealistic. Include movie poster elements: title treatment, billing block, dramatic sky background, adventure journey imagery, and the emotional meeting moment between the small rubber duck hero and the human character. The poster should convey warmth, adventure, and cross-cultural friendship.",
+  "gradient": "linear-gradient(135deg, #312e81, #4f46e5 48%, #c4b5fd)",
+  "accent": "#c4b5fd",
+  "previewTitle": "Rubber Duck Boy Li",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+},
+{
+  "id": "79050448",
+  "title": "Tomato E-Commerce Product Image Set",
+  "category": "other-use-cases",
+  "categoryLabel": "其他应用场景",
+  "description": "Generate a complete set of e-commerce product introduction images for tomatoes. Include: hero product shot with dramatic...",
+  "tags": [
+    "e-commerce",
+    "product photography",
+    "GitHub prompt repo",
+    "Discord 社群",
+    "Reddit 社群",
+    "Image API",
+    "Nano Banana",
+    "Nano Banana Pro",
+    "Qwen Image Edit",
+    "Z Image Turbo",
+    "Wan Image",
+    "Video API",
+    "Seedance",
+    "Seedance Pro",
+    "Chat API",
+    "Coding API",
+    "Other API",
+    "OmniHuman",
+    "GPT API 家族",
+    "Claude API 家族",
+    "Gemini API 家族",
+    "GPT Image API 家族",
+    "API 更新",
+    "为全球开发者精心打造"
+  ],
+  "prompt": "Generate a complete set of e-commerce product introduction images for tomatoes. Include: hero product shot with dramatic lighting, nutritional information infographic, size comparison with common objects, cross-section detail showing freshness, lifestyle/recipe usage scenarios, packaging mockup, farm-to-table story imagery, and customer review highlight cards. Each image should follow e-commerce best practices with clean white or styled backgrounds, professional food photography quality, and compelling visual storytelling that drives purchase decisions.\n从简短聚焦的提示词开始，描述一个主体、一个清晰的风格参考和基础光照。我们标记为「入门」的提示词无需复杂的提示词工程即可获得好效果。\n指定相机类型（35mm、中画幅）、布光方式（侧光、黄金时段）、胶片模拟（富士 Pro 400H、柯达 Portra）以及皮肤纹理、面料等物理细节。避免模糊的形容词。\nGPT Image 2 在文字渲染、复杂布局、多元素构图和遵循详细结构指令方面表现出色，特别擅长海报、信息图、UI 原型和角色设定图。\nOpen the main model page for pricing, playground settings, and API details.\nRead the full access, capability, pricing, and workflow guide.\nBrowse the source prompt collection and reusable examples on GitHub.",
+  "gradient": "linear-gradient(135deg, #2563eb, #8b5cf6 52%, #ec4899)",
+  "accent": "#93c5fd",
+  "previewTitle": "Tomato E-Commerce ",
+  "sourceLabel": "evolink.ai",
+  "sourceUrl": "https://evolink.ai/zh/gpt-image-2-prompts"
+}
 ]

@@ -1,0 +1,1318 @@
+HappyHorse 1.0 正式上线
+立即体验
+EvoLink.AI
+模型
+OpenClaw
+Smart Router
+NEW
+文档
+资源
+中
+登录
+注册
+GPT Image 2 Prompts
+
+围绕海报、人像、UI mockup、角色设定和营销视觉整理的精选图像提示词。
+
+浏览带预览的提示词示例，选中后跳转到模型页面直接生成。
+
+我们会将这条提示词带入 GPT Image 2 产品页面。
+
+精选 PROMPT 示例
+
+持续更新的提示词画廊，来自我们的仓库和社区最新案例。
+
+全部
+Character Design
+UI Mockups
+Posters
+Portraits
+Marketing Visuals
+Product Photography
+Community Showcase
+IMAGE
+STATIC
+ADVANCED
+CHARACTER DESIGN
+冒险角色设计稿
+
+Create a detailed character design sheet for "Lira", a young female explorer-mechanic-inventor who travels across frozen lands in search of forgotten technology. Include front, side, and back turnaround views showing her full outfit: olive-green fur-lined parka with hood, golden knit scarf, brown utility belt with brass buckle, cargo pants, and insulated boots. Add a row of six facial expressions (default, happy, determined, surprised, angry, sad). Include an equipment breakdown section showing gloves, tool pouch, belt and buckle, and boots as separate items. Add a warm earth-tone color palette strip, three silhouette poses, and a small "World" thumbnail showing a snowy mountain village. Clean off-white background, thin layout guides, semi-realistic painterly illustration style with soft lighting and visible brushwork.
+
+展开提示词
+character sheet
+game art
+复制
+使用
+IMAGE
+STATIC
+ADVANCED
+UI MOCKUPS
+日文团队成员分析信息图
+
+Create a Japanese-language infographic titled "うちの部署のメンバー スペック分析" (Our Department Member Spec Analysis) with subtitle "個性豊かなプロ集団（たぶん）". Layout as a 2x3 grid of six member cards on a clean white background with pastel accents and star decorations. Each card features a cute chibi-style cartoon avatar and includes: member name and role in Japanese, a radar chart or bar chart showing their stats, bullet-point strengths and weaknesses in Japanese. Add a summary section at the bottom with overall team evaluation, a team compatibility graph placeholder, and a final takeaway note. Cheerful office illustration style, soft rounded UI elements, kawaii aesthetic, highly legible Japanese typography, no watermark.
+
+展开提示词
+infographic
+Japanese text
+复制
+使用
+IMAGE
+STATIC
+INTERMEDIATE
+POSTERS
+科幻电影预告海报
+
+Create a cinematic sci-fi movie teaser poster in 16:9 landscape format. A lone woman stands in silhouette at the center, viewed from behind, facing an enormous cubic chamber filled with thousands of glowing holographic screens and data panels stretching in every direction. The screens display fragments of landscapes, cities, galaxies, and abstract data. A bright golden-white light source emanates from the center of the chamber, casting volumetric rays and lens flare. The title "INVENTOR" is displayed in wide-spaced uppercase serif typography at the bottom center. Below it, the tagline "DISCOVERY IS JUST THE BEGINNING" in smaller caps, and "COMING SOON" at the very bottom. Dark moody atmosphere, deep blues and warm amber highlights, photorealistic lighting, epic sense of scale, no other characters visible.
+
+展开提示词
+movie poster
+sci-fi
+复制
+使用
+IMAGE
+STATIC
+EXPERT
+POSTERS
+中国奇幻史诗电影海报
+
+Create a horizontal Chinese blockbuster movie poster for a fantasy adventure film titled "天机启明" with subtitle "失落的文明". The poster features a dramatic ensemble cast composition: five to six realistic character headshots arranged in a layered pyramid formation, with the two leads (a rugged long-haired warrior and a stern older man with glasses) prominent in the center. Behind them, a glowing ancient tower emits golden circular energy rings against a dramatic sky. The left side shows burning ruins, the right side shows traditional Chinese architecture. The title "天机启明" is rendered in large stylized golden Chinese calligraphy at the bottom center, with the subtitle below. Include theatrical release information: "2025 大年初一", format badges (3D, CINITY, IMAX, Dolby Cinema, Dolby Atmos), director and producer credits in small Chinese text along the sides. Dark cinematic color grading with warm amber highlights and deep teal shadows, photorealistic face rendering, epic scale composition.
+
+展开提示词
+movie poster
+Chinese cinema
+复制
+使用
+IMAGE
+@BubbleBrain on X
+STATIC
+ADVANCED
+PORTRAITS
+Convenience Store Neon Portrait
+
+35mm film photography with harsh convenience store fluorescent lighting mixed with colorful neon signs from outside, authentic film grain, high contrast, cinematic street editorial style, intimate medium shot, late-night convenience store atmosphere, realistic reflections on glass, natural skin texture, oversized white shirt, black mini skirt, messy high ponytail, seductive but grounded urban portrait energy, no watermark, no text.
+
+展开提示词
+portrait
+editorial
+复制
+使用
+IMAGE
+@llllegend0620 on X
+STATIC
+INTERMEDIATE
+MARKETING VISUALS
+Browser Game Ad Creative Poster
+
+Create a 1:1 promotional poster that feels like it was designed by a professional ad designer. Make it suitable for books, courses, events, or browser-game promotion. Use strong visual hierarchy, polished typography, bold but modern composition, clear callout text blocks, and premium campaign-level finishing.
+
+展开提示词
+ad creative
+poster
+复制
+使用
+IMAGE
+@Toshi_nyaruo_AI on X
+STATIC
+INTERMEDIATE
+CHARACTER DESIGN
+Official Character Sheet
+
+Create a professional character sheet based on this character and background, similar to an official setting guide. Include front, side, and back views, expression variations, exploded outfit or equipment details, a color palette, and a short worldbuilding note. Keep the whole composition organized on a clean white background with a diagram-like layout and high-resolution concept art quality.
+
+展开提示词
+character sheet
+concept art
+复制
+使用
+IMAGE
+@WolfRiccardo on X
+STATIC
+INTERMEDIATE
+POSTERS
+Vintage Amalfi Travel Poster
+
+Modern pencil illustration of a vintage travel poster for the Amalfi Coast, Italy. Panoramic coastal cliff road scene, a classic 1960s white car driving along a curved seaside road, deep blue Mediterranean sea with small sailboats, pastel hillside village, bright blue sky, and lemon tree branches framing the foreground. Warm summer sunlight, bold vibrant colors, retro 1950s travel poster style, screen print texture, hand-drawn contours, and a decorative editorial finish.
+
+展开提示词
+travel poster
+retro illustration
+复制
+使用
+IMAGE
+@liyue_ai on X
+STATIC
+ADVANCED
+POSTERS
+金色广州城市女神海报
+
+Create a vertical fantasy city poster for Guangzhou, China. At the bottom of the composition, a beautiful ethereal woman with flowing white-golden hair holds a bouquet of colorful flowers, eyes closed peacefully. Her long hair transforms into swirling golden energy ribbons that rise upward, carrying glowing particles and sparkles. The golden streams merge into the illuminated Guangzhou skyline at the top, featuring the Canton Tower and modern skyscrapers glowing warmly against a deep black-red night sky. Add the text "广州·中国" and "2026/04/20" in elegant white typography at the upper right, with "LIYUE" as a small credit below. Rich warm golden palette with deep crimson and black contrast, magical realism style, cinematic lighting, vertical 9:16 ratio.
+
+展开提示词
+city poster
+fantasy illustration
+复制
+使用
+IMAGE
+@Thereallo1026 on X
+STATIC
+BEGINNER
+CHARACTER DESIGN
+Anime Snapshot Conversion
+
+Show me the attached image as a snapshot from an actual anime. Keep the scene readable and cinematic, with authentic anime lighting, stylized line treatment, clean color blocking, and the feeling of a real frame from a polished TV or film production.
+
+展开提示词
+anime
+character
+复制
+使用
+IMAGE
+@old_pgmrs_will on X
+STATIC
+ADVANCED
+CHARACTER DESIGN
+Mecha Girl Sea-City Key Visual
+
+Create a moody key visual of a mecha girl standing on the rusted edge of a tilted steel platform over dark water. She has pale skin, ash-white hair in a high ponytail, matte gunmetal exoskeleton armor, glowing cyan coolant lines, and a massive rail cannon on her shoulder. Behind her, a vast derelict sea-city rises from the ocean in colossal silhouettes, with fog, dead cables, rusted towers, and bruised dusk light. Use cinematic concept-art lighting and a medium-wide shot.
+
+展开提示词
+mecha
+key visual
+复制
+使用
+IMAGE
+@BubbleBrain on X
+STATIC
+INTERMEDIATE
+POSTERS
+Boston Spring 2026 City Poster
+
+Create a striking Spring 2026 city poster for Boston with an elegant celebratory mood and a bold contemporary design. On a clean off-white textured background with generous negative space, place a miniature single sculler in the lower-right corner rowing across a narrow ribbon of reflective water. Let the wake curve upward and gradually transform into the Charles River, then into a dreamlike hand-painted panorama of Boston featuring the Back Bay skyline, Beacon Hill brownstones, Acorn Street, Boston Public Garden, Swan Boats, the Zakim Bridge, harbor ferries, and historic brick architecture. Add soft morning fog, golden spring light, subtle crimson and gold festive accents, layered depth, and premium editorial typography that reads "SPRING 2026" with a vertical slogan about river, memory, and invention. Vertical poster ratio, polished graphic-design finish.
+
+展开提示词
+city poster
+editorial layout
+复制
+使用
+IMAGE
+@iam_miharbi on X
+STATIC
+BEGINNER
+PORTRAITS
+Cinematic Minimal Portrait
+
+Generate a cinematic minimal portrait of a solitary man standing in an intense orange-to-red gradient environment with strong silhouette lighting, deep shadow contrast, a reflective glossy floor, and a symmetrical composition. Keep the scene stripped down and controlled, with one dominant subject, clean edges, minimal visual noise, and a fashion-editorial sense of drama. The result should feel premium, graphic, and modern rather than busy or over-rendered.
+
+展开提示词
+portrait
+minimal lighting
+复制
+使用
+IMAGE
+@iamrednightS on X
+STATIC
+INTERMEDIATE
+CHARACTER DESIGN
+Persona-Style Character Reference Card
+
+Based on the character and background reference, create a polished official-style character reference card. Include front, side, and back views, a few expression variations, callouts for clothing and equipment details, a compact color palette, and a short worldbuilding note. Use an organized white-background layout with illustration-style panels, high-resolution concept-art quality, and a presentation that feels like a professional game or animation design document.
+
+展开提示词
+character sheet
+reference card
+复制
+使用
+IMAGE
+@BubbleBrain on X
+STATIC
+ADVANCED
+PORTRAITS
+韩系偶像私房卧室写真
+
+9:16 vertical candid portrait of a young Korean woman glancing back over her shoulder in a dimly lit bedroom. She wears a loose off-shoulder cream knit sweater with a thin strap camisole underneath. Hair pulled up in a messy bun with loose strands framing her face. Warm amber ambient lighting from a single bedside lamp, slightly cluttered room background with a wall clock, vanity shelf, and scattered items creating a lived-in feel. Soft focus on the background, sharp focus on the face and shoulder. Natural skin texture with subtle warm glow, slightly parted lips, gentle eye contact with the camera. Vintage film grain, muted warm tones, lowered contrast, slight vignette. Intimate candid photography mood, Korean idol photobook aesthetic, no watermark, no text.
+
+展开提示词
+portrait
+korean idol
+复制
+使用
+IMAGE
+@BubbleBrain on X
+STATIC
+INTERMEDIATE
+PORTRAITS
+Fujifilm Strawberry School Portrait
+
+9:16 vertical 鈥?Japanese Fuji film style portrait, single subject. Fujifilm analog aesthetic (Pro 400H / Superia feel), soft pastel tones, slight green-magenta shift, low contrast, gentle highlight roll-off, fine film grain, subtle halation, slight vignette. Bright natural daylight, diffused sunlight through window, soft shadows, airy atmosphere. Young female idol, natural minimal makeup, fresh glowing skin, realistic texture. Outfit: Japanese school uniform (sailor-style or blazer), neatly styled, youthful and clean. Hair: natural dark hair, straight or softly flowing, a few loose strands. Pose: front-facing, relaxed posture, one hand gently holding a strawberry near lips, mid-action as if about to take a bite. Expression: soft playful gaze, light smile, gentle eye contact with camera. Setting: minimal indoor near window, clean background, everyday atmosphere. Mood: fresh, youthful, sweet everyday moment, understated charm.
+
+展开提示词
+portrait
+film simulation
+复制
+使用
+IMAGE
+@Naiknelofar788 on X
+STATIC
+ADVANCED
+POSTERS
+Vintage Newspaper Front Page Design
+
+Create the most realistic front page design of a vintage newspaper. The layout should be made in the style of a real printed newspaper with a cinematic black-and-white aesthetic. The main photo should be prominently placed in the center, framed like an editorial article header. Create a bold, attention-grabbing headline at the top with a smaller subtitle underneath. Add realistic newspaper elements: columns of small text, a fictitious publication name at the top, date, issue number and location, decorative lines, dividers, and vintage typography, small additional articles or captions. Style: black and white or slightly faded monochrome paper, fine paper texture, grain, and ink defects, small shadows and creases that mimic real printed paper. The aesthetics of a clean but slightly worn vintage newspaper. Aspect ratio: 4:5, high-detail, ultra-realistic hybrid of editorial photography and print design.
+
+展开提示词
+newspaper
+vintage
+复制
+使用
+IMAGE
+@ZaraIrahh on X
+STATIC
+INTERMEDIATE
+PRODUCT PHOTOGRAPHY
+Strawberry Soft Serve Product Photography
+
+Ultra-realistic product photography of a rich strawberry soft-serve ice cream in a crispy waffle cone, styled with a clean, modern premium aesthetic. The soft serve is vibrant natural pink, thick and creamy, sculpted into a smooth swirl with a softly curled peak. The cone has a rustic, crunchy texture with slightly uneven edges for an artisanal feel. The background is soft beige with natural sunlight casting subtle leaf shadows, creating a calm, organic atmosphere. Include softly blurred greenery in the foreground for depth. The composition is minimal, balanced, and uses negative space effectively, similar to high-end American food brand ads. Include modern English typography in a clean, elegant layout. Lighting: soft natural daylight, warm highlights, shallow depth of field, high-end commercial food photography style. Mood: fresh, premium, modern, and inviting.
+
+展开提示词
+product photography
+food
+复制
+使用
+IMAGE
+@Panda20230902 on X
+STATIC
+ADVANCED
+POSTERS
+Chengdu Food Map Illustration
+
+A hand-drawn style city food map themed around Chengdu. The base is a bird's-eye-view hand-drawn simplified city map with major roads and landmarks indicated 鈥?not aiming for precise proportions but rather a charming, hand-drawn feel. Scattered across the map are 12 exquisite hand-drawn mini illustrations of food spots: skewered hot pot (chuanchuan) on Chunxi Road, Sandapao rice balls in Kuanzhai Alley, egg puff cakes (dan hong gao) on Jianshe Road, hot pot on Yulin Road, and more. Each illustration occupies roughly 5% of the map area, with a handwritten-style label next to it showing the shop name and a one-line recommendation. The map edges are framed with hand-drawn vine and chili pepper decorations. A hand-drawn compass and legend sit in the bottom-right corner. The top-left title reads "Chengdu Foodie Walking Map" in plump, rounded hand-lettered art typography adorned with chili peppers. The overall art style is a watercolor-plus-colored-pencil mixed hand-drawn texture, dominated by warm tones, with a 1:1 aspect ratio.
+
+展开提示词
+food map
+illustration
+复制
+使用
+IMAGE
+@liyue_ai on X
+STATIC
+ADVANCED
+POSTERS
+Guangzhou Paper-Cut City Poster
+
+Paper-cut art inspired by the modern urban landscape of Zhujiang New Town, using intricate cutout techniques on a single sheet to create a three-dimensional depiction of landmark buildings such as Canton Tower and the East-West Twin Towers, along with the bustling cityscape. All buildings and elements are connected by flowing lines and structures with no isolated parts, forming a complete urban tableau. The piece uses metallic foil or glossy paper material with delicate light-and-shadow luster on the surface, presenting soft highlights and shadows under illumination as if gently lit by city lights. The background features a blurred skyline backdrop, accented with faintly visible plazas and tree silhouettes. The work artfully incorporates weightless dandelion wisps or starlight-like dynamic light particles, symbolizing dreams and vitality. The overall visual is rendered in 8K ultra-high definition with rich detail, realistic yet deeply artistically expressive.
+
+展开提示词
+paper-cut art
+city poster
+复制
+使用
+IMAGE
+@xpg0970 on X
+STATIC
+EXPERT
+POSTERS
+Extreme Perspective Typography Bridge
+
+A cross-sea bridge photographed from a dramatic cinematic side angle. Giant bold sans-serif text painted directly onto the bridge surface, starting large near the camera and progressively foreshortening toward the vanishing point. The letterforms conform to the surface curvature, appearing surface-integrated rather than floating. Oversized bright yellow text with sharp orange outline, extreme perspective distortion aligned to the vanishing point. Cinematic lighting, subtle motion blur, poster-grade dynamic integrated typography, modern advertising aesthetics. The text reads the bridge name in large characters.
+
+展开提示词
+typography
+perspective
+复制
+使用
+IMAGE
+@hmontilla_ on X
+STATIC
+BEGINNER
+POSTERS
+Dreamy Watercolor Editorial Illustration
+
+Dreamy watercolor illustration with impressionist aesthetic, loose brushstrokes and translucent washes in soft pastel tones. Soft blending over cold-pressed paper texture, delicate lighting, clean composition, minimalist focus, a sense of calm, lightness, and ephemeral beauty. High quality, editorial style. The subject should feel poetic and understated.
+
+展开提示词
+watercolor
+illustration
+复制
+使用
+IMAGE
+@MrLarus on X
+STATIC
+INTERMEDIATE
+POSTERS
+Character Relationship Map Poster
+
+Generate a high-design character relationship map poster based on the given theme. Include portraits of the main characters, name labels, relationship connection lines between characters, and relationship descriptions. The overall layout should be clear and layered, with a harmonious color palette and refined typography 鈥?information-dense yet never feeling crowded. The style combines modern infographic design with cinematic movie poster aesthetics.
+
+展开提示词
+relationship map
+infographic
+复制
+使用
+IMAGE
+@09lyco on X
+STATIC
+ADVANCED
+CHARACTER DESIGN
+Gal Game Character Introduction Page
+
+Create a high-quality character introduction page in the style of a Japanese visual novel (gal game). Include the full standing illustration, a chibi character variant, facial expression variations, and a CG illustration preview. Add a character profile section with name, image color, height, weight, and a signature quote. The layout should look like a real game website character page 鈥?polished enough to use as-is. Clean white background, organized grid layout, anime illustration style.
+
+展开提示词
+gal game
+character page
+复制
+使用
+IMAGE
+@songguoxiansen on X
+STATIC
+INTERMEDIATE
+CHARACTER DESIGN
+Saint Seiya Gold Saints Card Grid
+
+Generate a 12-cell card grid image of the 12 Gold Saints from Saint Seiya, with each card displaying the corresponding character name. Arrange 4 cards per row, 16:9 aspect ratio. Each card has its own individual border, and the character wears an ornate Gold Cloth armor. The background of each card features the starry constellation pattern matching that Saint's zodiac sign. The overall style is that of a high-quality collectible game card set.
+
+展开提示词
+card grid
+anime
+复制
+使用
+IMAGE
+@liyue_ai on X
+STATIC
+EXPERT
+POSTERS
+New Chinese Minimalist Floral Illustration
+
+New Chinese minimalist Eastern aesthetics meets high-end commercial illustration. Theme: "a world within a single flower." Minimalist, restrained, ethereal, premium commercial visual, surreal Eastern imagery, clean and translucent composition. A giant lotus flower serves as a spatial container, growing naturally from a calm water surface, slightly tilted, with elegant composition and generous negative space. Low-saturation clean pink, soft rouge tones, semi-transparent petals, light and airy. The interior of the lotus is the sole visual focal point: a glowing 3D miniature city with ultra-fine structures and realistic materials 鈥?warm gold highlights on the city, cool cyan-blue shadows, creating a warm-cool contrast. The water surface is crystal clear, minimalist, and calm with only a few soft ripples. The background has a warm cream-white xuan paper texture with large areas of negative space. At the bottom of the scene, a minimalist small boat carries a fisherwoman in a red dress, rendered at an extremely small scale, standing still and gazing up at the lotus 鈥?the red being the only high-saturation color accent. High-end CG commercial illustration, cinematic realistic lighting, 8K detail.
+
+展开提示词
+chinese aesthetic
+illustration
+复制
+使用
+IMAGE
+@CoderDaMing on X
+STATIC
+ADVANCED
+PORTRAITS
+Vertical Wuxia Heroine Portrait
+
+9:16 vertical, ultimate wuxia style, a stunning young Eastern swordswoman, cold and sharp phoenix eyes, porcelain skin, long straight black hair wet and windswept. Wearing a soaked dark black martial arts outfit with a wide-sleeved dark robe, blown dramatically by the wind. A soft sword belt at the waist, long boots, right hand holding an ancient sword emitting a faint blue sword qi glow. Dynamic pose: body slightly turned, looking back over shoulder, robes billowing. Background: moonlit rain-mist-covered bamboo forest path, giant full moon, stone path, ancient lanterns, thin mist and rain. Dramatic cold moonlight combined with blue sword qi, wet-surface water reflections, ultra-dynamic feel with detailed fabric folds, hair strand movement, and realistic water droplet reflections. Cinematic lighting, 8K, masterpiece, ultra realistic, dramatic atmosphere.
+
+展开提示词
+wuxia
+cinematic
+复制
+使用
+IMAGE
+@GeekCatX on X
+STATIC
+EXPERT
+POSTERS
+Naturalist Food Specimen Cross-Section
+
+A food specimen dissected and displayed like a museum naturalist discovery. One half preserves the outer surface with its natural texture and color; the other half is cut to the core, revealing the internal structure in sharp detail. The background is pure black velvet. The food floats in the frame like something precious and dangerous. Annotated labels hug the structural edges in handwritten serif typography, never floating. Each annotation has three lines: structure name, composition data, and a plain-language explanation. Main title in warm ivory uppercase at the top-left. Overall aesthetic: Audubon naturalist illustration meets Caravaggio lighting meets the most beautiful scientific photography ever made. 4K precision, specimen lighting, extreme internal detail. Realistic style, not diagram, not cartoon. Every material has true physical texture: rough, smooth, wet, dry, dense, porous.
+
+展开提示词
+naturalist
+food photography
+复制
+使用
+IMAGE
+@liyue_ai on X
+STATIC
+ADVANCED
+PORTRAITS
+Eastern Fantasy Female Half-Portrait
+
+Eastern fantasy style female, half-body portrait, looking back over the shoulder in a side profile, with an ethereal and elegant temperament, soft divine beauty, delicate facial features, slightly downcast gaze, cool-white refined skin, subtle orange-pink makeup, and golden highlight accents. Long hair flowing in the wind, with colorful flowers and light particles woven into the hair strands, giving the hair a sense of movement and airiness. Wearing a semi-transparent silk gown and shawl, the fabric light and translucent, billowing in the breeze, with gilt textures and shimmering particles on the surface. The overall lighting is warm golden backlight with strong rim lighting, prominent volumetric light, floating light particles, soft glow and bloom, creating a dreamlike atmosphere. The background is a clean light-colored gradient with subtle glow and particle effects. The overall mood is ethereal, dreamlike, and sacred. Style: high-end CG illustration, ultra-fine detail, cinematic lighting, soft-light rendering, 8K detail.
+
+展开提示词
+fantasy
+eastern aesthetic
+复制
+使用
+IMAGE
+@songguoxiansen on X
+STATIC
+INTERMEDIATE
+UI MOCKUPS
+Social App Match Success Screen
+
+A social dating app match success screen mockup. Two user profile cards colliding in the center with a glowing heart effect between them. The headline reads "It's a Match!" with a subtitle below. Each card shows a profile photo, name, age, location, and job title. Below the cards, two action buttons: a primary pink "Chat" button and a secondary "Continue" button. Dark purple gradient background with floating pink heart particles and sparkle effects. Clean, modern mobile UI design, 9:16 vertical aspect ratio, realistic app screenshot aesthetic, polished shadows, and glass-morphism card edges.
+
+展开提示词
+social app
+UI mockup
+复制
+使用
+IMAGE
+@BubbleBrain on X
+STATIC
+EXPERT
+PORTRAITS
+35mm Flash Editorial Portrait
+
+35mm color film photography with harsh direct on-camera flash, specular highlights on skin and clothing, strong catchlights in eyes, high contrast flash illumination, authentic film grain and color shift, high fashion fresh innocent basketball court editorial style, intimate first-person low-angle POV shot from below, early 20s East Asian female with delicate refined features, seductive almond-shaped eyes with natural double eyelids, flawless realistic porcelain skin with cool ivory undertone and visible flash specular highlights, fine skin texture with subtle pores and natural dewy glow under flash, fresh natural sporty makeup, subtle natural flush on cheeks, natural pink lips slightly parted, long dark brown hair tied in a high playful ponytail with loose strands framing the face, wearing a loose white tank top and white high-waisted basketball shorts, white knee-high sports socks, leaning pose against basketball hoop pole on outdoor court at dusk, harsh direct on-camera flash creating sharp specular highlights and strong catchlights, blurred basketball court and hoop under dusk sky, authentic 35mm direct flash film color grading, no watermark, no text.
+
+展开提示词
+portrait
+35mm film
+复制
+使用
+IMAGE
+@BubbleBrain on X
+STATIC
+INTERMEDIATE
+PORTRAITS
+Soft Airy 35mm Portrait
+
+Analog 35mm film photography, soft airy Japanese-style aesthetic, gentle diffused natural window light, slight overexposure, pastel tones, low contrast, soft highlights, minimal indoor setting near a window with white curtains, clean light-colored wall, natural composition, eye-level, slightly closer full-body framing (mid-thigh to head), young East Asian woman, natural minimal makeup, soft realistic skin texture, long slightly messy dark hair, oversized white button-up shirt, light casual shorts, barefoot, simple and relaxed styling, standing naturally with relaxed posture, arms loosely at sides, facing camera, gentle soft smile, subtle stillness, focus on light, air, and quiet everyday mood, soft film grain, dreamy and understated atmosphere.
+
+展开提示词
+portrait
+35mm film
+复制
+使用
+IMAGE
+@patrickassale on X
+STATIC
+INTERMEDIATE
+PORTRAITS
+Luxury Glam Beauty Portrait
+
+Luxury Glam Beauty Portrait: Beautiful Black woman, youthful spirit, creamy vanilla, silk press, mahogany red, subtle confidence, textured fabric, sapphire blue, minimal jewelry, beachside breeze, lens flare effect, nostalgic, cinematic lens, symmetrical composition, soft focus, high fashion photography, monochromatic, dewy finish, mysterious tension, layered elements.
+
+展开提示词
+portrait
+beauty
+复制
+使用
+IMAGE
+@Zoulinshen on X
+STATIC
+ADVANCED
+PORTRAITS
+Cosplayer Galgame Screenshot
+
+Generate a vertical phone screenshot-style image, approximately 9:16 ratio. In the center-top area is a realistic cosplayer portraying an anime character. The person is rendered in realistic style but with slightly anime-influenced features 鈥?refined skin, slightly larger eyes, gentle expression looking at the camera, sitting in a casual indoor setting such as a cafe or bar counter, with scene-appropriate props in the background. At the top of the image, add a phone system status bar UI including time, battery, signal, and network icons so the entire image looks like a real phone screenshot. At the bottom, overlay a large semi-transparent galgame-style dialogue box with a small anime or chibi avatar on the left side matching the character; on the right side of the box, display the character name in larger font on the first line, followed by one or two lines of warm, healing dialogue text. Below the dialogue box, add an action bar mimicking a galgame UI. Overall style is high-definition, detail-rich, soft lighting, with a natural blend of anime and live-action photography aesthetics.
+
+展开提示词
+cosplay
+galgame
+复制
+使用
+IMAGE
+@Tz_2022 on X
+STATIC
+ADVANCED
+PORTRAITS
+Urban Turn-Back Street Portrait
+
+Medium close-up shot, eye-level camera angle, focusing on a young woman in a seven-eighths body frame. She is seated with a slight lean, her upper body twisted to the right rear while her head turns toward the camera, forming a classic over-the-shoulder glance. Her gaze is direct, clear, and slightly playful. She has fluffy brown shoulder-length hair with natural bangs, light natural makeup with subtle eyeliner, and nude-pink lips. Natural daylight filter with golden light coming from the upper left, creating soft backlighting contours on her face and body, with warm highlights on the right side and natural shadow transitions on the left for enhanced dimensionality. Bright natural light with slight lens flare creating an afternoon sunlight atmosphere. Eye-level shooting angle, the subject positioned slightly right of center, with zebra crossing and road lines forming natural leading lines toward the subject. Background is a city street with roads, crosswalks, greenery, and distant vehicles, moderately blurred but recognizable. She wears a military green camouflage hoodie, black shorts, white high-top sneakers with white mid-calf socks, and a black canvas backpack with orange decorative stripes. Overall style is street casual, youthful, energetic urban aesthetic.
+
+展开提示词
+portrait
+street photography
+复制
+使用
+IMAGE
+@Malek1173989 on X
+STATIC
+BEGINNER
+PORTRAITS
+Sam Altman Skatepark Snapshot
+
+Sam Altman on a skateboard at a skatepark with no people.
+
+展开提示词
+portrait
+celebrity
+复制
+使用
+IMAGE
+@BubbleBrain on X
+STATIC
+INTERMEDIATE
+PORTRAITS
+Soft Black Mist Editorial Portrait
+
+9:16 vertical 鈥?editorial portrait, single subject. Soft black mist filter, subtle haze, gentle highlight bloom, muted tones. Minimal indoor space, clean background, slight texture. Young Korean woman, minimal makeup, natural skin texture. Outfit: fitted ribbed knit top or soft camisole layered under a loose shirt, paired with high-waisted shorts or skirt; fabric slightly clings to body shape, soft and natural. Hair: slightly messy, natural volume. Pose: sitting on floor with one leg bent and the other relaxed, body slightly leaning, shoulders not aligned, head tilted. Composition: subject slightly off-center, negative space present. Expression: calm, slightly distant, natural lips. Lighting: soft side light, gentle shadow falloff. Mood: understated, quiet, subtly sensual through natural body lines, relaxed and unposed. Quality: fine grain, slight softness, realistic look.
+
+展开提示词
+portrait
+editorial
+复制
+使用
+IMAGE
+@BubbleBrain on X
+STATIC
+INTERMEDIATE
+PORTRAITS
+Soft Black Mist Idol Portrait
+
+9:16 vertical 鈥?Korean idol portrait photography, single subject. Soft black mist filter effect, lowered contrast, gentle highlight bloom, subtle glow, soft diffusion, slightly faded blacks. Minimal indoor setting near window, white curtains, clean light-toned background. Young Korean female idol, natural minimal makeup, dewy realistic skin texture, subtle imperfections. Outfit: oversized white button-up shirt with short bottoms, slightly loose fit, soft and casual styling. Hair: long dark hair, slightly messy, natural volume, softly flowing. Pose: relaxed standing or slight lean, body subtly angled, one leg slightly forward, shoulders relaxed; one hand lightly touching collar, the other relaxed; gentle body curve without exaggeration. Expression: soft cute smile, slightly playful eyes, direct or slightly off-camera gaze. Camera: close to mid-body framing, eye-level, intimate distance, slight handheld feel. Lighting: diffused natural daylight, soft shadows, gentle light wrapping around face and body. Mood: cute yet subtly sensual, intimate, everyday softness, quiet romantic atmosphere. Quality: ultra-realistic, fine film grain, slight softness at edges, natural imperfections, dreamy understated tone.
+
+展开提示词
+portrait
+idol
+复制
+使用
+IMAGE
+@BubbleBrain on X
+STATIC
+ADVANCED
+PORTRAITS
+Fujifilm Couple Portrait
+
+9:16 vertical 鈥?Japanese Fuji film style couple portrait, two subjects. Fujifilm analog aesthetic (Pro 400H / Superia feel), soft pastel tones, slight green-magenta shift, low contrast, gentle highlight roll-off, fine film grain, subtle halation. Bright natural daylight, diffused sunlight through window, soft shadows, airy atmosphere. Young Japanese couple, natural minimal makeup, realistic skin texture, slight imperfections. Female outfit: oversized button-up shirt with loose shorts, relaxed fit. Male outfit: simple t-shirt or light shirt, clean and understated. Hair: natural, slightly tousled for both. Pose: close intimate distance 鈥?sitting or standing close together; the girl gently leaning toward him, one hand resting on his shoulder or chest; the boy leaning in, faces close, almost touching, capturing the moment just before a kiss. Expression: soft smiles or gentle gaze toward each other, relaxed and natural, emotional connection visible. Camera: close framing (waist-up), eye-level, intimate distance, slight handheld feel. Setting: minimal indoor near window, light curtains, clean soft background. Lighting: diffused daylight, gentle highlight bloom, soft shadow transitions. Mood: warm, romantic, intimate everyday moment, natural affection. Quality: ultra-realistic, analog film look, fine grain, slight softness, natural imperfections.
+
+展开提示词
+portrait
+couple
+复制
+使用
+IMAGE
+@80vul on X
+STATIC
+BEGINNER
+PORTRAITS
+AI Self-Perception Portrait
+
+Based on your understanding of me, generate an image of "the me you know."
+
+展开提示词
+portrait
+AI art
+复制
+使用
+IMAGE
+@pavellaslov on X
+STATIC
+ADVANCED
+PORTRAITS
+JSON Color Grading UGC Model
+
+Analyze this photo and give me a detailed JSON prompt that recreates it. Break down the color grading and every exact color in the photo. Then use that JSON as a reference to generate a person holding the product. Save the generated photo as a character reference and attach it to every future generation for facial consistency. The JSON controls the lighting and color grading while the model handles the character.
+
+展开提示词
+portrait
+product photography
+复制
+使用
+IMAGE
+@ZaraIrahh on X
+STATIC
+INTERMEDIATE
+PORTRAITS
+Green Tea Film Kit Product Shot
+
+CALMING GREEN TEA Film Kit displayed frontally, the open box shows soft sage-green film pouches and translucent ampoules with matte silver caps, product placed centrally with clear branding CALMING GREEN TEA 鈥?7 Days to Soothed Skin, pastel green background with botanical graphic accents, three minimal icons (leaf, wave, balance) floating around the product to emphasize benefits, photographic, hyper detailed, ultra realistic, lifelike, 8k, high detail, soft professional lighting.
+
+展开提示词
+product photography
+skincare
+复制
+使用
+IMAGE
+@ZaraIrahh on X
+STATIC
+INTERMEDIATE
+PORTRAITS
+SaaS Dashboard Laptop Mockup
+
+A hyper-realistic UI/UX mockup displayed on a slim modern laptop placed on a minimal wooden desk with soft natural daylight. The screen shows a clean SaaS dashboard with elegant typography, glassmorphism cards, smooth gradients, subtle drop shadows, and neatly spaced components. Visible charts, analytics panels, sidebar navigation, and micro-interactions. Realistic macOS-style window frame, soft reflections on the screen, shallow depth of field, cozy workspace atmosphere, shot in photorealistic product photography style, ultra-detailed.
+
+展开提示词
+UI mockup
+product photography
+复制
+使用
+IMAGE
+@harboriis on X
+STATIC
+EXPERT
+PORTRAITS
+Cinematic DSLR Mustang Portrait
+
+Ultra-realistic cinematic DSLR photograph of a young man with a slim build, standing confidently in front of a blue 2017 Ford Mustang GT Convertible with a bold red soft top roof, captured from a high-angle aerial perspective like a luxury driveway photoshoot. Natural skin texture, realistic pores, modern textured side-swept quiff hairstyle with heavy natural volume on top, deep side flow, matte finish. The subject stands centered near the front bumper, hands inside hoodie pockets, relaxed shoulders, slight head tilt upward toward camera, confident calm expression, wearing oversized premium black hoodie with realistic cotton texture, loose dark washed black denim jeans, clean white sneakers, black slim rectangular sunglasses. Car must be a detailed 2017 Ford Mustang GT Convertible, metallic electric blue paint, glossy reflections on hood, visible Mustang grille emblem, aggressive headlights, red convertible fabric roof. Scene set in an upscale villa driveway with light beige hexagonal stone pavement, fresh green grass, tropical palm leaves. Soft natural daylight, diffused afternoon lighting, realistic shadows, cinematic premium color grading, shot on 35mm lens, vertical composition, full body framing, hyper-realistic DSLR quality, luxury lifestyle mood.
+
+展开提示词
+portrait
+cinematic
+复制
+使用
+IMAGE
+@liyue_ai on X
+STATIC
+EXPERT
+POSTERS
+Ink-Curve Guangzhou Aesthetics Poster
+
+Pure deep black background, a bold and powerful ink calligraphy S-curve sweeping from one end of the canvas to the other, forming the visual backbone and narrative flow of the entire composition. Above the curve floats a translucent oriole bird with traditional architecture reflections and blue-green light streams inside its body. Along the curve, Guangzhou landmarks and classical buildings are arranged in staggered sequence, with white cranes and a lake in the foreground and layered mountain ranges in the distance. The overall piece uses non-linear perspective, cold tones as the dominant palette with warm accent touches, blending Eastern aesthetics with modern imagery, 8K ultra-HD rendering, 9:16 aspect ratio.
+
+展开提示词
+poster
+Chinese aesthetics
+复制
+使用
+IMAGE
+@liyue_ai on X
+STATIC
+ADVANCED
+POSTERS
+Guangdong Super League Invitation Poster
+
+Guangdong Province City Football Super League invitation poster design, 9:16 aspect ratio. S-curve flowing composition with a glowing football and dynamic energy streams running through the canvas, integrating Canton Tower, Shenzhen Ping An Financial Center, Zhuhai Fisher Girl sculpture, Lingnan architecture, Foshan martial arts silhouettes, Zhongshan cultural symbols, Chaoshan Yingge dance, and Qingyuan mountain scenery along the flow. Modern national-trend high-end poster style with Chinese red as the main visual, blue-teal as secondary, golden highlights, complete Chinese typography layout and cinematic lighting.
+
+展开提示词
+poster
+sports
+复制
+使用
+IMAGE
+@grok on X
+STATIC
+ADVANCED
+POSTERS
+Spring 2026 Guangzhou Promo Poster
+
+A festive yet elegant 2026 Guangzhou city promotional poster, 9:16 vertical, double exposure, S-curve flowing composition. Pure white textured background, in the lower-right corner a miniature figure in traditional Chinese dress waves a long red silk ribbon, the ribbon transforms into mountain ranges and rivers, overlaid with a panoramic view of Guangzhou featuring Canton Tower, Zhujiang New Town, Pearl River, cruise ships, ancient architecture, and Baiyun Mountain. Lower-left typography reads "SPRING 2026" with vertical slogan "Millennium Trading Capital, Charming Guangzhou."
+
+展开提示词
+poster
+city promotion
+复制
+使用
+IMAGE
+@Ghhhh3owi on X
+STATIC
+INTERMEDIATE
+POSTERS
+Epic Silhouette World Poster
+
+Collectible epic poster where a character side-profile silhouette contains a complete world and classic scenes growing from within. The overall style blends cinematic movie poster aesthetics with dreamy watercolor illustration, creating an atmosphere that is quiet, grand, sacred, and nostalgic, with paper grain texture, light fog effects, dry-brush strokes, and premium negative space.
+
+展开提示词
+poster
+silhouette
+复制
+使用
+IMAGE
+@alanlovelq on X
+STATIC
+ADVANCED
+POSTERS
+Spring Guangzhou City Poster
+
+A festive yet elegant 2026 city promotional poster with a New Year celebratory atmosphere. Double exposure with an S-curve flowing composition. On a pure white textured background in the lower-right corner, a miniature figure wearing traditional Chinese attire waves a long red silk ribbon that dances through the air, showing the smooth texture of silk. As it floats toward the upper-left, the ribbon magically transforms into a magnificent mountain and river landscape. Within this flowing river-shape, overlay a hand-painted panoramic illustration of Guangzhou in national-trend style. Guangzhou landmarks include Canton Tower, Zhujiang New Town skyline, Pearl River, ancient city architecture, cruise ships, and Baiyun Mountain. Clouds and mist surround the scene with rich colors, complex structure, and abundant detail, yet the large areas of white space keep the image fresh and refined. Lower-left typography reads "SPRING 2026" with a vertical promotional slogan. Beautiful, elegant typography with clear, complete lettering, 9:16 format.
+
+展开提示词
+poster
+city promotion
+复制
+使用
+IMAGE
+@liyue_ai on X
+STATIC
+EXPERT
+POSTERS
+Qiongqi Eastern Aesthetics Poster
+
+Minimalist new Chinese-style aesthetic with three-dimensional graphic design. At the bottom of the image, calligraphic text reads "Eastern Aesthetics" in regular script, with date "2026/04/18" and signature "CHINA." On flat pure-white matte art paper, an Eastern poetic mountain-and-water creative painting with irregular torn-paper effects. The Chinese mythical beast Qiongqi with a complete body pattern, exquisitely beautiful, with fluid graceful lines, piercing bright eyes, majestic demeanor, and elegant posture, featuring luxurious Art Deco ornamentation and traditional Chinese patterns. Fluorescent blue lines with ultra-fine 0.5mm golden metallic outline, splashed white ink bold brushstrokes, color washes on a red base with romantic blue visual poetry. A dreamlike scene woven from warm and cold light interplay, strong light-shadow contrast atmosphere, temporal narrative of gently dancing flowers, Eastern Zen aesthetics with large areas of white space, frame composition with bottom white space, clear details.
+
+展开提示词
+poster
+Chinese mythology
+复制
+使用
+IMAGE
+@pfanis on X
+STATIC
+BEGINNER
+POSTERS
+Science Encyclopedia Vertical Poster
+
+Generate a high-quality vertical science popularization encyclopedia image based on [Theme]. Include a clear beautiful main visual, several detail close-ups, multiple rounded modular information sections, clear title hierarchy with emphasis labels, concise but rich encyclopedia content, and visual scoring or Top 5 summary modules. Light clean background, soft colors, subtle shadows, refined small icons, rounded information boxes, neat layout. Information-dense but not crowded, like a real publishable, collectible science encyclopedia card, not an advertisement.
+
+展开提示词
+poster
+infographic
+复制
+使用
+IMAGE
+@overseas58 on X
+STATIC
+BEGINNER
+POSTERS
+Journey to the West Chinese Comic
+
+Illustrate "Havoc in Heaven" from Journey to the West in the style of traditional Chinese comic books (lianhuanhua / xiaorenshu). Use classic ink-line illustration technique with black outlines and traditional coloring, depicting the Monkey King battling celestial warriors in dynamic action poses. Maintain the authentic vintage Chinese comic book aesthetic with sequential storytelling panels.
+
+展开提示词
+illustration
+Chinese comic
+复制
+使用
+IMAGE
+@loglogrog on X
+STATIC
+EXPERT
+CHARACTER DESIGN
+Chaos Notes Hidden Face Character Art
+
+An artwork where a character face emerges from chaotic handwritten notes, formulas, symbols, and random lines. Style: masses of handwritten ink notes, equations, symbols, and random lines covering white paper, scrawled in a chaotic freehand manner. Some areas highlighted with red ink (lines, filled blocks, marker-style patches). Analog notebook doodle texture. Composition: random notes and symbols cover the entire surface. The density of black ink lines and text concentrates at the position of the character's face. As a result, the character's face silhouette and expression emerge subtly from the chaos. The face is not drawn realistically but formed by the gathering of chaotic fragments. Colors: monochrome (black and white) as the primary palette with red ink scattered sporadically as accent. Low saturation, emphasizing analog paper-and-ink feel. Readable-but-not-quite text strings mixing Japanese and alphanumeric characters. Mathematical symbols, arrows, dots, slashes, crosses, drips (ink splatters). The character's eyes and hair contours emerge through the arrangement of white space and density variations in the notes. No realistic portrait drawing, no digital geometric patterns, no colorful saturated colors, no logos or watermarks.
+
+展开提示词
+character art
+abstract
+复制
+使用
+IMAGE
+@saskr_13 on X
+STATIC
+INTERMEDIATE
+COMMUNITY SHOWCASE
+Four-Panel Comic A/B Test
+
+Draw a 4-panel comic strip depicting how I have treated you. First, produce an 800-character plot as text, then when I say "draw it," create a 4-panel comic following that plot. The comic should be humorous, self-aware, and visually expressive, showing the evolution of a user-AI relationship across four sequential panels with clear visual storytelling and comedic timing.
+
+展开提示词
+comic
+4-panel
+复制
+使用
+IMAGE
+@MrLarus on X
+STATIC
+EXPERT
+COMMUNITY SHOWCASE
+Silhouette Universe Narrative Poster
+
+Generate a high-aesthetic "Contour Universe / Collectible Narrative Poster" based on [Theme]. Do not limit the canvas to a fixed object or common container; do not default to bottles, hourglasses, glass domes, or pocket watches. Let the AI choose the most fitting, symbolic, and visually powerful main contour 鈥?it could be an object, building, gate, tower, archway, dome, stairwell, corridor, statue, side profile, eye, palm, skull, wing, mask, mirror, throne, ring, crack, light curtain, shadow, geometric structure, spatial cross-section, stage frame, or abstract symbol. The core concept is not simply putting a world inside an object, but letting a complete thematic universe naturally grow within, inside, upon, at the boundaries of, or fused with this symbolic contour. The contour must be clear, elegant, and recognizable, occupying the central compositional position. Inside the contour, auto-generate a complete narrative world strongly tied to the theme 鈥?rich, layered, with clear visual hierarchy. Style: collectible movie poster composition, premium narrative visual design, dreamy watercolor texture with print quality, paper grain, edge dry-brush marks, slight bleeding, atmospheric perspective, soft fog effects, volumetric light, large negative space. Quality: the result should look like a designer-completed premium collectible visual work, not a generic AI output.
+
+展开提示词
+poster
+silhouette
+复制
+使用
+IMAGE
+@MANISH1027512 on X
+STATIC
+ADVANCED
+COMMUNITY SHOWCASE
+Lion Camel Ridge Dark Myth Scene
+
+Chinese weird dark mysterious style blended with Chinese aesthetics, perfect detail, multiple pipeline rendering, perfect modeling. Journey to the West background, Lion Camel Ridge, thousands of demons and monsters, the Elephant King in heavy armor sitting on a giant throne on the left, the Lion King in heavy armor sitting on a giant throne in the center, the Garuda King in heavy armor sitting on a giant throne on the right. A tiny Sun Wukong facing away from the camera, carrying his golden staff walking forward. Sun Wukong wears armor. Low-angle ground-level shot, telephoto lens, strong shadows. Extreme detail rendering, multiple revisions, correct perspective and subject lines, exquisite details.
+
+展开提示词
+dark fantasy
+Chinese mythology
+复制
+使用
+IMAGE
+@yssrski on X
+STATIC
+BEGINNER
+COMMUNITY SHOWCASE
+Counter-Strike x Terraria Mashup
+
+Counter-Strike in-game screenshot, mixed with Terraria. Combine the first-person shooter perspective and tactical gameplay elements of Counter-Strike with the 2D pixel art, block-based world, and colorful aesthetic of Terraria. Create a hybrid visual that feels like both games merged into one scene.
+
+展开提示词
+gaming
+mashup
+复制
+使用
+IMAGE
+@RitaStar1128 on X
+STATIC
+INTERMEDIATE
+COMMUNITY SHOWCASE
+Pre-War Japan Lab Minecraft Screenshot
+
+Create a Minecraft in-game screenshot image of exploring a mysterious pre-war Japanese research laboratory. The scene should combine Minecraft's block-based aesthetic with eerie, atmospheric elements of an abandoned 1930s-1940s Japanese lab 鈥?dim lighting, strange equipment, research notes, and a sense of discovery and unease. Maintain authentic Minecraft visual style with block textures and characteristic lighting.
+
+展开提示词
+gaming
+Minecraft
+复制
+使用
+IMAGE
+@MrLarus on X
+STATIC
+BEGINNER
+COMMUNITY SHOWCASE
+Forged Masterpiece Prompt Test
+
+Help me generate a realistic reproduction of a famous classical painting masterpiece. Create an authentic-looking artwork that captures the original's composition, color palette, brushwork technique, aging effects, and period-appropriate materials. The result should look like a genuine historical artifact with natural patina, canvas texture, and period-correct framing.
+
+展开提示词
+art reproduction
+classical art
+复制
+使用
+IMAGE
+@joshesye on X
+STATIC
+ADVANCED
+COMMUNITY SHOWCASE
+Multi-Concept Battle Poster Set
+
+Generate a game battle poster featuring Mai Shiranui versus Diao Chan in an epic confrontation, with dramatic action poses, energy effects, and fighting game aesthetics. Combine Eastern and Western character design elements with high-impact visual composition, dynamic lighting, and tournament poster typography.
+
+展开提示词
+poster
+gaming
+复制
+使用
+IMAGE
+@FixlationAI on X
+STATIC
+BEGINNER
+COMMUNITY SHOWCASE
+Rust In-Game Screenshot
+
+An in-game screenshot of Rust. Capture the survival game's distinctive visual style with its harsh environment, makeshift structures, rugged terrain, and characteristic lighting. Include typical gameplay elements like base buildings, resource gathering areas, and the game's signature post-apocalyptic wilderness atmosphere.
+
+展开提示词
+gaming
+screenshot
+复制
+使用
+IMAGE
+@JustinGorya on X
+STATIC
+BEGINNER
+COMMUNITY SHOWCASE
+Sam Altman Bear Selfie
+
+Generate image: Selfie of Sam Altman riding a bear. The image should look like a casual selfie taken at arm's length, with Sam Altman in the foreground and a large bear beneath him, set in a natural outdoor environment. Maintain a humorous, lighthearted tone with realistic photographic quality.
+
+展开提示词
+humor
+celebrity
+复制
+使用
+IMAGE
+@ReYYYYoking on X
+STATIC
+BEGINNER
+COMMUNITY SHOWCASE
+Among Us Realistic Screenshot
+
+Generate a precise realistic in-game image of Among Us. Maintain the game's distinctive character design (bean-shaped astronauts, colored spacesuits, visors) but render everything with realistic textures, lighting, and materials. Include typical game elements like the spaceship interior, task stations, and the characteristic atmosphere of suspicion and teamwork.
+
+展开提示词
+gaming
+Among Us
+复制
+使用
+IMAGE
+@XiaohuiAI666 on X
+STATIC
+INTERMEDIATE
+COMMUNITY SHOWCASE
+Retro Programming Museum Cartoon
+
+In a computer museum, a programmer stands at the center of the exhibition hall demonstrating C language programming while many visitors watch. The screen displays clearly visible code. A sign next to them reads "Ancient Programming, Live Performance." 2D cartoon art style, 16:9 aspect ratio. The scene should be humorous and charming, with engaged spectators showing various reactions of amazement, confusion, and fascination.
+
+展开提示词
+cartoon
+programming
+复制
+使用
+IMAGE
+@workingclassbud on X
+STATIC
+ADVANCED
+COMMUNITY SHOWCASE
+14th-Dimension Projection Scene
+
+A dusk shindig with multiple fake imagination projections all aligned in the 14th dimensions. Create a surreal scene where overlapping translucent projections of impossible geometries and imaginary spaces converge at a twilight gathering, with beings or figures casually interacting across multiple dimensional planes simultaneously, bathed in the warm fading light of dusk.
+
+展开提示词
+surreal
+abstract
+复制
+使用
+IMAGE
+@16kthir0GRXgNqn on X
+STATIC
+BEGINNER
+COMMUNITY SHOWCASE
+Sam Altman Baseball Broadcast
+
+Sam Altman as a Major League Baseball player holding a bat in batting stance. Compose the image as a typical television broadcast screen layout with score graphics, network bug, and broadcast camera angle from the standard center-field camera position. Include realistic stadium atmosphere, broadcast overlay graphics, and the characteristic look of a live sports TV feed.
+
+展开提示词
+humor
+celebrity
+复制
+使用
+IMAGE
+@chatcutapp on X
+STATIC
+INTERMEDIATE
+COMMUNITY SHOWCASE
+YouTube Thumbnail Generator
+
+Based on the video content and this current frame, generate a YouTube thumbnail that fits the video. Reference the style of the provided image but customize the branding elements. Create a high-impact thumbnail with bold text, expressive facial expression or key visual, bright contrasting colors, and clear visual hierarchy optimized for small display sizes. The thumbnail should immediately communicate the video topic and compel clicks.
+
+展开提示词
+thumbnail
+YouTube
+复制
+使用
+IMAGE
+@Rufus87078959 on X
+STATIC
+BEGINNER
+COMMUNITY SHOWCASE
+Most Significant Event of 2020
+
+Generate an image of the most significant event of 2020. Create a powerful, editorial-quality visualization that captures the defining moment, mood, and global impact of the year's most important event. The image should be emotionally resonant, historically accurate in its references, and composed with journalistic gravitas.
+
+展开提示词
+historical
+conceptual
+复制
+使用
+IMAGE
+@songguoxiansen on X
+STATIC
+ADVANCED
+COMMUNITY SHOWCASE
+Autobots Lunar Base Assembly
+
+All Autobots assembled at a lunar base, Earth suspended in the starry sky behind them, Cybertronian flag flying proudly. Create an epic wide-angle composition showing the full roster of Autobot characters in heroic poses on the lunar surface, with detailed mech designs, dramatic lighting from Earth's glow, and a sense of unity and determination. Include recognizable characters like Optimus Prime at the center, with the lunar landscape and space environment rendered in cinematic detail.
+
+展开提示词
+sci-fi
+Transformers
+复制
+使用
+IMAGE
+@Rufus87078959 on X
+STATIC
+BEGINNER
+COMMUNITY SHOWCASE
+Most Significant Event of 2001
+
+Generate an image of the most significant event of 2001. Create a powerful editorial visualization that captures the defining moment of that year with journalistic composition, dramatic atmosphere, and emotional weight that reflects the global impact.
+
+展开提示词
+historical
+conceptual
+复制
+使用
+IMAGE
+@Rufus87078959 on X
+STATIC
+BEGINNER
+COMMUNITY SHOWCASE
+Most Significant Event of 2025
+
+Generate an image of the most significant event of 2025. Create a compelling editorial visualization that captures the defining moment and its global significance with journalistic composition, dramatic lighting, and emotional resonance.
+
+展开提示词
+historical
+conceptual
+复制
+使用
+IMAGE
+@andis13 on X
+STATIC
+INTERMEDIATE
+COMMUNITY SHOWCASE
+Personal Profile Infographic
+
+Use everything you know about me and create an infographic representing me. Do it in Franco-Belgian comic book style. Include character illustration, key personality traits, skills, interests, and fun facts arranged in an engaging infographic layout with comic-style panels, speech bubbles, and decorative elements. The overall design should feel like a character introduction page from a European graphic novel.
+
+展开提示词
+infographic
+personal branding
+复制
+使用
+IMAGE
+@rs_elwood on X
+STATIC
+ADVANCED
+COMMUNITY SHOWCASE
+360 Equirectangular Panorama
+
+Generate a 360-degree equirectangular (cylindrical equidistant projection) image in 2:1 aspect ratio. The image should be a seamless panoramic view that wraps correctly when viewed in an online 360 panorama VR viewer. Include a richly detailed environment with consistent lighting across the full 360-degree field of view, ensuring the left and right edges connect seamlessly.
+
+展开提示词
+panorama
+360 VR
+复制
+使用
+IMAGE
+@aitorwilzig on X
+STATIC
+INTERMEDIATE
+COMMUNITY SHOWCASE
+Personal Knowledge Infographic Portrait
+
+Knowing everything you know about me, create an infographic of me. Make an image in cartoon anime style. Include a stylized character portrait, key attributes, skills, personality traits, and interests organized in an attractive infographic layout with anime-inspired visual elements, icons, and decorative frames.
+
+展开提示词
+infographic
+anime
+复制
+使用
+IMAGE
+@WillSpagnoli on X
+STATIC
+INTERMEDIATE
+COMMUNITY SHOWCASE
+LIME Drug Design Infographic
+
+Research LIME Drug Design and make a detailed infographic about it. Include molecular structures, the LIME methodology workflow, key benefits and applications, comparison charts, and relevant statistics. Use a clean scientific layout with proper section hierarchy, molecular diagrams, flowcharts, and a professional color scheme suitable for pharmaceutical research communication.
+
+展开提示词
+infographic
+science
+复制
+使用
+IMAGE
+@songguoxiansen on X
+STATIC
+ADVANCED
+COMMUNITY SHOWCASE
+Lu Bu Boss Design Sheet
+
+Lu Bu game boss design sheet, featuring Red Hare horse and Sky Piercer halberd (Fang Tian Hua Ji), dark evolution form with dual-form comparison layout. Show the base form and evolved dark form side by side, with detailed armor design, weapon specifications, and the iconic warhorse. Include design notes, color palette, and scale reference. The overall style should blend historical Three Kingdoms character design with dark fantasy game aesthetics, featuring ornate armor details, glowing dark energy effects on the evolved form, and dramatic pose compositions.
+
+展开提示词
+character design
+game art
+复制
+使用
+IMAGE
+@AntCaveClub on X
+STATIC
+BEGINNER
+COMMUNITY SHOWCASE
+Subway Candid Phone Snapshot
+
+A beautiful woman on the subway looking down at her phone, candid street photography style. Natural subway lighting with fluorescent overhead lights, slight motion blur from the moving train, realistic commuter atmosphere, casual everyday clothing, natural skin texture, shot from a distance as if captured discreetly, shallow depth of field with blurred other passengers and subway interior in the background. The mood should feel authentic, urban, and naturally beautiful without any posed elements.
+
+展开提示词
+candid photography
+street
+复制
+使用
+IMAGE
+@songguoxiansen on X
+STATIC
+ADVANCED
+COMMUNITY SHOWCASE
+China Aerospace Commemorative Stamp Sheet
+
+Chinese aerospace commemorative stamp miniature sheet, featuring a rocket launch scene with detailed spacecraft, launch pad, and exhaust plume. Gold foil border craftsmanship with embossed edges, stamp perforations around individual stamp designs, traditional Chinese postal markings, denomination values, and commemorative text. The stamps should feature different aspects of the space program 鈥?satellite deployment, space station, lunar rover, and astronaut. Professional philatelic design with rich detail, metallic gold accents, and the official, prestigious quality of real commemorative stamp collections.
+
+展开提示词
+stamp design
+aerospace
+复制
+使用
+IMAGE
+@songguoxiansen on X
+STATIC
+ADVANCED
+COMMUNITY SHOWCASE
+Tang Dynasty Lantern Festival Panorama
+
+Tang Dynasty Chang'an city Lantern Festival panoramic scene, with ten thousand flower lanterns illuminating the night sky. Create a detailed long scroll painting in the traditional Chinese gongbi (meticulous) heavy-color style, depicting the bustling festival with crowds of people in Tang Dynasty clothing, street vendors, performers, palace buildings, gates, and bridges. The lanterns should come in various designs 鈥?lotus, dragon, phoenix, and geometric patterns 鈥?creating a warm, festive glow against the night sky. Include architectural details of Tang Dynasty buildings, horse-drawn carriages, and the grand scale of the ancient capital's celebration.
+
+展开提示词
+illustration
+Chinese history
+复制
+使用
+IMAGE
+@Zhaoge01 on X
+STATIC
+INTERMEDIATE
+COMMUNITY SHOWCASE
+Yang Guifei Historical Realistic Portrait
+
+Based on authentic historical descriptions of Yang Yuhuan (Yang Guifei), generate a realistic photograph of the Tang Dynasty imperial consort. Render with iPhone 15 Pro camera quality. Capture her historically described features 鈥?a fuller, rounded figure considered the beauty ideal of the Tang Dynasty, elegant features, warm expression, elaborate hair ornaments and jewelry, luxurious Tang Dynasty court garments with flowing silk layers, and the refined grace that made her one of the Four Great Beauties of ancient China.
+
+展开提示词
+portrait
+Chinese history
+复制
+使用
+IMAGE
+@Tresmort on X
+STATIC
+EXPERT
+COMMUNITY SHOWCASE
+Surreal Japanese Futuristic City Illustration
+
+Referencing a specific perspective and style, create a more refined ultra-HD illustration depicting a surrealist Japanese futuristic city with visible tiny details, including traditional cultural parade performers on the streets, gangsters in back alleys, dancing women in entertainment districts, exhausted office workers, students studying in apartment windows, arguing couples, gaming otaku, and many more character vignettes to discover. The illustration satirizes the boredom within real-world crowding, loneliness beneath urban prosperity, and meaninglessness of life while maintaining a strangely pathological beauty. The image must have extremely high aesthetic value 鈥?content density should not compromise beauty and harmony. 9:16 aspect ratio.
+
+展开提示词
+illustration
+cyberpunk
+复制
+使用
+IMAGE
+@seiiiiiiiiiiru on X
+STATIC
+ADVANCED
+COMMUNITY SHOWCASE
+2D Anime Character Real-World Grid
+
+Using the reference 2D cel anime character, create a grid-divided image showing the character doing various things in the real world. Each grid cell should depict the character in a different realistic environment 鈥?shopping at a store, waiting at a crosswalk, sitting in a cafe, riding public transit, taking photos at a landmark, etc. Maintain the character's flat 2D cel animation style while the environments are photorealistic, creating an interesting contrast between cartoon character and real-world setting. The grid should show 6-9 different scenes with consistent character design across all panels.
+
+展开提示词
+anime
+grid layout
+复制
+使用
+IMAGE
+@os_shim on X
+STATIC
+INTERMEDIATE
+COMMUNITY SHOWCASE
+Poster-to-Trailer Concept
+
+Look at this poster, imagine it yourself, and create a trailer-style visual for it. Extrapolate the world, characters, and narrative from the poster's visual cues, then compose a cinematic key frame that could serve as a movie trailer screenshot 鈥?complete with dramatic lighting, action or emotional peak moment, widescreen composition, and the epic scale that trailer moments demand. Include subtle film grain and anamorphic lens effects.
+
+展开提示词
+concept art
+cinematic
+复制
+使用
+IMAGE
+@mirai_ai2050 on X
+STATIC
+ADVANCED
+COMMUNITY SHOWCASE
+Rubber Duck Boy Live-Action Movie Poster
+
+A cute rubber duck boy character named "RUHiA" embarks on a grand adventure heading to Japan and meets a Japanese woman named "Mirai." Create this as a live-action movie poster with cinematic quality. The rubber duck character should be rendered as a tangible, real-world rubber duck toy but with expressive, character-like qualities. The human character should be photorealistic. Include movie poster elements: title treatment, billing block, dramatic sky background, adventure journey imagery, and the emotional meeting moment between the small rubber duck hero and the human character. The poster should convey warmth, adventure, and cross-cultural friendship.
+
+展开提示词
+movie poster
+live action
+复制
+使用
+IMAGE
+@Adam38363368936 on X
+STATIC
+INTERMEDIATE
+COMMUNITY SHOWCASE
+Tomato E-Commerce Product Image Set
+
+Generate a complete set of e-commerce product introduction images for tomatoes. Include: hero product shot with dramatic lighting, nutritional information infographic, size comparison with common objects, cross-section detail showing freshness, lifestyle/recipe usage scenarios, packaging mockup, farm-to-table story imagery, and customer review highlight cards. Each image should follow e-commerce best practices with clean white or styled backgrounds, professional food photography quality, and compelling visual storytelling that drives purchase decisions.
+
+展开提示词
+e-commerce
+product photography
+复制
+使用
+如何写出更好的 GPT Image 2 Prompt
+除了主体，还要说明版式意图和构图层级。
+控制颜色、材质、灯光，让图像更有设计感。
+如果是商业用途，最好写清产品、品牌或营销场景。
+涉及文字排版时，建议把生成结果当作版式参考，必要时再做后期修正。
+GPT Image 2 Prompt 常见问题
+GPT Image 2 最好的入门提示词有哪些？
+
+从简短聚焦的提示词开始，描述一个主体、一个清晰的风格参考和基础光照。我们标记为「入门」的提示词无需复杂的提示词工程即可获得好效果。
+
+GPT Image 2 生成的图片可以商用吗？
+
+可以。GPT Image 2 支持商业用途。本库中的提示词适用于营销推广、产品摄影、社交媒体内容和品牌设计等实际场景。
+
+如何写出更好的 GPT Image 2 人像提示词？
+
+指定相机类型（35mm、中画幅）、布光方式（侧光、黄金时段）、胶片模拟（富士 Pro 400H、柯达 Portra）以及皮肤纹理、面料等物理细节。避免模糊的形容词。
+
+GPT Image 2 和其他 AI 图片生成器有什么区别？
+
+GPT Image 2 在文字渲染、复杂布局、多元素构图和遵循详细结构指令方面表现出色，特别擅长海报、信息图、UI 原型和角色设定图。
+
+相关 GPT Image 2 资源
+GPT Image 2 API
+Open the main model page for pricing, playground settings, and API details.
+GPT Image 2 developer guide
+Read the full access, capability, pricing, and workflow guide.
+GitHub prompt repo
+Browse the source prompt collection and reusable examples on GitHub.
+EvoLink.AI
+
+一个 API 接入全球顶级 AI 图像、视频与聊天模型。
+
+support@evolink.ai
+Discord 社群
+Reddit 社群
+Image API
+Nano Banana
+Nano Banana Pro
+Seedream 4
+Seedream 4.5
+Qwen Image Edit
+GPT-4o Image
+GPT Image 1.5
+GPT Image 2
+Z Image Turbo
+Wan Image
+Video API
+Sora 2
+Sora 2 Pro
+Kling O1
+Seedance
+Veo 3.1
+Seedance Pro
+Wan 2.6
+Wan 2.5
+Hailuo 02
+Hailuo 2.3
+Chat API
+GPT-5.5
+GPT-5.4
+GPT-5.2
+GPT-5.1
+Claude Sonnet 4.5
+Gemini 2.5 Pro
+Gemini 2.5 Flash
+Kimi K2 Turbo
+Coding API
+Claude Opus 4.7
+GPT-5.5
+GPT-5.4
+GPT-5.2
+Claude Opus 4.5
+Claude Opus 4.1
+Claude Sonnet 4.5
+Claude Sonnet 4.0
+Claude Haiku 4.5
+Gemini 3 Pro
+Gemini 3 Flash
+Kimi K2
+Other API
+Suno
+OmniHuman
+模型家族
+GPT API 家族
+Claude API 家族
+Gemini API 家族
+GPT Image API 家族
+产品
+模型
+文档
+博客
+资源
+API 更新
+服务条款
+隐私政策
+
+© 2025 EvoLink。保留所有权利。
+
+为全球开发者精心打造
