@@ -164,7 +164,7 @@ function App() {
           <a href="#faq" onClick={closeMenu}>FAQ</a>
         </nav>
 
-        <a className="nav-cta" href="https://bestapi.vip/" target="_blank">生成图片</a>
+        <a className="nav-cta" href="https://bestapi.vip/" target="_blank">去生成图片</a>
       </header>
 
       <main>
@@ -177,7 +177,7 @@ function App() {
             </p>
             <div className="hero-actions">
               <a className="button primary" href="#templates">探索模板</a>
-              <a className="button secondary" href="https://bestapi.vip/" target="_blank">生成图片</a>
+              <a className="button secondary" href="https://bestapi.vip/" target="_blank">去生成图片</a>
             </div>
           </div>
 
