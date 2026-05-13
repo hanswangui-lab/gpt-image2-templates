@@ -83,10 +83,6 @@ function App() {
     window.setTimeout(() => { alert(text) }, 100)
   }
 
-  const copyFeaturedPrompt = (e: React.MouseEvent) => {
-    void copyPrompt(templates[0], e)
-  }
-
   const heroPreviewRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -168,7 +164,7 @@ function App() {
           <a href="#faq" onClick={closeMenu}>FAQ</a>
         </nav>
 
-        <a className="nav-cta" href="#templates">浏览模板</a>
+        <a className="nav-cta" href="https://bestapi.vip/" target="_blank">生成图片</a>
       </header>
 
       <main>
@@ -181,7 +177,7 @@ function App() {
             </p>
             <div className="hero-actions">
               <a className="button primary" href="#templates">探索模板</a>
-              <button className="button secondary" type="button" onClick={copyFeaturedPrompt}>复制热门 Prompt</button>
+              <a className="button secondary" href="https://bestapi.vip/" target="_blank">生成图片</a>
             </div>
           </div>
 
