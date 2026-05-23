@@ -2,4 +2,10 @@ node_modules/
 dist/
 .DS_Store
 *.local
+.env
+.env.*
+!.env.example
 
+*.jpg
+*.jpeg
+*.png
