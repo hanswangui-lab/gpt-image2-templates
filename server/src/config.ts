@@ -35,6 +35,12 @@ export const config = {
     keyPath: process.env.SSL_KEY_PATH || '',
     certPath: process.env.SSL_CERT_PATH || '',
   },
+  smtp: {
+    host: process.env.SMTP_HOST || 'smtp.qq.com',
+    port: parseInt(process.env.SMTP_PORT || '465', 10),
+    user: process.env.SMTP_USER || '',
+    pass: process.env.SMTP_PASS || '',
+  },
   validCreditPacks: [
     { credits: 200, priceCents: 200 },
     { credits: 1100, priceCents: 1000 },

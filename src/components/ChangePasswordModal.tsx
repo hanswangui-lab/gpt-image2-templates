@@ -95,7 +95,7 @@ export default function ChangePasswordModal({ open, onClose }: Props) {
             </div>
           </label>
 
-          {msg && <div style={{ fontSize: 13, color: msg.includes('成功') ? '#22d3ee' : '#f87171' }}>{msg}</div>}
+          {msg && <div style={{ fontSize: 13, color: msg.includes('成功') ? '#00ff88' : '#ff4444' }}>{msg}</div>}
 
           <button className="button primary" type="submit" disabled={busy}>
             {busy ? '修改中...' : '确认修改'}

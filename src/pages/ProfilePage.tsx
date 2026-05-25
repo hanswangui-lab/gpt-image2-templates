@@ -72,9 +72,9 @@ export default function ProfilePage() {
           {/* Avatar */}
           <div style={{
             width: 72, height: 72, borderRadius: '50%',
-            background: 'linear-gradient(135deg, #8b5cf6, #ec4899)',
+            background: 'linear-gradient(135deg, #00ff88, #00d4ff)',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
-            fontSize: 28, fontWeight: 800, color: '#fff',
+            fontSize: 28, fontWeight: 800, color: '#0a0a0f',
             flexShrink: 0,
           }}>
             {(profile?.username || user.email?.[0] || '?')[0].toUpperCase()}
@@ -108,7 +108,7 @@ export default function ProfilePage() {
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
           <div style={{ textAlign: 'right' }}>
             <div style={{ fontSize: 13, color: 'var(--muted)', marginBottom: 2 }}>当前积分</div>
-            <div style={{ fontSize: 28, fontWeight: 800, color: '#f59e0b' }}>{credits}</div>
+            <div style={{ fontSize: 28, fontWeight: 800, color: '#00ff88', fontFamily: "'Orbitron','Share Tech Mono',monospace" }}>{credits}</div>
           </div>
           <button className="button primary" onClick={() => navigate('/recharge')}>
             立即充值

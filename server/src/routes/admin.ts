@@ -11,10 +11,50 @@ router.use(authMiddleware, adminMiddleware)
 // GET /api/admin/users - list all users
 router.get('/users', async (_req, res) => {
   try {
-    const { data: users, error } = await supabaseAdmin.rpc('rpc_admin_list_users')
-    if (error) throw error
+    const { data: { users: authUsers }, error: listErr } = await supabaseAdmin.auth.admin.listUsers({ perPage: 500 })
+    if (listErr) throw listErr
+
+    // Fetch profiles and credits in parallel
+    const userIds = (authUsers || []).map((u: any) => u.id)
+    const [profileRes, creditsRes, rolesRes, rechargeRes] = await Promise.all([
+      userIds.length > 0 ? supabaseAdmin.from('user_profiles').select('*').in('user_id', userIds) : Promise.resolve({ data: [], error: null }),
+      userIds.length > 0 ? supabaseAdmin.from('user_credits').select('*').in('user_id', userIds) : Promise.resolve({ data: [], error: null }),
+      userIds.length > 0 ? supabaseAdmin.from('user_roles').select('*').in('user_id', userIds) : Promise.resolve({ data: [], error: null }),
+      userIds.length > 0 ? supabaseAdmin.from('recharge_orders').select('user_id, amount_cents').eq('status', 'approved').in('user_id', userIds) : Promise.resolve({ data: [], error: null }),
+    ])
+
+    const profiles = new Map((profileRes.data || []).map((p: any) => [p.user_id, p]))
+    const credits = new Map((creditsRes.data || []).map((c: any) => [c.user_id, c]))
+    const roles = new Map((rolesRes.data || []).map((r: any) => [r.user_id, r]))
+    const rechargeByUser = new Map<string, number>()
+    for (const r of (rechargeRes.data || [])) {
+      rechargeByUser.set(r.user_id, (rechargeByUser.get(r.user_id) || 0) + (r.amount_cents || 0))
+    }
+
+    const users = (authUsers || []).map((u: any, i: number) => {
+      const profile = profiles.get(u.id) || {}
+      return {
+        row_num: i,
+        user_id: u.id,
+        username: profile.username || (u.email || '').split('@')[0],
+        email: u.email,
+        disabled: !!profile.disabled,
+        total_recharge_cents: rechargeByUser.get(u.id) || 0,
+        balance: (credits.get(u.id) || {}).balance || 0,
+        created_at: u.created_at,
+        last_sign_in_at: profile.last_sign_in_at || u.last_sign_in_at,
+        role: (roles.get(u.id) || {}).role || 'user',
+      }
+    })
+
+    // Sort by creation time ascending (oldest first)
+    users.sort((a, b) => new Date(a.created_at).getTime() - new Date(b.created_at).getTime())
+    // Re-number after sort
+    users.forEach((u, i) => { u.row_num = i })
+
     res.json(users)
   } catch (err: any) {
+    console.error('[admin/users]', err)
     res.status(500).json({ error: err.message })
   }
 })

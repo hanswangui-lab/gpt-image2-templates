@@ -24,6 +24,18 @@ export async function authMiddleware(req: Request, res: Response, next: NextFunc
     return
   }
 
+  // Check if user is disabled
+  const { data: profile } = await supabaseAdmin
+    .from('user_profiles')
+    .select('disabled')
+    .eq('user_id', user.id)
+    .maybeSingle()
+
+  if (profile?.disabled) {
+    res.status(403).json({ error: '账号已被禁用，请联系管理员' })
+    return
+  }
+
   req.userId = user.id
   next()
 }

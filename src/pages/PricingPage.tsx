@@ -4,7 +4,7 @@ import { useAuthContext } from '../hooks/AuthContext'
 import { createPayment, getPaymentOrders } from '../services/paymentApi'
 import { config } from '../lib/config'
 
-const ACCENTS: Record<string, string> = { gold: '#f59e0b', platinum: '#a78bfa', diamond: '#22d3ee' }
+const ACCENTS: Record<string, string> = { gold: '#00ff88', platinum: '#ff00ff', diamond: '#00d4ff' }
 const POLL_INTERVAL = 2000
 const POLL_MAX = 15
 
@@ -96,29 +96,23 @@ export default function PricingPage() {
     return () => { cancelledRef.current = true }
   }, [loadOrders, refreshCredits])
 
-  if (!user) {
-    return (
-      <section className="section-panel" style={{ textAlign: 'center', padding: '80px 24px' }}>
-        <div className="section-heading">
-          <span className="eyebrow">Pricing</span>
-          <h2>获取积分，低至￥0.03/张</h2>
-          <p>请先登录后再进行充值。</p>
-        </div>
-        <div style={{ marginTop: 32, display: 'flex', gap: 12, justifyContent: 'center' }}>
-          <button className="button primary" onClick={() => { setAuthMode('login'); setShowAuth(true) }}>登录</button>
-          <button className="button secondary" onClick={() => { setAuthMode('register'); setShowAuth(true) }}>注册</button>
-        </div>
-      </section>
-    )
-  }
-
   const handlePay = async (pack: typeof config.creditPacks[number]) => {
+    if (!user) {
+      setAuthMode('login')
+      setShowAuth(true)
+      return
+    }
     setError('')
     setPaying(pack.id)
     try {
       const totalCredits = pack.credits + ((pack as any).bonusCredits || 0)
       const { payUrl } = await createPayment(totalCredits, pack.priceCents)
-      window.location.href = payUrl
+      const w = window.open(payUrl, '_blank')
+      if (!w) {
+        // Popup blocked, fall back to navigation
+        window.location.href = payUrl
+      }
+      setPaying(null)
     } catch (err: any) {
       setError(err.message)
       setPaying(null)
@@ -170,10 +164,10 @@ export default function PricingPage() {
             key={pack.id}
             style={{
               background: (pack as any).popular
-                ? 'linear-gradient(180deg, rgba(167,139,250,.1) 0%, rgba(15,23,42,.8) 60%)'
+                ? 'linear-gradient(180deg, rgba(0,255,136,.08) 0%, rgba(10,12,20,.9) 60%)'
                 : 'var(--panel)',
-              border: (pack as any).popular ? '2px solid #a78bfa' : '1px solid var(--line)',
-              borderRadius: 20,
+              border: (pack as any).popular ? '2px solid #00ff88' : '1px solid var(--line)',
+              clipPath: 'polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%)',
               padding: '32px 24px 24px',
               display: 'flex',
               flexDirection: 'column',
@@ -184,40 +178,40 @@ export default function PricingPage() {
             {(pack as any).popular && (
               <span style={{
                 position: 'absolute', top: -12, left: '50%', transform: 'translateX(-50%)',
-                padding: '4px 16px', borderRadius: 999,
-                background: 'linear-gradient(135deg, #a78bfa, #8b5cf6)',
-                color: '#fff', fontSize: 12, fontWeight: 800,
+                padding: '4px 16px', clipPath: 'polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%)',
+                background: 'var(--accent)',
+                color: '#0a0a0f', fontSize: 12, fontWeight: 800,
               }}>
                 ⭐ 推荐
               </span>
             )}
 
-            <h3 style={{ fontSize: 20, marginBottom: 16, color: ACCENTS[pack.id] || '#f59e0b', fontWeight: 700 }}>
+            <h3 style={{ fontSize: 20, marginBottom: 16, color: ACCENTS[pack.id] || "#00ff88", fontWeight: 700 }}>
               {pack.name}
             </h3>
 
             <div style={{ marginBottom: 12 }}>
-              <span style={{ fontSize: 42, fontWeight: 800, color: 'var(--text)', letterSpacing: '-0.03em' }}>
+              <span style={{ fontSize: 42, fontWeight: 800, color: '#00ff88', letterSpacing: '0.02em', fontFamily: "'Orbitron','Share Tech Mono',monospace" }}>
                 ¥{(pack.priceCents / 100).toFixed(2)}
               </span>
             </div>
 
             <div style={{
               display: 'inline-flex', alignItems: 'center', gap: 6,
-              background: 'rgba(245,158,11,.1)', borderRadius: 999,
+              background: 'rgba(0,255,136,.08)', clipPath: 'polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%)',
               padding: '6px 16px', margin: '0 auto 4px',
             }}>
-              <span style={{ fontSize: 13, color: '#f59e0b', fontWeight: 600 }}>{pack.credits} 积分</span>
+              <span style={{ fontSize: 13, color: '#00ff88', fontWeight: 600 }}>{pack.credits} 积分</span>
             </div>
 
             {'bonusCredits' in pack && (
-              <div style={{ fontSize: 11, color: '#ef4444', marginBottom: 12 }}>
+              <div style={{ fontSize: 11, color: '#ff00ff', marginBottom: 12 }}>
                 赠送 {(pack as any).bonusCredits} 积分
               </div>
             )}
 
             <div style={{ color: 'var(--muted)', fontSize: 13, marginBottom: 16 }}>
-              低至 <span style={{ color: ACCENTS[pack.id] || '#f59e0b', fontWeight: 700 }}>¥{(pack as any).perImage}/张</span>
+              <span style={{ color: 'var(--muted)', fontSize: 13 }}>低至</span> <span style={{ color: ACCENTS[pack.id] || "#00ff88", fontWeight: 700 }}>¥0.03/张</span>
             </div>
 
             <div style={{ borderTop: '1px solid var(--line)', marginBottom: 16 }} />
@@ -226,12 +220,12 @@ export default function PricingPage() {
 
             <div style={{ marginTop: 'auto' }}>
               <button
-                className={`button primary${(pack as any).popular ? ' shimmer' : ''}`}
+                className="button primary"
                 style={{ width: '100%' }}
                 onClick={() => handlePay(pack)}
                 disabled={paying === pack.id}
               >
-                {paying === pack.id ? '跳转中...' : '立即支付'}
+                {paying === pack.id ? '正在打开支付页...' : '立即支付'}
               </button>
             </div>
           </div>
@@ -254,7 +248,7 @@ export default function PricingPage() {
                 background: 'var(--panel)',
                 color: 'var(--text)',
                 border: '1px solid var(--line)',
-                borderRadius: 8,
+                clipPath: 'polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%)',
                 padding: '6px 12px',
                 fontSize: 13,
               }}
@@ -280,7 +274,7 @@ export default function PricingPage() {
                     </span>
                   </div>
                   <span style={{
-                    color: o.status === 'paid' ? '#22d3ee' : o.status === 'failed' ? '#f87171' : '#f59e0b',
+                    color: o.status === 'paid' ? '#00d4ff' : o.status === 'failed' ? '#ff4444' : '#00ff88',
                     fontSize: 13, fontWeight: 600,
                   }}>
                     {statusLabel(o)}

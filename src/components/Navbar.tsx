@@ -29,16 +29,15 @@ export default function Navbar() {
 
       <nav id="site-navigation" className={menuOpen ? 'nav-links open' : 'nav-links'}>
         <Link to="/" onClick={closeMenu}>首页</Link>
-        <Link to="/generate" onClick={closeMenu}>生图</Link>
         <Link to="/templates" onClick={closeMenu}>模板</Link>
         <Link to="/pricing" onClick={closeMenu}>价格</Link>
-        {isAdmin && <Link to="/admin" onClick={closeMenu} style={{ color: '#f59e0b' }}>管理</Link>}
+        {isAdmin && <Link to="/admin" onClick={closeMenu} style={{ color: '#ff00ff' }}>管理</Link>}
       </nav>
 
       <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
         {user ? (
           <>
-            <span style={{ color: '#67e8f9', fontSize: 13, fontWeight: 700 }}>{credits} 积分</span>
+            <span style={{ color: '#00ff88', fontSize: 13, fontWeight: 700, fontFamily: "'Orbitron','Share Tech Mono',monospace" }}>{credits} 积分</span>
             <Link className="nav-cta" to="/profile" style={{ background: 'rgba(255,255,255,.1)', border: '1px solid var(--line)' }}>个人中心</Link>
             <button className="nav-cta" style={{ background: 'rgba(255,255,255,.1)', border: '1px solid var(--line)' }} onClick={signOut}>退出</button>
           </>

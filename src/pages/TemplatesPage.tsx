@@ -1,8 +1,11 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect, useCallback } from 'react'
 import { categories, templates } from '../data/templates'
 import type { TemplateItem } from '../types'
 import { useAuthContext } from '../hooks/AuthContext'
 import TemplateModal from '../components/TemplateModal'
+import { fetchAiwindTemplates } from '../services/aiwindApi'
+
+const PAGE_SIZE = 100
 
 export default function TemplatesPage() {
   const { user, consumeCredits, setShowAuth } = useAuthContext()
@@ -10,9 +13,54 @@ export default function TemplatesPage() {
   const [query, setQuery] = useState('')
   const [selectedTemplate, setSelectedTemplate] = useState<TemplateItem | null>(null)
 
+  // AiWind state
+  const [aiwindItems, setAiwindItems] = useState<TemplateItem[]>([])
+  const [aiwindTotal, setAiwindTotal] = useState(0)
+  const [aiwindLoading, setAiwindLoading] = useState(false)
+  const [aiwindPage, setAiwindPage] = useState(0)
+  const [aiwindHasMore, setAiwindHasMore] = useState(true)
+  const loadAiwindPage = useCallback(async (page: number, search: string, category: string) => {
+    setAiwindLoading(true)
+    try {
+      const data = await fetchAiwindTemplates({
+        page,
+        pageSize: PAGE_SIZE,
+        search: search || undefined,
+        category: category !== 'all' ? category : undefined,
+      })
+      setAiwindItems((prev) => {
+        const existingIds = new Set(prev.map((t) => t.id))
+        const newItems = data.items.filter((t) => !existingIds.has(t.id))
+        return [...prev, ...newItems]
+      })
+      setAiwindTotal(data.total)
+      setAiwindPage(page)
+      setAiwindHasMore(page * PAGE_SIZE < data.total)
+    } catch {
+      // silent
+    } finally {
+      setAiwindLoading(false)
+    }
+  }, [])
+
+  // Load first page of aiwind on mount and when filters change
+  useEffect(() => {
+    setAiwindItems([])
+    setAiwindPage(0)
+    setAiwindHasMore(true)
+    loadAiwindPage(1, query, selectedCategory)
+  }, [query, selectedCategory, loadAiwindPage])
+
+  const loadMore = () => {
+    if (aiwindLoading || !aiwindHasMore) return
+    loadAiwindPage(aiwindPage + 1, query, selectedCategory)
+  }
+
   const filteredTemplates = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase()
-    return templates.filter((template) => {
+
+    // Filter curated templates
+    const filteredCurated = templates.filter((template) => {
       const matchesCategory = selectedCategory === 'all' || template.category === selectedCategory
       const searchable = [
         template.title,
@@ -26,7 +74,16 @@ export default function TemplatesPage() {
       ].join(' ').toLowerCase()
       return matchesCategory && (!normalizedQuery || searchable.includes(normalizedQuery))
     })
-  }, [query, selectedCategory])
+
+    // Curated templates first, then aiwind items (already filtered server-side)
+    // Deduplicate: skip aiwind items that share the same title as a curated template
+    const curatedTitles = new Set(filteredCurated.map((t) => t.title.toLowerCase()))
+    const filteredAiwind = aiwindItems.filter((t) => !curatedTitles.has(t.title.toLowerCase()))
+
+    return [...filteredCurated, ...filteredAiwind]
+  }, [query, selectedCategory, aiwindItems])
+
+  const totalCount = templates.length + aiwindTotal
 
   return (
     <>
@@ -34,7 +91,7 @@ export default function TemplatesPage() {
         <div className="section-heading">
           <span className="eyebrow">Templates</span>
           <h2>真实 GPT-Image2 内容库</h2>
-          <p>同步自公开数据源，按真实分类筛选或搜索关键词，找到后直接复制 Prompt。</p>
+          <p>精选优质模板 + AiWind 社区内容，按分类筛选或搜索关键词，找到后直接复制 Prompt。</p>
         </div>
 
         <div className="template-toolbar">
@@ -63,29 +120,50 @@ export default function TemplatesPage() {
         </div>
 
         <div className="result-line">
-          已显示 <strong>{filteredTemplates.length}</strong> / {templates.length} 条真实内容
+          已显示 <strong>{filteredTemplates.length}</strong> / {totalCount} 条内容
         </div>
 
         {filteredTemplates.length > 0 ? (
-          <div className="templates-grid">
-            {filteredTemplates.map((template) => (
-              <article className="template-card" key={template.id}
-                onClick={() => setSelectedTemplate(template)}>
-                <div className="template-preview" style={template.image ? {} : { background: template.gradient }}>
-                  {template.image ? (
-                    <img className="template-preview-img" src={template.image} alt={template.title} loading="lazy" />
-                  ) : (
-                    <span className="preview-fallback">{template.previewTitle}</span>
-                  )}
-                </div>
-                <div className="template-content">
-                  <h3 className="template-title">{template.title}</h3>
-                  <p className="template-desc">{template.description}</p>
-                  <span className="template-cat">{template.categoryLabel}</span>
-                </div>
-              </article>
-            ))}
-          </div>
+          <>
+            <div className="templates-grid">
+              {filteredTemplates.map((template) => (
+                <article className="template-card" key={template.id}
+                  onClick={() => setSelectedTemplate(template)}>
+                  <div className="template-preview" style={template.image ? {} : { background: template.gradient }}>
+                    {template.image ? (
+                      <img className="template-preview-img" src={template.image} alt={template.title} loading="lazy" />
+                    ) : (
+                      <span className="preview-fallback">{template.previewTitle}</span>
+                    )}
+                  </div>
+                  <div className="template-content">
+                    <h3 className="template-title">{template.title}</h3>
+                    <p className="template-desc">{template.description}</p>
+                    <span className="template-cat">{template.categoryLabel}</span>
+                    {template.sourceLabel && (
+                      <span className="template-source" style={{ fontSize: 11, color: 'var(--muted)', marginLeft: 8 }}>
+                        {template.sourceLabel}
+                      </span>
+                    )}
+                  </div>
+                </article>
+              ))}
+            </div>
+
+            {aiwindHasMore && (
+              <div style={{ textAlign: 'center', marginTop: 24 }}>
+                <button
+                  className="button secondary"
+                  onClick={loadMore}
+                  disabled={aiwindLoading}
+                >
+                  {aiwindLoading ? '加载中...' : '加载更多 (每次100条)'}
+                </button>
+              </div>
+            )}
+          </>
+        ) : aiwindLoading && filteredTemplates.length === 0 ? (
+          <div className="empty-state"><strong>加载中...</strong></div>
         ) : (
           <div className="empty-state">
             <strong>没有找到匹配模板</strong>

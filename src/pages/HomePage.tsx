@@ -178,7 +178,7 @@ export default function HomePage() {
             ) : (
               <div className="preview-empty">
                 <div className="preview-empty-icon">
-                  <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="rgba(148,163,184,0.3)" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                  <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="rgba(0,255,136,0.2)" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
                     <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
                     <circle cx="8.5" cy="8.5" r="1.5" />
                     <polyline points="21 15 16 10 5 21" />

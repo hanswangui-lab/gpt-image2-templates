@@ -56,8 +56,8 @@ export default function AnnouncementBanner() {
 
   return (
     <div style={{
-      background: 'linear-gradient(135deg, #f59e0b, #f97316)',
-      color: '#fff',
+      background: 'linear-gradient(135deg, #00ff88, #00d4ff)',
+      color: '#0a0a0f',
       padding: '10px 24px',
       display: 'flex',
       alignItems: 'center',
@@ -71,8 +71,8 @@ export default function AnnouncementBanner() {
 
       {announcements.length > 1 && (
         <span style={{
-          background: 'rgba(255,255,255,0.25)',
-          borderRadius: 10,
+          background: 'rgba(0,0,0,0.2)',
+          clipPath: 'polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%)',
           padding: '2px 10px',
           fontSize: 11,
         }}>
@@ -85,7 +85,7 @@ export default function AnnouncementBanner() {
         style={{
           background: 'transparent',
           border: 'none',
-          color: '#fff',
+          color: '#0a0a0f',
           cursor: 'pointer',
           fontSize: 16,
           lineHeight: 1,

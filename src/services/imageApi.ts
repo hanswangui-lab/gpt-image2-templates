@@ -15,7 +15,6 @@ export interface TaskStatus {
 async function safeJson(res: Response) {
   const ct = res.headers.get('content-type') || ''
   if (ct.includes('text/html')) {
-    const snippet = (await res.text().catch(() => '')).slice(0, 200)
     throw new Error(`服务器返回了网页而非 API 数据。请检查 VPS 服务是否正常运行。`)
   }
   try {

@@ -19,6 +19,8 @@ import paymentRouter from './routes/payment.js'
 import creditRouter from './routes/credit.js'
 import healthRouter from './routes/health.js'
 import announcementsRouter from './routes/announcements.js'
+import authRouter from './routes/auth.js'
+import aiwindRouter from './routes/aiwind.js'
 import { cleanupExpiredImages, expireCredits } from './services/cleanup.js'
 import { processCallback, processZhifuxpayCallback } from './services/payment.js'
 import { loadSettings } from './services/settings.js'
@@ -51,6 +53,8 @@ app.use('/api/payment', paymentRouter)
 app.use('/api/credit', creditRouter)
 app.use('/health', healthRouter)
 app.use('/api/announcements', announcementsRouter)
+app.use('/api/auth', authRouter)
+app.use('/api/aiwind-templates', aiwindRouter)
 
 // FM/Zhifuxpay callback — public, no auth
 app.all('/api/zhifuxpay/notify', async (req, res) => {
