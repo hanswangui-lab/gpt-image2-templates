@@ -58,7 +58,7 @@ export default function HomePage() {
       <section className="hero section-panel">
         <div className="hero-copy">
           <span className="eyebrow">GPT image 2</span>
-          <h1><span className="cyber-glitch" data-text="妙笔生花，即刻呈现">妙笔生花，即刻呈现</span></h1>
+          <h1><span className="cyber-glitch" data-text="妙笔生花即刻呈现">妙笔生花即刻呈现</span></h1>
           <p>
             价格低至￥0.02/张
           </p>
