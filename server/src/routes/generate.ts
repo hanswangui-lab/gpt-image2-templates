@@ -71,8 +71,8 @@ router.post('/', authMiddleware, generateLimiter, async (req, res) => {
     res.status(400).json({ error: '提示词不能为空或过短' })
     return
   }
-  if (prompt.length > 2000) {
-    res.status(400).json({ error: '提示词过长，最多 2000 字' })
+  if (prompt.length > 3000) {
+    res.status(400).json({ error: '提示词过长，最多 3000 字' })
     return
   }
 

@@ -20,12 +20,28 @@ export async function consumeCredits(userId: string, amount: number): Promise<bo
 }
 
 export async function refundCredits(userId: string, amount: number, referenceId?: string): Promise<void> {
-  const { error } = await supabaseAdmin.rpc('rpc_refund_credits', {
-    refund_user_id: userId,
-    refund_amount: amount,
-    refund_reference_id: referenceId || null,
-  })
-  if (error) throw error
+  // Direct balance update (avoids credit_batches constraint on rpc_add_credits)
+  const { data: bal } = await supabaseAdmin
+    .from('user_credits')
+    .select('balance')
+    .eq('user_id', userId)
+    .single()
+  const newBalance = (bal?.balance ?? 0) + amount
+  const { error: updateErr } = await supabaseAdmin
+    .from('user_credits')
+    .upsert({ user_id: userId, balance: newBalance })
+  if (updateErr) throw updateErr
+  const { error: txErr } = await supabaseAdmin
+    .from('credit_transactions')
+    .insert({
+      user_id: userId,
+      amount,
+      type: 'refund',
+      reference_type: 'refund',
+      reference_id: referenceId || null,
+      balance_after: newBalance,
+    })
+  if (txErr) throw txErr
 }
 
 export async function getBalance(userId: string): Promise<number> {

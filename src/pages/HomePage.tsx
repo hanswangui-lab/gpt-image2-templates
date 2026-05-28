@@ -4,7 +4,7 @@ import { useAuthContext } from '../hooks/AuthContext'
 import { useGenerateContext } from '../hooks/GenerateContext'
 import { getGeneratedImages } from '../services/profileApi'
 import { config } from '../lib/config'
-import { templates, sourceAttribution } from '../data/templates'
+import { sourceAttribution } from '../data/templates'
 import { loadCachedGallery, addToGallery, MAX_GALLERY_ITEMS, type CachedImage } from '../services/galleryCache'
 import type { GeneratedImage } from '../types'
 import ImageLightbox from '../components/ImageLightbox'
@@ -13,7 +13,7 @@ const RATIOS = ['1:1', '4:3', '3:4', '16:9', '9:16', '2:3', '3:2'] as const
 
 const faqs = [
   { question: '真实内容从哪里来？', answer: `数据来自参考站公开加载的 /cases.json 和 /style-library.json，源项目为 ${sourceAttribution.name}，许可为 ${sourceAttribution.license}。` },
-  { question: '生成一张图需要多少积分？', answer: '每次生图根据图片质量、分辨率，有不同的积分消耗，低至0.03元/张。' },
+  { question: '生成一张图需要多少积分？', answer: '每次生图根据图片质量、分辨率，有不同的积分消耗，低至0.02元/张。' },
   { question: '积分如何获取？', answer: '通过支付宝充值后，积分自动到账。如有疑问，可以加🐧群：1053700744' },
   { question: '可以退款吗？', answer: '积分属于数字服务，已使用部分不支持退款；重复扣款、积分未到账等系统问题会处理退款或补发。' },
 ]
@@ -58,9 +58,9 @@ export default function HomePage() {
       <section className="hero section-panel">
         <div className="hero-copy">
           <span className="eyebrow">GPT image 2</span>
-          <h1>妙笔生花，即刻呈现</h1>
+          <h1><span className="cyber-glitch" data-text="妙笔生花，即刻呈现">妙笔生花，即刻呈现</span></h1>
           <p>
-            价格低至￥0.03/张
+            价格低至￥0.02/张
           </p>
           <div className="hero-actions">
             <button className="button primary" onClick={scrollToGenerate}>开始生图</button>
@@ -69,19 +69,38 @@ export default function HomePage() {
         </div>
 
         <div className="hero-preview" aria-label="模板预览墙">
-          {templates.slice(0, 4).map((template) => (
-            <article className="preview-card" key={template.id}
-              style={template.image ? {} : { background: template.gradient }}>
-              {template.image ? (
-                <img className="preview-card-img" src={template.image} alt={template.title} loading="lazy" />
-              ) : null}
-              <div className="preview-card-text">
-                <span>{template.categoryLabel}</span>
-                <strong>{template.previewTitle}</strong>
-                <small>{template.tags.slice(0, 2).join(' · ')}</small>
-              </div>
-            </article>
-          ))}
+          <article className="preview-card">
+            <img className="preview-card-img" src="/images/case-49.jpg" alt="直播界面设计图" loading="lazy" />
+            <div className="preview-card-text">
+              <span>UI 设计</span>
+              <strong>直播界面</strong>
+              <small>产品 · 界面</small>
+            </div>
+          </article>
+          <article className="preview-card">
+            <img className="preview-card-img" src="/images/case-305.jpg" alt="深夜便利店里的性感霓虹少女" loading="lazy" />
+            <div className="preview-card-text">
+              <span>人物摄影</span>
+              <strong>霓虹少女</strong>
+              <small>人像 · 夜景</small>
+            </div>
+          </article>
+          <article className="preview-card">
+            <img className="preview-card-img" src="/images/aiwind/aiwind_1569.webp" alt="红唇美妆大片" loading="lazy" />
+            <div className="preview-card-text">
+              <span>美妆摄影</span>
+              <strong>红唇大片</strong>
+              <small>美妆 · 特写</small>
+            </div>
+          </article>
+          <article className="preview-card">
+            <img className="preview-card-img" src="/images/case-320.jpg" alt="冰火双雄背靠背史诗电影海报" loading="lazy" />
+            <div className="preview-card-text">
+              <span>电影海报</span>
+              <strong>冰火双雄</strong>
+              <small>海报 · 史诗</small>
+            </div>
+          </article>
         </div>
       </section>
 
@@ -167,7 +186,7 @@ export default function HomePage() {
                   </div>
                 </div>
                 <span>AI 正在生成图片...</span>
-                <small>预计需要 30-60 秒</small>
+                <small>1K 约 60-80 秒，2K 约 80-110 秒，4K 约 120-180 秒</small>
               </div>
             ) : result ? (
               <img

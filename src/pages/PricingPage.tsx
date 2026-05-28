@@ -137,7 +137,7 @@ export default function PricingPage() {
     <section className="section-panel" style={{ textAlign: 'center' }}>
       <div className="section-heading" style={{ marginBottom: 16 }}>
         <span className="eyebrow">Pricing</span>
-        <h2>获取积分，低至￥0.03/张</h2>
+        <h2>获取积分，低至￥0.02/张</h2>
       </div>
 
       <div className="marquee-track" style={{ marginBottom: 32 }}>
@@ -211,7 +211,7 @@ export default function PricingPage() {
             )}
 
             <div style={{ color: 'var(--muted)', fontSize: 13, marginBottom: 16 }}>
-              <span style={{ color: 'var(--muted)', fontSize: 13 }}>低至</span> <span style={{ color: ACCENTS[pack.id] || "#00ff88", fontWeight: 700 }}>¥0.03/张</span>
+              <span style={{ color: 'var(--muted)', fontSize: 13 }}>低至</span> <span style={{ color: ACCENTS[pack.id] || "#00ff88", fontWeight: 700 }}>¥0.02/张</span>
             </div>
 
             <div style={{ borderTop: '1px solid var(--line)', marginBottom: 16 }} />
@@ -233,7 +233,7 @@ export default function PricingPage() {
       </div>
 
       <p style={{ color: 'var(--muted)', fontSize: 12, marginTop: 32 }}>
-        开通即同意<Link to="/terms" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>服务条款</Link>
+        开通即视为同意<Link to="/terms" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>服务条款</Link>
       </p>
 
       {/* Payment history */}

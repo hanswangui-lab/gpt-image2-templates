@@ -13,6 +13,6 @@ export const config = {
   creditPacks: [
     { id: 'gold', name: '黄金卡', credits: 200, priceCents: 200, perImage: '0.06', popular: false },
     { id: 'platinum', name: '铂金卡', credits: 1000, priceCents: 1000, bonusCredits: 100, perImage: '0.05', popular: true },
-    { id: 'diamond', name: '钻石卡', credits: 9900, priceCents: 9900, bonusCredits: 600, perImage: '0.03', popular: false },
+    { id: 'diamond', name: '钻石卡', credits: 9900, priceCents: 9900, bonusCredits: 600, perImage: '0.02', popular: false },
   ],
 } as const

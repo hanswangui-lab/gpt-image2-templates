@@ -63,8 +63,8 @@ export type GeneratedImage = {
 
 export type GenerateParams = {
   prompt: string
-  aspectRatio: '1:1' | '4:3' | '3:4' | '16:9' | '9:16'
-  size: '1024x1024' | '1792x1024' | '1024x1792'
+  aspectRatio: '1:1' | '4:3' | '3:4' | '16:9' | '9:16' | '2:3' | '3:2'
+  size: string
 }
 
 export type AdminUser = {

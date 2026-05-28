@@ -3,7 +3,7 @@
 
 :root {
   color-scheme: dark;
-  font-family: 'JetBrains Mono', 'Fira Code', 'Noto Sans SC', monospace;
+  font-family: 'Menlo', 'Monaco', 'PingFang SC', monospace;
   color: #e0f0e8;
   background: #0a0a0f;
   font-synthesis: none;
@@ -141,7 +141,7 @@ textarea:focus-visible {
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.04em;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
 }
 
 /* ===== Navbar ===== */
@@ -185,7 +185,7 @@ textarea:focus-visible {
   color: var(--text);
   font-size: 15px;
   line-height: 1.1;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   letter-spacing: 0.04em;
 }
 
@@ -208,7 +208,7 @@ textarea:focus-visible {
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   letter-spacing: 0.04em;
   transition: color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
 }
@@ -240,7 +240,7 @@ textarea:focus-visible {
   text-decoration: none;
   font-size: 13px;
   font-weight: 700;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   letter-spacing: 0.04em;
   border: none;
   cursor: pointer;
@@ -260,7 +260,7 @@ textarea:focus-visible {
   clip-path: polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%);
   padding: 9px 14px;
   font-weight: 700;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   cursor: pointer;
 }
 
@@ -352,7 +352,7 @@ section {
   box-shadow: 0 0 10px rgba(0, 255, 136, 0.08);
   font-size: 12px;
   font-weight: 700;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
@@ -362,7 +362,7 @@ section {
 }
 
 .hero-copy .eyebrow {
-  font-size: 13px;
+  font-size: 20px;
   gap: 10px;
   margin-bottom: 20px;
   padding: 10px 22px;
@@ -376,19 +376,129 @@ p {
 }
 
 h1, h2, h3 {
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   letter-spacing: 0.02em;
 }
 
 h1 {
   max-width: 720px;
-  color: var(--text);
-  font-family: 'Orbitron', 'Share Tech Mono', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: clamp(36px, 5.5vw, 64px);
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
+  font-size: clamp(48px, 7vw, 88px);
   font-weight: 900;
   line-height: 1.1;
   letter-spacing: 0.06em;
-  text-shadow: 0 0 20px rgba(0, 255, 136, 0.25), 0 2px 4px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+
+.cyber-glitch {
+  position: relative;
+  display: inline;
+  background: linear-gradient(90deg, var(--accent), var(--accent-secondary), var(--accent-tertiary), var(--accent));
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 10px rgba(0, 255, 136, 0.5)) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+  animation: gradientShift 4s ease-in-out infinite, textFlicker 5s infinite;
+}
+
+h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.9), transparent);
+  filter: blur(1px);
+  box-shadow: 0 0 10px rgba(255,255,255,0.6), 0 0 30px rgba(255,255,255,0.3);
+  animation: glitchScan 2.5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes glitchScan {
+  0%   { top: -5%; opacity: 0; }
+  5%   { top: -5%; opacity: 1; }
+  15%  { top: 105%; opacity: 1; }
+  16%  { top: 105%; opacity: 0; }
+  30%  { top: -5%; opacity: 0; }
+  35%  { top: -5%; opacity: 0.8; }
+  42%  { top: 50%; opacity: 0; }
+  45%  { top: 35%; opacity: 1; transform: scaleY(3); }
+  47%  { top: 40%; opacity: 0; transform: scaleY(1); }
+  60%  { top: -5%; opacity: 0; }
+  65%  { top: -5%; opacity: 1; height: 6px; }
+  70%  { top: 105%; opacity: 0; height: 3px; }
+  100% { top: -5%; opacity: 0; }
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.cyber-glitch::before,
+.cyber-glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.cyber-glitch::before {
+  color: #ff00ff;
+  z-index: -1;
+  animation: glitchRGB 2.5s infinite;
+}
+.cyber-glitch::after {
+  color: #00d4ff;
+  z-index: -2;
+  animation: glitchRGB 2.5s .12s infinite reverse;
+}
+
+@keyframes glitchRGB {
+  0%   { clip-path: inset(0 0 85% 0); transform: translate(0); opacity: 0; }
+  2%   { clip-path: inset(10% 0 70% 0); transform: translate(-6px, 3px) skewX(2deg); opacity: 0.9; }
+  4%   { clip-path: inset(80% 0 5% 0); transform: translate(5px, -2px) skewX(-1deg); opacity: 0.9; }
+  6%   { clip-path: inset(35% 0 45% 0); transform: translate(-3px, -4px); opacity: 0.7; }
+  8%   { clip-path: inset(0 0 85% 0); transform: translate(0); opacity: 0; }
+  15%  { clip-path: inset(0 0 85% 0); transform: translate(0); opacity: 0; }
+  17%  { clip-path: inset(50% 0 20% 0); transform: translate(8px, 1px) skewX(-2deg); opacity: 0.85; }
+  19%  { clip-path: inset(5% 0 75% 0); transform: translate(-7px, -3px) skewX(1deg); opacity: 0.9; }
+  21%  { clip-path: inset(0 0 85% 0); transform: translate(0); opacity: 0; }
+  35%  { clip-path: inset(0 0 85% 0); transform: translate(0); opacity: 0; }
+  37%  { clip-path: inset(25% 0 50% 0); transform: translate(-5px, 2px) skewX(3deg); opacity: 0.8; }
+  40%  { clip-path: inset(65% 0 15% 0); transform: translate(6px, -4px) skewX(-1deg); opacity: 0.85; }
+  42%  { clip-path: inset(0 0 85% 0); transform: translate(0); opacity: 0; }
+  55%  { clip-path: inset(0 0 85% 0); transform: translate(0); opacity: 0; }
+  57%  { clip-path: inset(15% 0 65% 0); transform: translate(-4px, -2px); opacity: 0.7; }
+  60%  { clip-path: inset(75% 0 10% 0); transform: translate(4px, 3px); opacity: 0.7; }
+  62%  { clip-path: inset(0 0 85% 0); transform: translate(0); opacity: 0; }
+  75%  { clip-path: inset(0 0 85% 0); transform: translate(0); opacity: 0; }
+  77%  { clip-path: inset(40% 0 40% 0); transform: translate(10px, -1px) skewX(-3deg); opacity: 1; }
+  79%  { clip-path: inset(0 0 85% 0); transform: translate(0); opacity: 0; }
+  90%  { clip-path: inset(0 0 85% 0); transform: translate(0); opacity: 0; }
+  92%  { clip-path: inset(20% 0 60% 0); transform: translate(-8px, 2px) skewX(2deg); opacity: 0.85; }
+  94%  { clip-path: inset(70% 0 10% 0); transform: translate(6px, -3px) skewX(-2deg); opacity: 0.9; }
+  96%  { clip-path: inset(0 0 85% 0); transform: translate(0); opacity: 0; }
+  100% { clip-path: inset(0 0 85% 0); transform: translate(0); opacity: 0; }
+}
+
+@keyframes textFlicker {
+  0%, 100% { filter: drop-shadow(0 0 10px rgba(0,255,136,0.5)) drop-shadow(0 2px 4px rgba(0,0,0,0.5)); }
+  2%  { filter: drop-shadow(3px 0 rgba(255,0,255,0.6)) drop-shadow(-3px 0 rgba(0,212,255,0.6)) drop-shadow(0 0 10px rgba(0,255,136,0.5)); }
+  4%  { filter: drop-shadow(0 0 10px rgba(0,255,136,0.5)) drop-shadow(0 2px 4px rgba(0,0,0,0.5)); }
+  17% { filter: drop-shadow(-2px 0 rgba(0,212,255,0.5)) drop-shadow(2px 0 rgba(255,0,255,0.5)) drop-shadow(0 0 10px rgba(0,255,136,0.5)); }
+  19% { filter: drop-shadow(0 0 10px rgba(0,255,136,0.5)) drop-shadow(0 2px 4px rgba(0,0,0,0.5)); }
+  37% { filter: drop-shadow(4px 0 rgba(255,0,255,0.7)) drop-shadow(-4px 0 rgba(0,212,255,0.7)) drop-shadow(0 0 10px rgba(0,255,136,0.5)); }
+  40% { filter: drop-shadow(0 0 10px rgba(0,255,136,0.5)) drop-shadow(0 2px 4px rgba(0,0,0,0.5)); }
+  57% { filter: drop-shadow(-3px 0 rgba(0,212,255,0.6)) drop-shadow(3px 0 rgba(255,0,255,0.6)) drop-shadow(0 0 10px rgba(0,255,136,0.5)); }
+  60% { filter: drop-shadow(0 0 10px rgba(0,255,136,0.5)) drop-shadow(0 2px 4px rgba(0,0,0,0.5)); }
+  77% { filter: drop-shadow(5px 0 rgba(255,0,255,0.8)) drop-shadow(-5px 0 rgba(0,212,255,0.8)) drop-shadow(0 0 15px rgba(0,255,136,0.6)); }
+  79% { filter: drop-shadow(0 0 10px rgba(0,255,136,0.5)) drop-shadow(0 2px 4px rgba(0,0,0,0.5)); }
+  92% { filter: drop-shadow(-2px 0 rgba(0,212,255,0.7)) drop-shadow(2px 0 rgba(255,0,255,0.7)) drop-shadow(0 0 10px rgba(0,255,136,0.5)); }
+  94% { filter: drop-shadow(0 0 10px rgba(0,255,136,0.5)) drop-shadow(0 2px 4px rgba(0,0,0,0.5)); }
 }
 
 h2 {
@@ -438,7 +548,7 @@ h3 {
   cursor: pointer;
   font-weight: 700;
   text-decoration: none;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   letter-spacing: 0.04em;
   font-size: 14px;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
@@ -603,7 +713,7 @@ h3 {
 .stat-card strong {
   color: var(--accent);
   font-size: 35px;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   letter-spacing: 0.02em;
 }
 
@@ -662,7 +772,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   min-height: 100px;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
 }
 
 .template-content {
@@ -699,7 +809,7 @@ h3 {
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   padding-top: 6px;
 }
 
@@ -732,7 +842,7 @@ h3 {
 }
 
 .search-field span {
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   letter-spacing: 0.06em;
   font-size: 12px;
   text-transform: uppercase;
@@ -775,7 +885,7 @@ h3 {
   background: rgba(0, 255, 136, 0.03);
   cursor: pointer;
   font-weight: 600;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   font-size: 12px;
   letter-spacing: 0.04em;
   transition: color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease, border-color 0.2s, transform 0.2s;
@@ -802,13 +912,13 @@ h3 {
   margin: 10px 0 24px;
   color: var(--muted);
   font-weight: 600;
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-family: 'Menlo', 'Monaco', 'PingFang SC', 'Microsoft YaHei', monospace;
   font-size: 13px;
 }
 
 .result-line strong {
   color: var(--accent);
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
 }
 
 .tag-list {
@@ -882,7 +992,7 @@ h3 {
   margin-bottom: 8px;
   color: var(--accent);
   font-size: 22px;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
 }
 
 /* ===== Features & Workflow ===== */
@@ -932,7 +1042,7 @@ h3 {
   margin-bottom: 18px;
   color: var(--accent);
   font-weight: 900;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   font-size: 34px;
 }
 
@@ -952,7 +1062,7 @@ h3 {
   cursor: pointer;
   color: var(--text);
   font-weight: 700;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   letter-spacing: 0.03em;
 }
 
@@ -1124,7 +1234,7 @@ h3 {
   z-index: 1;
   color: var(--accent);
   font-size: 22px;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
   background: rgba(0, 0, 0, 0.6);
   padding: 4px 10px;
@@ -1153,7 +1263,7 @@ h3 {
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   letter-spacing: 0.06em;
 }
 
@@ -1178,7 +1288,7 @@ h3 {
   font-weight: 700;
   text-transform: uppercase;
   color: var(--accent);
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   letter-spacing: 0.08em;
 }
 
@@ -1193,7 +1303,7 @@ h3 {
   line-height: 1.7;
   white-space: pre-wrap;
   word-wrap: break-word;
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-family: 'Menlo', 'Monaco', 'PingFang SC', 'Microsoft YaHei', monospace;
 }
 
 .modal-actions {
@@ -1238,8 +1348,8 @@ h3 {
 }
 .auth-close:hover { color: var(--accent); border-color: var(--accent); }
 .auth-body { display: grid; gap: 16px; }
-.auth-body h2 { font-size: 22px; font-weight: 800; color: var(--text); font-family: 'Orbitron', 'Share Tech Mono', monospace; text-shadow: none; letter-spacing: 0.04em; }
-.auth-body label { display: grid; gap: 6px; color: var(--muted); font-size: 12px; font-weight: 700; font-family: 'Orbitron', 'Share Tech Mono', monospace; letter-spacing: 0.04em; text-transform: uppercase; }
+.auth-body h2 { font-size: 22px; font-weight: 800; color: var(--text); font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace; text-shadow: none; letter-spacing: 0.04em; }
+.auth-body label { display: grid; gap: 6px; color: var(--muted); font-size: 12px; font-weight: 700; font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace; letter-spacing: 0.04em; text-transform: uppercase; }
 .auth-body input {
   min-height: 48px; padding: 0 14px;
   border: 1px solid rgba(0, 255, 136, 0.2);
@@ -1262,7 +1372,7 @@ h3 {
 .credit-count {
   display: inline-flex; align-items: center;
   color: var(--accent); font-size: 13px; font-weight: 700;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
 }
 .subscription-badge {
   padding: 4px 10px;
@@ -1270,13 +1380,13 @@ h3 {
   background: rgba(0, 255, 136, 0.08);
   border: 1px solid rgba(0, 255, 136, 0.2);
   color: var(--accent); font-size: 11px; font-weight: 700;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
 }
 
 /* ===== Pricing ===== */
 .pricing-subtitle {
   color: var(--text); margin-bottom: 18px; font-size: 20px; z-index: 1; position: relative;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
 }
 .pricing-grid, .packs-grid {
   display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; position: relative; z-index: 1;
@@ -1299,18 +1409,18 @@ h3 {
   clip-path: polygon(3px 0, 100% 0, calc(100% - 3px) 100%, 0 100%);
   background: var(--accent);
   color: #0a0a0f; font-size: 11px; font-weight: 800;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
 }
 .plan-card h4, .pack-card h4 {
   color: var(--text); font-size: 18px; margin-bottom: 6px;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
 }
 .plan-price {
   display: flex; align-items: baseline; gap: 4px; margin-bottom: 16px;
 }
 .plan-price strong {
   font-size: 36px; color: var(--accent);
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace;
   letter-spacing: 0.02em;
 }
 .plan-price span, .pack-price {
@@ -1329,7 +1439,7 @@ h3 {
 .pack-credits {
   display: flex; align-items: baseline; gap: 6px;
 }
-.pack-credits strong { font-size: 42px; color: var(--accent); font-family: 'Orbitron', 'Share Tech Mono', monospace; letter-spacing: 0.02em; line-height: 1; }
+.pack-credits strong { font-size: 42px; color: var(--accent); font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace; letter-spacing: 0.02em; line-height: 1; }
 .pack-credits span { color: var(--muted); font-size: 16px; }
 .pack-bonus {
   display: inline-block; margin: 4px 0 8px;
@@ -1397,7 +1507,7 @@ h3 {
 .generator-field { display: grid; gap: 6px; }
 .generator-field span {
   color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace; letter-spacing: 0.06em;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace; letter-spacing: 0.06em;
 }
 .generator-field textarea, .generator-field input, .generator-field select {
   min-height: 42px; padding: 10px 14px;
@@ -1528,7 +1638,7 @@ h3 {
 .profile-info-grid > div { display: grid; gap: 4px; }
 .profile-label {
   color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace; letter-spacing: 0.06em;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace; letter-spacing: 0.06em;
 }
 .profile-info-grid > div > span:last-child { color: var(--text); font-size: 14px; font-weight: 600; }
 .transaction-table-wrap { overflow-x: auto; }
@@ -1536,7 +1646,7 @@ h3 {
 .transaction-table th {
   text-align: left; padding: 10px 12px; border-bottom: 1px solid rgba(0, 255, 136, 0.15);
   color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase;
-  font-family: 'Orbitron', 'Share Tech Mono', monospace; letter-spacing: 0.06em;
+  font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace; letter-spacing: 0.06em;
 }
 .transaction-table td {
   padding: 10px 12px; border-bottom: 1px solid rgba(0, 255, 136, 0.06);
@@ -1558,7 +1668,7 @@ h3 {
   padding: 16px 20px;
   color: var(--text);
   font-size: 15px;
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-family: 'Menlo', 'Monaco', 'PingFang SC', 'Microsoft YaHei', monospace;
   resize: vertical;
   min-height: 120px;
   transition: border-color .2s, box-shadow .2s;
@@ -1585,7 +1695,7 @@ h3 {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   gap: 20px; text-align: center; padding: 40px 20px; position: relative; overflow: hidden;
 }
-.preview-generating span { color: var(--accent); font-size: 15px; font-weight: 700; position: relative; z-index: 1; font-family: 'Orbitron', 'Share Tech Mono', monospace; }
+.preview-generating span { color: var(--accent); font-size: 15px; font-weight: 700; position: relative; z-index: 1; font-family: 'Courier New', 'PingFang SC', 'Microsoft YaHei', monospace; }
 .preview-generating small { color: var(--muted); font-size: 13px; position: relative; z-index: 1; }
 
 /* ===== Recharge status badges ===== */
@@ -1629,7 +1739,7 @@ h3 {
   font-size: 13px;
   color: var(--muted);
   flex-shrink: 0;
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-family: 'Menlo', 'Monaco', 'PingFang SC', 'Microsoft YaHei', monospace;
 }
 .marquee-time {
   font-size: 11px;
