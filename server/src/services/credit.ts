@@ -1,9 +1,9 @@
 import { supabaseAdmin } from './supabase.js'
 
 const MODEL_COST: Record<string, number> = {
-  'gpt-image-2': 3,
-  'gpt-image-2-2K': 5,
-  'gpt-image-2-4K': 10,
+  'gpt-image-2': 2,
+  'gpt-image-2-2K': 3,
+  'gpt-image-2-4K': 4,
 }
 
 export function getCreditCost(model: string): number {

@@ -24,6 +24,8 @@ import aiwindRouter from './routes/aiwind.js'
 import { cleanupExpiredImages, expireCredits } from './services/cleanup.js'
 import { processCallback, processZhifuxpayCallback } from './services/payment.js'
 import { loadSettings } from './services/settings.js'
+import { refundCredits, getCreditCost } from './services/credit.js'
+import { supabaseAdmin } from './services/supabase.js'
 
 const app = express()
 
@@ -92,8 +94,48 @@ cron.schedule('*/10 * * * *', async () => {
   }
 })
 
+// Recovery: refund credits for tasks stuck > 10 min (e.g. server crash during generation)
+async function recoverStaleTasks() {
+  const staleCutoff = new Date(Date.now() - 10 * 60 * 1000).toISOString()
+  const { data: staleTasks } = await supabaseAdmin
+    .from('generated_images')
+    .select('id, user_id, params')
+    .in('status', ['pending', 'processing'])
+    .lt('created_at', staleCutoff)
+
+  if (!staleTasks || staleTasks.length === 0) {
+    console.log('[recovery] No stale tasks found')
+    return
+  }
+
+  console.log(`[recovery] Found ${staleTasks.length} stale tasks, refunding credits...`)
+  for (const task of staleTasks) {
+    const creditCost = (task.params as any)?.creditCost || getCreditCost('gpt-image-2')
+    try {
+      await supabaseAdmin
+        .from('generated_images')
+        .update({ status: 'failed', error_message: '服务器重启，任务中断' })
+        .eq('id', task.id)
+      await refundCredits(task.user_id, creditCost)
+      console.log(`[recovery] Refunded ${creditCost} credits for task ${task.id}`)
+    } catch (err: any) {
+      console.error(`[recovery] Failed to recover task ${task.id}:`, err.message)
+    }
+  }
+}
+
+// Recovery cron: every 5 minutes
+cron.schedule('*/5 * * * *', async () => {
+  try {
+    await recoverStaleTasks()
+  } catch (err) {
+    console.error('[cron:recovery] Error:', err)
+  }
+})
+
 async function start() {
   await loadSettings()
+  await recoverStaleTasks()
 
   const sslKey = config.ssl.keyPath ? fs.readFileSync(config.ssl.keyPath) : null
   const sslCert = config.ssl.certPath ? fs.readFileSync(config.ssl.certPath) : null

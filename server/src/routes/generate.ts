@@ -4,14 +4,42 @@ import path from 'path'
 import { authMiddleware } from '../middleware/auth.js'
 import { rateLimit } from '../middleware/rateLimit.js'
 import { consumeCredits, refundCredits, getCreditCost } from '../services/credit.js'
-import { callBestApi } from '../services/bestapi.js'
+import { callBestApi, pollExternalTask } from '../services/bestapi.js'
 import { supabaseAdmin } from '../services/supabase.js'
 import { config } from '../config.js'
 
 const router = Router()
 
-// Rate limit: 10 generation requests per user per minute
 const generateLimiter = rateLimit({ max: 10, windowMs: 60_000, keyFn: (req) => req.userId || 'anon' })
+
+async function downloadAndSaveImage(taskId: string, userId: string, imageUrl: string) {
+  let storagePath = ''
+  try {
+    const imgRes = await fetch(imageUrl, { signal: AbortSignal.timeout(60_000) })
+    if (!imgRes.ok) throw new Error('Failed to download image')
+    const buffer = Buffer.from(await imgRes.arrayBuffer())
+
+    const userDir = path.join(config.imagesDir, userId)
+    await fs.promises.mkdir(userDir, { recursive: true })
+
+    storagePath = `${userId}/${taskId}.png`
+    await fs.promises.writeFile(path.join(config.imagesDir, storagePath), buffer)
+
+    const localUrl = `${config.imageBaseUrl}/images/${storagePath}`
+    await supabaseAdmin
+      .from('generated_images')
+      .update({ status: 'completed', image_url: localUrl, storage_path: storagePath })
+      .eq('id', taskId)
+    console.log('[generate] Image saved locally for task', taskId)
+  } catch (err: any) {
+    console.error('[generate] Local storage error:', err.message)
+    await supabaseAdmin
+      .from('generated_images')
+      .update({ status: 'failed', error_message: `图片保存失败: ${err.message}` })
+      .eq('id', taskId)
+    throw err
+  }
+}
 
 async function processGeneration(taskId: string, userId: string, prompt: string, model: string, aspectRatio: string, creditCost: number) {
   await supabaseAdmin
@@ -19,12 +47,11 @@ async function processGeneration(taskId: string, userId: string, prompt: string,
     .update({ status: 'processing' })
     .eq('id', taskId)
 
-  let imageUrl: string
+  let result: { imageUrl?: string; externalTaskId?: string }
   try {
     const tApiStart = Date.now()
-    const result = await callBestApi(prompt, model, aspectRatio)
+    result = await callBestApi(prompt, model, aspectRatio)
     console.log('[generate] API call returned in', ((Date.now() - tApiStart) / 1000).toFixed(1), 's')
-    imageUrl = result.imageUrl
   } catch (err: any) {
     console.error('[generate] BestAPI error:', err.message)
     await supabaseAdmin
@@ -35,32 +62,28 @@ async function processGeneration(taskId: string, userId: string, prompt: string,
     return
   }
 
-  // Download and save to local VPS storage
-  let storagePath = ''
-  try {
-    const tDlStart = Date.now()
-    const imgRes = await fetch(imageUrl)
-    if (!imgRes.ok) throw new Error('Failed to download image')
-    const buffer = Buffer.from(await imgRes.arrayBuffer())
-
-    const userDir = path.join(config.imagesDir, userId)
-    if (!fs.existsSync(userDir)) fs.mkdirSync(userDir, { recursive: true })
-
-    storagePath = `${userId}/${taskId}.png`
-    fs.writeFileSync(path.join(config.imagesDir, storagePath), buffer)
-
-    imageUrl = `${config.imageBaseUrl}/images/${storagePath}`
-    console.log('[generate] Image saved locally in', ((Date.now() - tDlStart) / 1000).toFixed(1), 's')
-  } catch (err: any) {
-    console.error('[generate] Local storage error:', err.message)
-    storagePath = ''
+  // Sync path: image URL available immediately
+  if (result.imageUrl) {
+    try {
+      await downloadAndSaveImage(taskId, userId, result.imageUrl)
+    } catch {
+      await refundCredits(userId, creditCost)
+    }
+    return
   }
 
-  await supabaseAdmin
-    .from('generated_images')
-    .update({ status: 'completed', image_url: imageUrl, storage_path: storagePath })
-    .eq('id', taskId)
-  console.log('[generate] DB updated to completed for task', taskId)
+  // Async path: store externalTaskId, let frontend-driven polling resolve
+  if (result.externalTaskId) {
+    const { data: existing } = await supabaseAdmin
+      .from('generated_images').select('params').eq('id', taskId).single()
+    const updatedParams = { ...(existing?.params || {}), externalTaskId: result.externalTaskId }
+    await supabaseAdmin
+      .from('generated_images')
+      .update({ params: updatedParams })
+      .eq('id', taskId)
+    console.log('[generate] Async task stored', result.externalTaskId, 'for', taskId)
+    return
+  }
 }
 
 router.post('/', authMiddleware, generateLimiter, async (req, res) => {
@@ -80,7 +103,7 @@ router.post('/', authMiddleware, generateLimiter, async (req, res) => {
   const ratioStr = aspectRatio || '1:1'
   const creditCost = typeof cost === 'number' && cost > 0 ? cost : getCreditCost(modelStr)
 
-  // 1. Create record first (so crash between consume and insert won't lose credits)
+  // 1. Create record first
   const { data: record, error: insertErr } = await supabaseAdmin
     .from('generated_images')
     .insert({
@@ -101,7 +124,6 @@ router.post('/', authMiddleware, generateLimiter, async (req, res) => {
   // 2. Consume credits (atomic RPC)
   const hasCredits = await consumeCredits(userId, creditCost)
   if (!hasCredits) {
-    // Mark record as failed, no need to refund since credits weren't deducted
     await supabaseAdmin
       .from('generated_images')
       .update({ status: 'failed', error_message: '积分不足' })
@@ -110,25 +132,41 @@ router.post('/', authMiddleware, generateLimiter, async (req, res) => {
     return
   }
 
-  // 3. Start async generation (don't await)
+  // 3. Start async generation
   processGeneration(record.id, userId, prompt.trim(), modelStr, ratioStr, creditCost)
 
   // 4. Return task ID immediately
   res.json({ taskId: record.id })
 })
 
-// GET /api/generate/pending — check for in-progress generation (for refresh persistence)
+// GET /api/generate/pending — check for in-progress generation
 router.get('/pending', authMiddleware, async (req, res) => {
   const userId = req.userId!
 
-  // Mark stale pending/processing tasks (older than 6 min) as failed
   const staleCutoff = new Date(Date.now() - 6 * 60 * 1000).toISOString()
-  await supabaseAdmin
+
+  // Find stale tasks BEFORE marking them, so we know the credit cost
+  const { data: staleTasks } = await supabaseAdmin
     .from('generated_images')
-    .update({ status: 'failed', error_message: '任务超时' })
+    .select('id, params')
     .eq('user_id', userId)
     .in('status', ['pending', 'processing'])
     .lt('created_at', staleCutoff)
+
+  if (staleTasks && staleTasks.length > 0) {
+    await supabaseAdmin
+      .from('generated_images')
+      .update({ status: 'failed', error_message: '任务超时' })
+      .eq('user_id', userId)
+      .in('status', ['pending', 'processing'])
+      .lt('created_at', staleCutoff)
+
+    for (const task of staleTasks) {
+      const cost = (task.params as any)?.creditCost || getCreditCost('gpt-image-2')
+      await refundCredits(userId, cost).catch((err) => console.error('[generate] Refund error on stale:', err.message))
+    }
+    console.log('[generate] Refunded', staleTasks.length, 'stale tasks for user', userId)
+  }
 
   const { data } = await supabaseAdmin
     .from('generated_images')
@@ -152,14 +190,14 @@ router.get('/pending', authMiddleware, async (req, res) => {
   })
 })
 
-// GET /api/task/:taskId — poll for generation status
+// GET /api/task/:taskId — poll for generation status; drives async third-party resolution
 router.get('/task/:taskId', authMiddleware, async (req, res) => {
   const userId = req.userId!
   const { taskId } = req.params
 
   const { data } = await supabaseAdmin
     .from('generated_images')
-    .select('id, status, image_url, error_message')
+    .select('id, status, image_url, error_message, params')
     .eq('id', taskId)
     .eq('user_id', userId)
     .single()
@@ -167,6 +205,43 @@ router.get('/task/:taskId', authMiddleware, async (req, res) => {
   if (!data) {
     res.status(404).json({ error: '任务不存在' })
     return
+  }
+
+  // Drive async third-party task resolution
+  if (data.status === 'processing') {
+    const externalTaskId = (data.params as any)?.externalTaskId
+    const creditCost = (data.params as any)?.creditCost || getCreditCost('gpt-image-2')
+
+    if (externalTaskId) {
+      const pollResult = await pollExternalTask(externalTaskId)
+
+      if (pollResult.status === 'completed' && pollResult.imageUrl) {
+        try {
+          await downloadAndSaveImage(data.id, userId, pollResult.imageUrl)
+          const { data: updated } = await supabaseAdmin
+            .from('generated_images')
+            .select('id, status, image_url, error_message')
+            .eq('id', taskId).single()
+          if (updated) {
+            res.json({ taskId: updated.id, status: updated.status, imageUrl: updated.image_url, error: updated.error_message })
+            return
+          }
+        } catch {
+          await refundCredits(userId, creditCost)
+          res.json({ taskId: data.id, status: 'failed', imageUrl: null, error: '图片保存失败' })
+          return
+        }
+      } else if (pollResult.status === 'failed') {
+        await supabaseAdmin
+          .from('generated_images')
+          .update({ status: 'failed', error_message: pollResult.error || '生成失败' })
+          .eq('id', taskId)
+        await refundCredits(userId, creditCost)
+        res.json({ taskId: data.id, status: 'failed', imageUrl: null, error: pollResult.error || '生成失败' })
+        return
+      }
+      // still pending — fall through to return current status
+    }
   }
 
   res.json({

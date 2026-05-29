@@ -21,6 +21,7 @@ export type GenerateState = {
 const STORAGE_KEY = 'generate_state'
 const POLL_INTERVAL = 5000
 const POLL_TIMEOUT = 300_000 // 5 minutes max polling
+const MAX_CONSECUTIVE_POLL_ERRORS = 12 // 12 * 5s = 60s of failures
 
 function loadPersistedState() {
   try {
@@ -49,6 +50,8 @@ export function GenerateProvider({ children }: { children: ReactNode }) {
   const [error, setError] = useState('')
   const pollRef = useRef<ReturnType<typeof setInterval> | null>(null)
   const pollStartRef = useRef<number>(0)
+  const generatingRef = useRef(false)
+  const pollConsecutiveErrorsRef = useRef(0)
 
   // Persist prompt/ratio/resIndex to localStorage
   useEffect(() => {
@@ -64,6 +67,7 @@ export function GenerateProvider({ children }: { children: ReactNode }) {
 
   function stopPollingWithError(msg: string) {
     clearPoll()
+    generatingRef.current = false
     setGenerating(false)
     setError(msg)
     refreshCredits()
@@ -72,6 +76,7 @@ export function GenerateProvider({ children }: { children: ReactNode }) {
   function startPolling(taskId: string) {
     clearPoll()
     pollStartRef.current = Date.now()
+    pollConsecutiveErrorsRef.current = 0
 
     pollRef.current = setInterval(async () => {
       // Timeout check
@@ -82,9 +87,11 @@ export function GenerateProvider({ children }: { children: ReactNode }) {
 
       try {
         const status: TaskStatus = await pollTask(taskId)
+        pollConsecutiveErrorsRef.current = 0
 
         if (status.status === 'completed' && status.imageUrl) {
           clearPoll()
+          generatingRef.current = false
           setGenerating(false)
           setResult({ imageUrl: status.imageUrl })
           refreshCredits()
@@ -92,7 +99,10 @@ export function GenerateProvider({ children }: { children: ReactNode }) {
           stopPollingWithError(status.error || '生成失败')
         }
       } catch {
-        // Network error during poll — keep polling
+        pollConsecutiveErrorsRef.current++
+        if (pollConsecutiveErrorsRef.current >= MAX_CONSECUTIVE_POLL_ERRORS) {
+          stopPollingWithError('网络连接异常，请检查网络后重试')
+        }
       }
     }, POLL_INTERVAL)
   }
@@ -108,6 +118,7 @@ export function GenerateProvider({ children }: { children: ReactNode }) {
       if (cancelled) return
 
       if (pending.status === 'pending' || pending.status === 'processing') {
+        generatingRef.current = true
         setGenerating(true)
         startPolling(pending.imageId!)
       } else if (pending.status === 'completed' && pending.imageUrl) {
@@ -126,6 +137,8 @@ export function GenerateProvider({ children }: { children: ReactNode }) {
   }, [user?.id]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleGenerate = useCallback(async () => {
+    if (generatingRef.current) return
+
     setError('')
     setResult(null)
 
@@ -146,11 +159,13 @@ export function GenerateProvider({ children }: { children: ReactNode }) {
       return
     }
 
+    generatingRef.current = true
     setGenerating(true)
     try {
       const { taskId } = await generateImage({ prompt: prompt.trim(), model: resolution.model, aspectRatio: ratio, cost: resolution.cost })
       startPolling(taskId)
     } catch (err: any) {
+      generatingRef.current = false
       setGenerating(false)
       setError(err.message || '生成失败')
     }

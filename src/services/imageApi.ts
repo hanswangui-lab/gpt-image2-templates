@@ -53,6 +53,7 @@ export async function generateImage(params: {
         aspectRatio: params.aspectRatio || '1:1',
         cost: params.cost,
       }),
+      signal: AbortSignal.timeout(15_000),
     })
   } catch (err: any) {
     throw new Error(`无法连接到 VPS 服务器: ${err.message}`)

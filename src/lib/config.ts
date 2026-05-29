@@ -6,9 +6,9 @@ export const config = {
     url: import.meta.env.VITE_AFDIAN_URL as string,
   },
   resolutions: [
-    { label: '1K·3积分/次', model: 'gpt-image-2', cost: 3 },
-    { label: '2K·5积分/次', model: 'gpt-image-2-2K', cost: 5 },
-    { label: '4K·10积分/次', model: 'gpt-image-2-4K', cost: 10 },
+    { label: '1K·2积分/次', model: 'gpt-image-2', cost: 2 },
+    { label: '2K·3积分/次', model: 'gpt-image-2-2K', cost: 3 },
+    { label: '4K·4积分/次', model: 'gpt-image-2-4K', cost: 4 },
   ] as const,
   creditPacks: [
     { id: 'gold', name: '黄金卡', credits: 200, priceCents: 200, perImage: '0.06', popular: false },
