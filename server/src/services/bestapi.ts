@@ -1,4 +1,6 @@
 import { getSetting } from './settings.js'
+import https from 'https'
+import http from 'http'
 
 interface GenerateResult {
   imageUrl?: string
@@ -18,6 +20,48 @@ function getApiConfig() {
 
 function fmtUrl(u: string) { return u.length > 70 ? u.slice(0, 70) + '...' : u }
 
+// httpRequest uses raw http/https module to bypass undici connection pool issues
+function httpRequest(method: string, urlStr: string, opts: {
+  headers?: Record<string, string>
+  body?: string
+  timeout?: number
+}): Promise<{ status: number; json(): Promise<any>; text(): Promise<string> }> {
+  return new Promise((resolve, reject) => {
+    const u = new URL(urlStr)
+    const mod = u.protocol === 'https:' ? https : http
+    const req = mod.request({
+      hostname: u.hostname,
+      port: u.port || (u.protocol === 'https:' ? 443 : 80),
+      path: u.pathname + u.search,
+      method,
+      headers: {
+        'Content-Type': 'application/json',
+        ...opts.headers,
+      },
+      timeout: opts.timeout || 180_000,
+    }, (res) => {
+      const chunks: Buffer[] = []
+      res.on('data', (chunk: Buffer) => chunks.push(chunk))
+      res.on('end', () => {
+        const body = Buffer.concat(chunks).toString('utf-8')
+        resolve({
+          status: res.statusCode || 500,
+          json: async () => JSON.parse(body),
+          text: async () => body,
+        })
+      })
+      res.on('error', reject)
+    })
+    req.on('timeout', () => {
+      req.destroy()
+      reject(new Error('The operation was aborted due to timeout'))
+    })
+    req.on('error', reject)
+    if (opts.body) req.write(opts.body)
+    req.end()
+  })
+}
+
 export async function callBestApi(prompt: string, model: string, aspectRatio: string): Promise<GenerateResult> {
   const { url, key } = getApiConfig()
   if (!url || !key) throw new Error('API 未配置，请在管理后台设置')
@@ -25,14 +69,14 @@ export async function callBestApi(prompt: string, model: string, aspectRatio: st
   const t0 = Date.now()
   console.log('[bestapi] Request start', { url: url.slice(0, 60), model, aspectRatio, promptLen: prompt.length })
 
-  const body = {
+  const body = JSON.stringify({
     model,
     prompt,
     n: 1,
     size: aspectRatioToSize(aspectRatio, model),
-  }
+  })
 
-  const maxRetries = 2
+  const maxRetries = 1
   let lastError: Error | null = null
 
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
@@ -42,33 +86,37 @@ export async function callBestApi(prompt: string, model: string, aspectRatio: st
       await sleep(wait * 1000)
     }
 
-    let res: Response
+    let res: { status: number; json(): Promise<any>; text(): Promise<string> }
     try {
-      res = await fetch(url, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${key}`,
-        },
-        body: JSON.stringify(body),
-        signal: AbortSignal.timeout(120_000),
+      res = await httpRequest('POST', url, {
+        headers: { Authorization: `Bearer ${key}` },
+        body,
+        timeout: 180_000,
       })
     } catch (err: any) {
       lastError = err
-      console.error('[bestapi] Fetch error (attempt', attempt, '):', err.cause?.code || err.code || err.message)
+      console.error('[bestapi] Request error (attempt', attempt, '):', err.code || err.message)
       continue
     }
 
-    if (!res.ok) {
+    if (res.status !== 200) {
       const text = await res.text().catch(() => '')
       console.error('[bestapi] HTTP', res.status, 'attempt', attempt, text.slice(0, 300))
       if (res.status === 401 || res.status === 403) throw new Error(`API Key 无效 (${res.status}) [${fmtUrl(url)}]`)
       if (res.status === 404) throw new Error(`API 地址不存在 (404) [${fmtUrl(url)}]`)
-      if (res.status >= 500 && attempt < maxRetries) {
-        lastError = new Error(`API 服务器错误 (${res.status}) [${fmtUrl(url)}]`)
-        continue
+      if (res.status >= 500) {
+        let errMsg = `API 服务器错误 (${res.status}) [${fmtUrl(url)}]`
+        try {
+          const j = JSON.parse(text)
+          if (j.error?.message) errMsg = j.error.message
+        } catch {}
+        // Retry on 524 (Cloudflare timeout), not on other 5xx
+        if (res.status === 524 && attempt < maxRetries) {
+          lastError = new Error(errMsg)
+          continue
+        }
+        throw new Error(errMsg)
       }
-      if (res.status >= 500) throw new Error(`API 服务器错误 (${res.status}) [${fmtUrl(url)}]`)
       let detail = text
       try {
         const j = JSON.parse(text)
@@ -128,36 +176,30 @@ export async function pollExternalTask(externalTaskId: string): Promise<{
 
   const pollUrl = `${url.replace(/\/$/, '')}/${externalTaskId}`
 
-  let res: Response
   try {
-    res = await fetch(pollUrl, {
+    const res = await httpRequest('GET', pollUrl, {
       headers: { Authorization: `Bearer ${key}` },
-      signal: AbortSignal.timeout(15_000),
+      timeout: 15_000,
     })
+
+    if (res.status !== 200) return { status: 'pending' }
+
+    const data = await res.json()
+
+    if (data.status === 'completed') {
+      const imageUrl = data.video_url
+      if (imageUrl) return { status: 'completed', imageUrl }
+      return { status: 'failed', error: '任务已完成但未返回图片地址' }
+    }
+
+    if (data.status === 'failed') {
+      return { status: 'failed', error: data.error?.message || '生成失败' }
+    }
+
+    return { status: 'pending' }
   } catch {
     return { status: 'pending' }
   }
-
-  if (!res.ok) return { status: 'pending' }
-
-  let data: any
-  try {
-    data = await res.json()
-  } catch {
-    return { status: 'pending' }
-  }
-
-  if (data.status === 'completed') {
-    const imageUrl = data.video_url
-    if (imageUrl) return { status: 'completed', imageUrl }
-    return { status: 'failed', error: '任务已完成但未返回图片地址' }
-  }
-
-  if (data.status === 'failed') {
-    return { status: 'failed', error: data.error?.message || '生成失败' }
-  }
-
-  return { status: 'pending' }
 }
 
 const SIZE_TABLE: Record<string, Record<string, string>> = {

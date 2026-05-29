@@ -35,12 +35,18 @@ export async function generateImage(params: {
   aspectRatio?: string
   cost?: number
 }): Promise<GenerateResult> {
-  const { data: { session } } = await supabase.auth.getSession()
+  let session: { access_token: string } | null = null
+  try {
+    const { data } = await supabase.auth.getSession()
+    session = data.session
+  } catch (err: any) {
+    throw new Error(`认证服务连接失败: ${err.message}`)
+  }
   if (!session?.access_token) throw new Error('请先登录')
 
   let res: Response
   try {
-    res = await fetch(`${config.vpsApiUrl}/api/generate`, {
+    res = await fetch(`${config.vpsApiUrl || ''}/api/generate`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -53,10 +59,9 @@ export async function generateImage(params: {
         aspectRatio: params.aspectRatio || '1:1',
         cost: params.cost,
       }),
-      signal: AbortSignal.timeout(15_000),
     })
   } catch (err: any) {
-    throw new Error(`无法连接到 VPS 服务器: ${err.message}`)
+    throw new Error(`VPS 连接失败: ${err.message}`)
   }
 
   if (!res.ok) {
